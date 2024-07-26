@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release IndFusion.Exxerpro/src/IndFusion.Exxerpro.sln
+        run: dotnet build --configuration Release IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj
 
       - name: dotnet publish
-        run: dotnet publish IndFusion.Exxerpro/src/IndFusion.Exxerpro.sln -c Release -o ${{ github.workspace }}/output
+        run: dotnet publish IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj -c Release -o ${{ github.workspace }}/output
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -40,7 +40,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write #This is required for requesting the JWT
+      id-token: write # This is required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
@@ -54,7 +54,7 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_64E29B0FAFF044E4A37C21952F237034 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_2554734E5C664CBAB2761C572459381B }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5B8AEE58CA564806935FECE7CF8E49FC }}
-
+          
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
@@ -62,4 +62,3 @@ jobs:
           app-name: 'IndFusionExxerpro'
           slot-name: 'Production'
           package: './output'
-          

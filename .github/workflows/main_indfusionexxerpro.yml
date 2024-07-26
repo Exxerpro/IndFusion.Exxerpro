@@ -25,13 +25,13 @@ jobs:
         run: dotnet build --configuration Release IndFusion.Exxerpro/src/IndFusion.Exxerpro.sln
 
       - name: dotnet publish
-        run: dotnet build --configuration Release IndFusion.Exxerpro/src/IndFusion.Exxerpro.sln
+        run: dotnet publish IndFusion.Exxerpro/src/IndFusion.Exxerpro.sln -c Release -o ${{ github.workspace }}/output
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ${{ github.workspace }}/output
 
   deploy:
     runs-on: ubuntu-latest
@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'IndFusionExxerpro'
           slot-name: 'Production'
-          package: .
+          package: './output'
           

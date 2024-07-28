@@ -1,0 +1,1461 @@
+{
+  "Version": 1,
+  "Endpoints": [
+    {
+      "Route": "IndFusion.Exxerpro.styles.css",
+      "AssetFile": "IndFusion.Exxerpro.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rl892LSSYfbP2iZBlHIotdzAhvjWnreyknCtFsaS7/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 02:25:52 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
+      "AssetFile": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M8KD1S/TN87phJS0JTpuiTz6bjEhFTfZ6yRigpDrNh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 21:27:20 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "_content/MudBlazor/MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q+PZSsTga91ka0nDMvXHwzPkuTEE0+aNumeMOAIY9II=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 12:10:14 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "_content/MudBlazor/MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kpp99KQmZRTnEUw6ARiwaFvMbeAmV2FlZSLsPfInr88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 12:10:14 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k/QEMjhQCuIGU4nTmhSTUd6UeBPOb86qsrqf2tnwycc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 21:22:56 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 26 Jul 2024 19:23:46 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/Mercedes-Benz.png",
+      "AssetFile": "img/Logos/Mercedes-Benz.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hr5uKCz6318pWfXSvzkGuG3X6ktrfWR3io0jDSGtzgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/acura.png",
+      "AssetFile": "img/Logos/acura.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f+XjhAGjOEgAu8XJ6bWmeNx2or1C51smjat3tzQC0d8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/alfa romeo.png",
+      "AssetFile": "img/Logos/alfa romeo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yy7TvkpUK8a5b2Vnw/rKy+C1lqqv+KYBXPMAUrwfvbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/aud2i.png",
+      "AssetFile": "img/Logos/aud2i.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NK+Qhk45NuTezC9d/0VxFAeUkmUjE2iYXWDhe7GRFlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/audi.png",
+      "AssetFile": "img/Logos/audi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rc0wdVkZG7nN+tytIpVbM5LYqASlYN/Oik35fweV5os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/bmw.png",
+      "AssetFile": "img/Logos/bmw.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dbngbq2q1ilm2vuNPFbvwr6dQw8fakKF2Fn1aNm5CCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/buick.png",
+      "AssetFile": "img/Logos/buick.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uOzXepqOgQy/NS68mvxWj2zIiD+0EkKjwnfjgmvpUok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/cadillac.png",
+      "AssetFile": "img/Logos/cadillac.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhH7+LNHnbpgzyMaat+k8waMGEszL1ePqTAkASHcFiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/chevrolet.png",
+      "AssetFile": "img/Logos/chevrolet.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmMRD3VBJ4IbEXP32yhK1pOLoi1IvR1JOVwtV8TU/54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/chrysler.png",
+      "AssetFile": "img/Logos/chrysler.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G0bvLUmUvTjO6kMXzVCzaJ7E2V9rNtYMvLMNtOiXtU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/dodge.png",
+      "AssetFile": "img/Logos/dodge.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqCzbLXRGKAs4E9c0bPjvg+zqbBrYwlq6p/HJrFsDig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/fiat.png",
+      "AssetFile": "img/Logos/fiat.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DN6lPiMoy10cSIXYsKg09Ixe+TX8bzJclox8dkTFzgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/ford.png",
+      "AssetFile": "img/Logos/ford.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IoYx55E0uMRJJBj6TpRZNySzIHPWCRYrQe9oLkvwSoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/gmc.png",
+      "AssetFile": "img/Logos/gmc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FWctRNOb2oG/6AFLobJAGVoxk86TPBgaYyM8Acvehyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/honda.png",
+      "AssetFile": "img/Logos/honda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0gvdFREFoS3Oq6jxX3BCjal4c6BHlDPXQzvHnMoOzSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/hyundai.png",
+      "AssetFile": "img/Logos/hyundai.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FMpRBZm4d5WzipirAPVoif7ErdJ5nLoCipQdlWrCgrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/infiniti.png",
+      "AssetFile": "img/Logos/infiniti.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7iCwrziFWLKkICLldOXeqdwENOZP0AlqfrNLz3uZQHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/jaguar.png",
+      "AssetFile": "img/Logos/jaguar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jsOGg0men10tTTnIMB3B8A6wUDy+JGNfg/AlJOsAFFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/jeep.png",
+      "AssetFile": "img/Logos/jeep.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YPEwEkJPu0dVs9oD1bj75ztoaHMHHw6G3mlur0Asd/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/kia.png",
+      "AssetFile": "img/Logos/kia.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W+oWgEXOSlYDmJM9H49jZnWxOnvYTpQAb4bNGbDopv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/land rover.png",
+      "AssetFile": "img/Logos/land rover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G0ZtlJGK6fHUJFanJbU7oaXoeSrq+3Ofcy3t3O/TWtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/lexus.png",
+      "AssetFile": "img/Logos/lexus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gr627OzDQQHZ/QZ+eNLyF3Pij/VmesCYoEPuGO9TVzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/mazda.png",
+      "AssetFile": "img/Logos/mazda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"my5ipm4GAG1T9vj5mcJAWqAaciXNdkbBNT3ZS3UmDHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/mitsubishi.png",
+      "AssetFile": "img/Logos/mitsubishi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9fVnZ0KMEu8Llc3m1SuMw5ASacJym4XoFkQPsm5c/Lc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/nissan.png",
+      "AssetFile": "img/Logos/nissan.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XROGitr7kKglY1w2wreBqCPOboFGsUxd3sKr6Xaa9ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/peugeot.png",
+      "AssetFile": "img/Logos/peugeot.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FfYKj5Yecmu21S5dabEC5AlU1YXh3O0FuqXofg8Erzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/porsche.png",
+      "AssetFile": "img/Logos/porsche.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EW57CXkUlWXd+FwJLWIX3yt3IvElFm2/nwUZtrj/40s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/ram.png",
+      "AssetFile": "img/Logos/ram.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45806"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P5Gq3mndr/suJe9ETDzZ7aDdACM3CWYuqdIJrxNYM4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/renault.png",
+      "AssetFile": "img/Logos/renault.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ss51p1UfTNy5Olu8V5fW7NowtZ96Gj1EywHNTUNvjFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/subaru.png",
+      "AssetFile": "img/Logos/subaru.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jop2UPLY4nBn16bP9twRM7fijIQOKd8dLBOTkadiht8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/tesla.png",
+      "AssetFile": "img/Logos/tesla.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ypEYgc2hUcT+YCDV86bsy73s9VEjRy5jtessTzfpjsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/toyota.png",
+      "AssetFile": "img/Logos/toyota.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sdDj0JWa75gZqEpTaye6ZhP646+w3ydriZBWZ0Fj06c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/valeo.png",
+      "AssetFile": "img/Logos/valeo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TnnAcNjw3z+PRfcdM+oNrdFaoR6sNcO9rkEOA3Qx0QA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/volkswagen.png",
+      "AssetFile": "img/Logos/volkswagen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bzy63J8wKlDMbqqq6yz48rR6O5XRmEO962CXg2k7c6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/volvo.png",
+      "AssetFile": "img/Logos/volvo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtAmAzostLGTlMYLTgcZrqDuQ+4dE05CGQsxHukpLXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/OEE.png",
+      "AssetFile": "img/OEE.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XB6tK/6A0mRixIAIAcit4aEbREhd61M+XiPbhLs4LyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 02:45:01 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/OEELarge.png",
+      "AssetFile": "img/OEELarge.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1715967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6WUFDwDlQJWRQ3mNr9P9KwH23OB/DU8f+HziXbdYEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 02:38:17 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/exxerpro.png",
+      "AssetFile": "img/exxerpro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+IzO4lzZFI2LhbCNluxnQvRidP9LeNFTFkJerqslaI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:39:27 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/footer1.png",
+      "AssetFile": "img/footer1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1794371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xz5VFJh0U+lXdMic3FsQo7iE3gjMpIBRxdE0LHxeB8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 19:07:51 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/header1.png",
+      "AssetFile": "img/header1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1794371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xz5VFJh0U+lXdMic3FsQo7iE3gjMpIBRxdE0LHxeB8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 19:07:24 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image1.png",
+      "AssetFile": "img/image1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Pgagmc5QDnP9GJcDqIzIhvqxwDFdFjmq+Jhg9SUp4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:30 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image2.png",
+      "AssetFile": "img/image2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1825455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eMQJGoHHz+oez5rqAQQHq+N/ZAVqi3y6rLlIlOZHSqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:37 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image3.png",
+      "AssetFile": "img/image3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1494928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SXtzjQMWXV416dvjUMOaWBBqE4bYFDiRxFbCHwhaAfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image4.png",
+      "AssetFile": "img/image4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1664494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iuCKb1pfiN3bho48zynn/TLhBPpai0HMR91pQ0iq0eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:49 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "particles.js",
+      "AssetFile": "particles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Jul 2024 23:27:34 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "particles.json",
+      "AssetFile": "particles.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pzcDGLc8Mo01hXfFOcu/3TA+2Y80M5mw7FC7Jbi+4ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 19:34:54 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    }
+  ]
+}

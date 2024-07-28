@@ -1,0 +1,47 @@
+﻿@page "/Home"
+
+@using IndFusion.Exxerpro.Components
+@using MudBlazor
+@inject ISnackbar Snackbar
+
+<div id="particles-js"></div>
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
+    <MudPaper Class="full-width" Elevation="4" Style="background-image: url('/img/header1.png'); background-size: cover; background-position: center;">
+        <div class="bg-transparent">
+            <MudText Typo="Typo.h2" Class="overlay-text">Exxerpro Solutions</MudText>
+            <MudText Typo="Typo.h6" Class="overlay-text">Contact Us</MudText>
+            <MudText Typo="Typo.body1" Class="overlay-text">Email: <a href="mailto:exxerpro@exxerpro.com">exxerpro@exxerpro.com</a></MudText>
+        </div>
+    </MudPaper>
+
+    <MudGrid>
+        <MudItem xs="12" md="6">
+            <AboutUS />
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <OurMission />
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <OurExpertise />
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <Projects />
+        </MudItem>
+    </MudGrid>
+
+    <MudPaper Class="full-width" Elevation="4" Style="background-image: url('/img/footer1.png'); background-size: cover; background-position: center;">
+        <div class="bg-transparent">
+            <MudText Typo="Typo.h5" Class="overlay-text">Quality Policy</MudText>
+            <MudText Typo="Typo.body2">
+                Exxerpro Solutions, a company dedicated to Industry 5.0, through the design and development of solutions and custom projects, focuses on optimization, sustainability, and automation for the manufacturing industry, committed to the quality of its products and services. It aims to be the best option for its clients, therefore establishes its commitment through the following policy based on the ISO 9001:2015 standard:
+                <br /><br />
+                As the strategic director of Exxerpro Solutions, I focus the quality management system as a tool to determine, satisfy, and exceed the needs and expectations of our clients, stakeholders, and the legal and regulatory requirements applicable to our processes, through the continuous improvement of the quality management system and the development of new solutions, products, and services; incorporating, for this purpose, novel and cutting-edge technologies, supported by our research, development, and innovation activities, thus becoming the best option for our clients.
+                <br /><br />
+                At Exxerpro Solutions, all employees and executives share the responsibility of applying this policy to all activities, programs, and projects, opening a bidirectional communication horizontally and vertically, ensuring the quality of our solutions.
+            </MudText>
+        </div>
+    </MudPaper>
+</MudContainer>
+
+

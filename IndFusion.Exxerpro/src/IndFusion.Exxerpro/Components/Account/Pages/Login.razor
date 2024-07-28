@@ -16,7 +16,7 @@
 
 <MudGrid>
     <MudItem md="6">
-        <StatusMessage Message="@errorMessage" />
+        <StatusMessage Message="@_errorMessage" />
         <EditForm Model="Input" method="post" OnValidSubmit="LoginUser" FormName="login">
             <DataAnnotationsValidator />
 
@@ -58,7 +58,7 @@
 </MudGrid>
 
 @code {
-    private string? errorMessage;
+    private string? _errorMessage;
 
     [CascadingParameter]
     private HttpContext HttpContext { get; set; } = default!;
@@ -101,7 +101,7 @@
         }
         else
         {
-            errorMessage = "Error: Invalid login attempt.";
+            _errorMessage = "Error: Invalid login attempt.";
         }
     }
 

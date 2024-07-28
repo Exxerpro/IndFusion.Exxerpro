@@ -1,0 +1,18 @@
+﻿<MudPaper Class="background-image" Elevation="4" Style="background-image: url('/img/image4.png');">
+    <div class="bg-transparent">
+        <MudText Typo="Typo.h5" Class="overlay-text">Projects</MudText>
+        <MudNavMenu Dense>
+            <MudNavLink Href="/optimization" Icon="@Icons.Material.Filled.ProductionQuantityLimits" OnClick="@(() => GoTo("optimization"))">Optimization of Industrial Processes</MudNavLink>
+            <MudNavLink Href="/automation" Icon="@Icons.Material.Filled.Rocket" OnClick="@(() => GoTo("automation"))">Automation and Control Systems</MudNavLink>
+            <MudNavLink Href="/sustainable-energy" Icon="@Icons.Material.Filled.Engineering" OnClick="@(() => GoTo("sustainable-energy"))">Sustainable Energy Solutions</MudNavLink>
+            <MudNavLink Href="/artificial-vision" Icon="@Icons.Material.Filled.VideoCall" OnClick="@(() => GoTo("artificial-vision"))">Artificial Vision Systems</MudNavLink>
+            <MudNavLink Href="/data-storage" Icon="@Icons.Material.Filled.Storage" OnClick="@(() => GoTo("data-storage"))">Data Storage and Reporting Systems</MudNavLink>
+        </MudNavMenu>
+    </div>
+</MudPaper>
+
+@code {
+    [Inject] private ISnackbar Snackbar { get; set; }
+
+    private void GoTo(string page) => Snackbar.Add($"Clicked {page}");
+}

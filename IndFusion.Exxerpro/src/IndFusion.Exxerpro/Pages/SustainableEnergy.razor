@@ -1,0 +1,27 @@
+﻿@page "/sustainable-energy"
+@using MudBlazor
+
+<MudContainer MaxWidth="MaxWidth.Medium">
+    <MudPaper Elevation="4" Class="p-4">
+        <MudText Typo="Typo.h4" GutterBottom="true">Sustainable Energy Solutions</MudText>
+        <MudText Typo="Typo.body1">
+            At Exxerpro Solutions, we are committed to providing sustainable energy solutions that reduce environmental impact and improve energy efficiency.
+        </MudText>
+        <MudText Typo="Typo.h6" GutterBottom="true" Class="mt-4">Our Solutions Include:</MudText>
+        <MudList T="string">
+            <MudListItem Text="Renewable Energy Systems" Icon="@Icons.Material.Filled.CheckCircle"></MudListItem>
+            <MudListItem Text="Energy Management" Icon="@Icons.Material.Filled.CheckCircle"></MudListItem>
+            <MudListItem Text="Energy Audits" Icon="@Icons.Material.Filled.CheckCircle"></MudListItem>
+            <MudListItem Text="Sustainability Consulting" Icon="@Icons.Material.Filled.CheckCircle"></MudListItem>
+        </MudList>
+        <MudText Typo="Typo.body1" Class="mt-4">
+            We help businesses transition to sustainable energy practices, ensuring long-term benefits for both the environment and your bottom line.
+        </MudText>
+    </MudPaper>
+</MudContainer>
+
+<style>
+    .mt-4 {
+        margin-top: 1rem;
+    }
+</style>

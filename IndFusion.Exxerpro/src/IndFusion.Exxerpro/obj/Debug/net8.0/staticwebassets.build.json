@@ -1,0 +1,2619 @@
+{
+  "Version": 1,
+  "Hash": "hwuhdZj59VigbeMKpqARNgMBvYjJUHB58Yv6GwFKJVY=",
+  "Source": "IndFusion.Exxerpro",
+  "BasePath": "_content/IndFusion.Exxerpro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IndFusion.Exxerpro\\wwwroot",
+      "Source": "IndFusion.Exxerpro",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\hebel\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.1\\staticwebassets\\NavigationObserver.js",
+      "SourceId": "Extensions.MudBlazor.StaticInput",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hebel\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.1\\staticwebassets\\",
+      "BasePath": "_content/Extensions.MudBlazor.StaticInput",
+      "RelativePath": "NavigationObserver.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p50koy20bp",
+      "Integrity": "M8KD1S/TN87phJS0JTpuiTz6bjEhFTfZ6yRigpDrNh0=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hebel\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.1\\staticwebassets\\NavigationObserver.js"
+    },
+    {
+      "Identity": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jqneglvg3v",
+      "Integrity": "q+PZSsTga91ka0nDMvXHwzPkuTEE0+aNumeMOAIY9II=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mkniuomq7s",
+      "Integrity": "Kpp99KQmZRTnEUw6ARiwaFvMbeAmV2FlZSLsPfInr88=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IndFusion.Exxerpro.styles.css",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "IndFusion.Exxerpro.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "iejq85gy0a",
+      "Integrity": "Rl892LSSYfbP2iZBlHIotdzAhvjWnreyknCtFsaS7/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IndFusion.Exxerpro.styles.css"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IndFusion.Exxerpro.bundle.scp.css",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "IndFusion.Exxerpro.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "iejq85gy0a",
+      "Integrity": "Rl892LSSYfbP2iZBlHIotdzAhvjWnreyknCtFsaS7/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IndFusion.Exxerpro.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\css\\site.css",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7vnrvlpnj9",
+      "Integrity": "k/QEMjhQCuIGU4nTmhSTUd6UeBPOb86qsrqf2tnwycc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\favicon.ico",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2jeq8efc6q",
+      "Integrity": "8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\exxerpro.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/exxerpro.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "34yfgqtglv",
+      "Integrity": "c+IzO4lzZFI2LhbCNluxnQvRidP9LeNFTFkJerqslaI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\exxerpro.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\footer1.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/footer1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b7scdadr4f",
+      "Integrity": "xz5VFJh0U+lXdMic3FsQo7iE3gjMpIBRxdE0LHxeB8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\footer1.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\header1.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/header1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b7scdadr4f",
+      "Integrity": "xz5VFJh0U+lXdMic3FsQo7iE3gjMpIBRxdE0LHxeB8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\header1.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image1.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/image1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wz0wmxk8gr",
+      "Integrity": "9Pgagmc5QDnP9GJcDqIzIhvqxwDFdFjmq+Jhg9SUp4E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\image1.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image2.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/image2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gyentj3qkh",
+      "Integrity": "eMQJGoHHz+oez5rqAQQHq+N/ZAVqi3y6rLlIlOZHSqI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\image2.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image3.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/image3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2uo5imz8f",
+      "Integrity": "SXtzjQMWXV416dvjUMOaWBBqE4bYFDiRxFbCHwhaAfw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\image3.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image4.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/image4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ittqavijub",
+      "Integrity": "iuCKb1pfiN3bho48zynn/TLhBPpai0HMR91pQ0iq0eQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\image4.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\acura.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/acura.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nyawit0gjd",
+      "Integrity": "f+XjhAGjOEgAu8XJ6bWmeNx2or1C51smjat3tzQC0d8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\acura.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\alfa romeo.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/alfa romeo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9flz6d6gd1",
+      "Integrity": "yy7TvkpUK8a5b2Vnw/rKy+C1lqqv+KYBXPMAUrwfvbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\alfa romeo.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\aud2i.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/aud2i.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o19cg6rsvi",
+      "Integrity": "NK+Qhk45NuTezC9d/0VxFAeUkmUjE2iYXWDhe7GRFlA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\aud2i.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\audi.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/audi.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "77ty6pmxdp",
+      "Integrity": "rc0wdVkZG7nN+tytIpVbM5LYqASlYN/Oik35fweV5os=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\audi.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\bmw.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/bmw.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ikl2j3zob",
+      "Integrity": "Dbngbq2q1ilm2vuNPFbvwr6dQw8fakKF2Fn1aNm5CCM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\bmw.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\buick.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/buick.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8goukmtzou",
+      "Integrity": "uOzXepqOgQy/NS68mvxWj2zIiD+0EkKjwnfjgmvpUok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\buick.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\cadillac.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/cadillac.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "afgw25sf4b",
+      "Integrity": "JhH7+LNHnbpgzyMaat+k8waMGEszL1ePqTAkASHcFiw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\cadillac.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\chevrolet.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/chevrolet.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2pc343llln",
+      "Integrity": "BmMRD3VBJ4IbEXP32yhK1pOLoi1IvR1JOVwtV8TU/54=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\chevrolet.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\chrysler.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/chrysler.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "80pegfbn73",
+      "Integrity": "6G0bvLUmUvTjO6kMXzVCzaJ7E2V9rNtYMvLMNtOiXtU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\chrysler.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\dodge.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/dodge.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6a0duoe9bf",
+      "Integrity": "rqCzbLXRGKAs4E9c0bPjvg+zqbBrYwlq6p/HJrFsDig=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\dodge.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\fiat.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/fiat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wnfbq4d83g",
+      "Integrity": "DN6lPiMoy10cSIXYsKg09Ixe+TX8bzJclox8dkTFzgY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\fiat.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\ford.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/ford.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uxmo46i26i",
+      "Integrity": "IoYx55E0uMRJJBj6TpRZNySzIHPWCRYrQe9oLkvwSoE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\ford.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\gmc.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/gmc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rwpn603jg3",
+      "Integrity": "FWctRNOb2oG/6AFLobJAGVoxk86TPBgaYyM8Acvehyk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\gmc.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\honda.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/honda.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "al7bpchya7",
+      "Integrity": "0gvdFREFoS3Oq6jxX3BCjal4c6BHlDPXQzvHnMoOzSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\honda.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\hyundai.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/hyundai.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g7ifso7np7",
+      "Integrity": "FMpRBZm4d5WzipirAPVoif7ErdJ5nLoCipQdlWrCgrE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\hyundai.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\infiniti.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/infiniti.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uhxqbmjuvw",
+      "Integrity": "7iCwrziFWLKkICLldOXeqdwENOZP0AlqfrNLz3uZQHk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\infiniti.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\jaguar.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/jaguar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egw9bb8pwp",
+      "Integrity": "jsOGg0men10tTTnIMB3B8A6wUDy+JGNfg/AlJOsAFFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\jaguar.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\jeep.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/jeep.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c52i25mhmu",
+      "Integrity": "YPEwEkJPu0dVs9oD1bj75ztoaHMHHw6G3mlur0Asd/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\jeep.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\kia.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/kia.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jaq5euxb3v",
+      "Integrity": "W+oWgEXOSlYDmJM9H49jZnWxOnvYTpQAb4bNGbDopv4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\kia.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\land rover.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/land rover.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "11ki4wg2le",
+      "Integrity": "G0ZtlJGK6fHUJFanJbU7oaXoeSrq+3Ofcy3t3O/TWtQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\land rover.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\lexus.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/lexus.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "menku0n5cf",
+      "Integrity": "gr627OzDQQHZ/QZ+eNLyF3Pij/VmesCYoEPuGO9TVzI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\lexus.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\mazda.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/mazda.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zecveon1tk",
+      "Integrity": "my5ipm4GAG1T9vj5mcJAWqAaciXNdkbBNT3ZS3UmDHI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\mazda.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\Mercedes-Benz.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/Mercedes-Benz.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2h6r5kbj6j",
+      "Integrity": "hr5uKCz6318pWfXSvzkGuG3X6ktrfWR3io0jDSGtzgw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\Mercedes-Benz.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\mitsubishi.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/mitsubishi.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhjlcxz342",
+      "Integrity": "9fVnZ0KMEu8Llc3m1SuMw5ASacJym4XoFkQPsm5c/Lc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\mitsubishi.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\nissan.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/nissan.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hnpmgajp7m",
+      "Integrity": "XROGitr7kKglY1w2wreBqCPOboFGsUxd3sKr6Xaa9ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\nissan.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\peugeot.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/peugeot.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rwpj4rnfh8",
+      "Integrity": "FfYKj5Yecmu21S5dabEC5AlU1YXh3O0FuqXofg8Erzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\peugeot.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\porsche.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/porsche.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rplkj1xtil",
+      "Integrity": "EW57CXkUlWXd+FwJLWIX3yt3IvElFm2/nwUZtrj/40s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\porsche.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\ram.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/ram.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fs4smprs7b",
+      "Integrity": "P5Gq3mndr/suJe9ETDzZ7aDdACM3CWYuqdIJrxNYM4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\ram.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\renault.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/renault.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2f77ww39bx",
+      "Integrity": "ss51p1UfTNy5Olu8V5fW7NowtZ96Gj1EywHNTUNvjFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\renault.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\subaru.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/subaru.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y98lly3ljy",
+      "Integrity": "Jop2UPLY4nBn16bP9twRM7fijIQOKd8dLBOTkadiht8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\subaru.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\tesla.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/tesla.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2xd7gjfc9m",
+      "Integrity": "ypEYgc2hUcT+YCDV86bsy73s9VEjRy5jtessTzfpjsE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\tesla.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\toyota.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/toyota.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ljjnijpgzv",
+      "Integrity": "sdDj0JWa75gZqEpTaye6ZhP646+w3ydriZBWZ0Fj06c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\toyota.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\valeo.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/valeo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2wn7ulgrk5",
+      "Integrity": "TnnAcNjw3z+PRfcdM+oNrdFaoR6sNcO9rkEOA3Qx0QA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\valeo.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\volkswagen.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/volkswagen.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1onfyv68xb",
+      "Integrity": "bzy63J8wKlDMbqqq6yz48rR6O5XRmEO962CXg2k7c6U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\volkswagen.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\volvo.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/Logos/volvo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qm1q1x62v6",
+      "Integrity": "PtAmAzostLGTlMYLTgcZrqDuQ+4dE05CGQsxHukpLXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logos\\volvo.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\OEE.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/OEE.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "csilkadc09",
+      "Integrity": "XB6tK/6A0mRixIAIAcit4aEbREhd61M+XiPbhLs4LyQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OEE.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\OEELarge.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/OEELarge.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3obe30trge",
+      "Integrity": "k6WUFDwDlQJWRQ3mNr9P9KwH23OB/DU8f+HziXbdYEc=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OEELarge.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\particles.js",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "particles.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tj0bxcocvi",
+      "Integrity": "icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\particles.js"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\particles.json",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "particles.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vio6q3b6df",
+      "Integrity": "pzcDGLc8Mo01hXfFOcu/3TA+2Y80M5mw7FC7Jbi+4ig=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\particles.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
+      "AssetFile": "C:\\Users\\hebel\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.1\\staticwebassets\\NavigationObserver.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M8KD1S/TN87phJS0JTpuiTz6bjEhFTfZ6yRigpDrNh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 21:27:20 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q+PZSsTga91ka0nDMvXHwzPkuTEE0+aNumeMOAIY9II=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 12:10:14 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\hebel\\.nuget\\packages\\mudblazor\\7.4.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kpp99KQmZRTnEUw6ARiwaFvMbeAmV2FlZSLsPfInr88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Jul 2024 12:10:14 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k/QEMjhQCuIGU4nTmhSTUd6UeBPOb86qsrqf2tnwycc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 21:22:56 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 26 Jul 2024 19:23:46 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/exxerpro.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\exxerpro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+IzO4lzZFI2LhbCNluxnQvRidP9LeNFTFkJerqslaI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:39:27 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/footer1.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\footer1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1794371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xz5VFJh0U+lXdMic3FsQo7iE3gjMpIBRxdE0LHxeB8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 19:07:51 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/header1.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\header1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1794371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xz5VFJh0U+lXdMic3FsQo7iE3gjMpIBRxdE0LHxeB8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 19:07:24 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image1.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Pgagmc5QDnP9GJcDqIzIhvqxwDFdFjmq+Jhg9SUp4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:30 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image2.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1825455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eMQJGoHHz+oez5rqAQQHq+N/ZAVqi3y6rLlIlOZHSqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:37 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image3.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1494928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SXtzjQMWXV416dvjUMOaWBBqE4bYFDiRxFbCHwhaAfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/image4.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1664494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iuCKb1pfiN3bho48zynn/TLhBPpai0HMR91pQ0iq0eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 18:32:49 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/acura.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\acura.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f+XjhAGjOEgAu8XJ6bWmeNx2or1C51smjat3tzQC0d8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/alfa romeo.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\alfa romeo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yy7TvkpUK8a5b2Vnw/rKy+C1lqqv+KYBXPMAUrwfvbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/aud2i.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\aud2i.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NK+Qhk45NuTezC9d/0VxFAeUkmUjE2iYXWDhe7GRFlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/audi.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\audi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rc0wdVkZG7nN+tytIpVbM5LYqASlYN/Oik35fweV5os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/bmw.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\bmw.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dbngbq2q1ilm2vuNPFbvwr6dQw8fakKF2Fn1aNm5CCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/buick.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\buick.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uOzXepqOgQy/NS68mvxWj2zIiD+0EkKjwnfjgmvpUok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/cadillac.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\cadillac.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhH7+LNHnbpgzyMaat+k8waMGEszL1ePqTAkASHcFiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/chevrolet.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\chevrolet.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmMRD3VBJ4IbEXP32yhK1pOLoi1IvR1JOVwtV8TU/54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/chrysler.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\chrysler.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G0bvLUmUvTjO6kMXzVCzaJ7E2V9rNtYMvLMNtOiXtU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/dodge.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\dodge.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqCzbLXRGKAs4E9c0bPjvg+zqbBrYwlq6p/HJrFsDig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/fiat.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\fiat.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DN6lPiMoy10cSIXYsKg09Ixe+TX8bzJclox8dkTFzgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/ford.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\ford.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IoYx55E0uMRJJBj6TpRZNySzIHPWCRYrQe9oLkvwSoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/gmc.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\gmc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FWctRNOb2oG/6AFLobJAGVoxk86TPBgaYyM8Acvehyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/honda.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\honda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0gvdFREFoS3Oq6jxX3BCjal4c6BHlDPXQzvHnMoOzSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/hyundai.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\hyundai.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FMpRBZm4d5WzipirAPVoif7ErdJ5nLoCipQdlWrCgrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/infiniti.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\infiniti.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7iCwrziFWLKkICLldOXeqdwENOZP0AlqfrNLz3uZQHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/jaguar.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\jaguar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jsOGg0men10tTTnIMB3B8A6wUDy+JGNfg/AlJOsAFFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/jeep.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\jeep.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YPEwEkJPu0dVs9oD1bj75ztoaHMHHw6G3mlur0Asd/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/kia.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\kia.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W+oWgEXOSlYDmJM9H49jZnWxOnvYTpQAb4bNGbDopv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/land rover.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\land rover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G0ZtlJGK6fHUJFanJbU7oaXoeSrq+3Ofcy3t3O/TWtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/lexus.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\lexus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gr627OzDQQHZ/QZ+eNLyF3Pij/VmesCYoEPuGO9TVzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/mazda.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\mazda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"my5ipm4GAG1T9vj5mcJAWqAaciXNdkbBNT3ZS3UmDHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/Mercedes-Benz.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\Mercedes-Benz.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hr5uKCz6318pWfXSvzkGuG3X6ktrfWR3io0jDSGtzgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/mitsubishi.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\mitsubishi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9fVnZ0KMEu8Llc3m1SuMw5ASacJym4XoFkQPsm5c/Lc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/nissan.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\nissan.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XROGitr7kKglY1w2wreBqCPOboFGsUxd3sKr6Xaa9ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/peugeot.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\peugeot.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FfYKj5Yecmu21S5dabEC5AlU1YXh3O0FuqXofg8Erzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/porsche.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\porsche.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EW57CXkUlWXd+FwJLWIX3yt3IvElFm2/nwUZtrj/40s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/ram.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\ram.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45806"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P5Gq3mndr/suJe9ETDzZ7aDdACM3CWYuqdIJrxNYM4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/renault.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\renault.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ss51p1UfTNy5Olu8V5fW7NowtZ96Gj1EywHNTUNvjFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/subaru.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\subaru.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jop2UPLY4nBn16bP9twRM7fijIQOKd8dLBOTkadiht8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/tesla.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\tesla.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ypEYgc2hUcT+YCDV86bsy73s9VEjRy5jtessTzfpjsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/toyota.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\toyota.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sdDj0JWa75gZqEpTaye6ZhP646+w3ydriZBWZ0Fj06c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/valeo.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\valeo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TnnAcNjw3z+PRfcdM+oNrdFaoR6sNcO9rkEOA3Qx0QA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/volkswagen.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\volkswagen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bzy63J8wKlDMbqqq6yz48rR6O5XRmEO962CXg2k7c6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/Logos/volvo.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\Logos\\volvo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtAmAzostLGTlMYLTgcZrqDuQ+4dE05CGQsxHukpLXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 00:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/OEE.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\OEE.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XB6tK/6A0mRixIAIAcit4aEbREhd61M+XiPbhLs4LyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 02:45:01 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/OEELarge.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\OEELarge.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1715967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6WUFDwDlQJWRQ3mNr9P9KwH23OB/DU8f+HziXbdYEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 02:38:17 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "IndFusion.Exxerpro.bundle.scp.css",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IndFusion.Exxerpro.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rl892LSSYfbP2iZBlHIotdzAhvjWnreyknCtFsaS7/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 02:25:52 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "IndFusion.Exxerpro.styles.css",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IndFusion.Exxerpro.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rl892LSSYfbP2iZBlHIotdzAhvjWnreyknCtFsaS7/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 02:25:52 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "particles.js",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\particles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Jul 2024 23:27:34 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "particles.json",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\particles.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pzcDGLc8Mo01hXfFOcu/3TA+2Y80M5mw7FC7Jbi+4ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 19:34:54 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    }
+  ]
+}

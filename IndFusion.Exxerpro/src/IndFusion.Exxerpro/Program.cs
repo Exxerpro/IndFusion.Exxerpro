@@ -1,6 +1,7 @@
 using IndFusion.Exxerpro.Components;
 using IndFusion.Exxerpro.Components.Account;
 using IndFusion.Exxerpro.Data;
+using IndFusion.Exxerpro.Pages;
 using IndFusion.Exxerpro.Worker;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -9,6 +10,9 @@ using MudBlazor.Services;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 using Serilog;
+using Serilog.Sinks.OpenTelemetry;
+using System.ComponentModel;
+using IndFusion.Exxerpro.Services;
 
 namespace IndFusion.Exxerpro;
 
@@ -23,7 +27,13 @@ public static class Program
 
         var logger = Log.Logger = new LoggerConfiguration()
             .ReadFrom.Configuration(configuration)
+            .WriteTo.OpenTelemetry(options =>
+            {
+                options.Endpoint = "http://127.0.0.1:4318/v1/logs";
+                options.Protocol = OtlpProtocol.HttpProtobuf;
+            })
             .CreateLogger();
+
 
         try
         {
@@ -31,17 +41,21 @@ public static class Program
 
             // Add MudBlazor services
             builder.Services.AddMudServices();
-
+            
             builder.Services.AddOpenTelemetry()
                 .WithTracing(tracerProviderBuilder =>
                 {
                     tracerProviderBuilder
                         .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("MyService"))
                         .AddAspNetCoreInstrumentation()
-                        .AddHttpClientInstrumentation()
-                        .AddConsoleExporter();
+                        .AddHttpClientInstrumentation();
 
-                }); ;
+
+                });
+            
+            builder.Services.AddSingleton<OeeState>();
+            builder.Services.AddSingleton<IndFusionWorker>();
+            
             builder.Services.AddHostedService<IndFusionWorker>();
 
             // Add services to the container.

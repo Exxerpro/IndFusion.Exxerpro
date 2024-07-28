@@ -1,9 +1,12 @@
 ﻿@page "/Exxerpro"
 @page "/"
-@inject IJSRuntime JsRuntime
-@inject ILogger<Exxerpro> Logger
 @using Microsoft.JSInterop
 @using MudBlazor
+
+@inject IJSRuntime JsRuntime
+@inject ILogger<Exxerpro> Logger
+@inject ISnackbar Snackbar
+
 
 
 @code {
@@ -55,18 +58,40 @@
         padding: 20px;
         border-radius: 10px;
         /* Ensure the particles container fills the page and is behind other content */
-  /*   #particles-js    {
-        position: absolute;
+        #particles-js
+    {
+        position: fixed;
         width: 100%;
         height: 100%;
+        z-index: -1;
         top: 0;
         left: 0;
-        z-index: 2;
-    } */
+        background-color: #282c34;
+    }
+</style>
+<style>
+    .text-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
+
+        .text-link:hover {
+            text-decoration: underline;
+        }
+
+        .text-link MudIcon {
+            margin-right: 8px;
+        }
 </style>
 
+@* <div id="particles-js" style="background-color: rgb(0, 0, 0); background-image: url(&quot;&quot;); background-size: cover; background-repeat: no-repeat; ba">
+    <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+</div> *@
 
 
+<div id="particles-js"></div>
 
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
     <MudPaper Class="full-width" Elevation="4" Style="background-image: url('/img/header1.png'); background-size: cover; background-position: center;">
@@ -112,13 +137,16 @@
             <MudPaper Class="background-image" Elevation="4" Style="background-image: url('/img/image4.png');">
                 <div class="bg-transparent">
                     <MudText Typo="Typo.h5" Class="overlay-text">Projects</MudText>
-                    <MudList T="string">
-                        <MudListItem Text="Optimization of Industrial Processes" Icon="@Icons.Material.Filled.ProductionQuantityLimits" />
-                        <MudListItem Text="Automation and Control Systems" Icon="@Icons.Material.Filled.Rocket" />
-                        <MudListItem Text="Sustainable Energy Solutions" Icon="@Icons.Material.Filled.Engineering" />
-                        <MudListItem Text="Artificial Vision Systems" Icon="@Icons.Material.Filled.VideoCall" />
-                        <MudListItem Text="Data Storage and Reporting Systems" Icon="@Icons.Material.Filled.Storage" />
-                    </MudList>
+                    
+                        <MudNavMenu Dense>
+                        <MudNavLink Href="/optimization" Icon="@Icons.Material.Filled.ProductionQuantityLimits" OnClick="@(() => GoTo("optimization"))">Optimization of Industrial Processes</MudNavLink>
+                        <MudNavLink Href="/automation" Icon="@Icons.Material.Filled.Rocket" OnClick="@(() => GoTo("automation"))">Automation and Control Systems</MudNavLink>
+                        <MudNavLink Href="/sustainable-energy" Icon="@Icons.Material.Filled.Engineering" OnClick="@(() => GoTo("sustainable-energy"))">Sustainable Energy Solutions</MudNavLink>
+                        <MudNavLink Href="/artificial-vision" Icon="@Icons.Material.Filled.VideoCall" OnClick="@(() => GoTo("artificial-vision"))">Artificial Vision Systems</MudNavLink>
+                        <MudNavLink Href="/data-storage" Icon="@Icons.Material.Filled.Storage" OnClick="@(() => GoTo("data-storage"))">Data Storage and Reporting Systems</MudNavLink>
+                        
+                        </MudNavMenu>
+
                 </div>
             </MudPaper>
         </MudItem>
@@ -138,5 +166,7 @@
     </MudPaper>
 </MudContainer>
 
-
+@code {
+    private void GoTo(string page) => Snackbar.Add($"Clicked {page}");
+}
 

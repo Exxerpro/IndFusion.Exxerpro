@@ -1,0 +1,129 @@
+﻿@page "/oee-dashboard"
+@page "/oee"
+@using System.ComponentModel
+@using IndFusion.Exxerpro.Data
+@using IndFusion.Exxerpro.Services
+@using IndFusion.Exxerpro.Worker
+@using MudBlazor
+@using Microsoft.AspNetCore.Components.Web
+@inject OeeState OeeState
+@inject IndFusionWorker IndFusionWorker
+
+
+<PageTitle>OEE Dashboard</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
+    <MudCard Class="machines-card">
+        <MudText Variant="h4" GutterBottom>
+            Overall Equipment Effectiveness (OEE) Dashboard
+        </MudText>
+        <MudText Variant="body1" GutterBottom>
+            At Exxerpro Solutions, we offer robust data storage and reporting systems to ensure your data is secure, accessible, and actionable.
+        </MudText>
+    </MudCard>
+</MudContainer>
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
+    <MudGrid>
+        <MudItem xs="12">
+   
+        </MudItem>
+    </MudGrid>
+    <MudGrid>
+        @foreach (var machine in Machines)
+        {  <MudCard Class="machines-card">
+
+            <MudItem xs="12" sm="6" md="4">
+                <MudPaper Class="pa-4" OnMouseEnter="() => ShowDetails(machine)" OnMouseLeave="() => HideDetails()">
+                    <MudText Variant="h6">@machine.Name</MudText>
+                    <MudDivider Class="my-2" />
+                    <MudProgressCircular Value="@(machine.Oee)" Color="@GetColor(machine.Oee)" />
+                    <MudText Variant="body2">OEE: @(machine.Oee.ToString("F2")) %</MudText>
+                    <MudText Variant="body2" Color="@GetColor(machine.Availability)">Availability: @(machine.Availability.ToString("F2")) %</MudText>
+                    <MudText Variant="body2" Color="@GetColor(machine.Performance)">Performance: @(machine.Performance.ToString("F2")) %</MudText>
+                    <MudText Variant="body2" Color="@GetColor(machine.Quality)">Quality: @(machine.Quality.ToString("F2")) %</MudText>               </MudPaper>
+            </MudItem>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(e => ToggleOverlay(machine))">Show Details</MudButton>
+        </MudCard>
+        }
+    </MudGrid>
+ 
+
+        <MudOverlay Class="overlay" Visible="@_showOverlay" DarkBackground="true" Absolute="true">
+            <MudCard Class="details-card">
+                <MudCardHeader>
+                    <MudText Typo="Typo.h6">@_machine.Name</MudText>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudProgressCircular Value="@(_machine.Oee)" Color="@GetColor(_machine.Oee)" />
+                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.DefectivePieces)">Defective Pieces: @(_machine.DefectivePieces)</MudText>
+                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.ProducedPieces)">Produced Pieces: @(_machine.ProducedPieces)</MudText>
+                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Oee)">OEE: @(_machine.Oee.ToString("F2")) %</MudText>
+                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Availability)">Availability: @(_machine.Availability.ToString("F2")) %</MudText>
+                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Performance)">Performance: @(_machine.Performance.ToString("F2")) %</MudText>
+                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Quality)">Quality: @(_machine.Quality.ToString("F2")) %</MudText>
+                    <MudChart ChartType="ChartType.Line" ChartSeries="@Series" @bind-SelectedIndex="_index" XAxisLabels="@XAxisLabels" Width="100%" Height="350px" ChartOptions="@Options"/>
+                </MudCardContent>
+            <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(e => ToggleOverlay(_machine))">Close</MudButton>
+            </MudCard>
+        </MudOverlay>
+   
+</MudContainer>
+
+@code {
+
+
+        private Color GetColor(double value)
+        {
+            return value switch
+            {
+                >= 80 => Color.Success,
+                >= 60 => Color.Warning,
+                _ => Color.Error
+            };
+        }
+    
+    private List<MachineOee> Machines => OeeState.Machines ;
+
+    private MachineOee _machine=new MachineOee("Dummy");
+
+    private bool _showOverlay = false;
+
+    protected override void OnInitialized()
+    {
+        if( Machines is not null && Machines.Count > 0)
+        _machine = Machines[0];
+        UpdateChartData();
+    }
+ 
+    private void ToggleOverlay(MachineOee machine)
+    {
+        _showOverlay = !_showOverlay;
+        if (_showOverlay)
+        {
+            this._machine = machine;
+            _showOverlay = true;
+            UpdateChartData();
+        }
+    }
+
+   
+
+    // Chart data
+    private int _index = -1; //default value cannot be 0 -> first selectedindex is 0.
+    public ChartOptions Options = new ChartOptions();
+    
+    public List<ChartSeries> Series = new List<ChartSeries>();
+    public string[] XAxisLabels = {"OEE", "Availability", "Performance", "Quality"};
+    
+    private void UpdateChartData()
+    {
+        Series.Clear();
+        if (_machine != null)
+        {
+            Series.Add(new ChartSeries() { Name = "OEE", Data = new double[] { _machine.Oee } });
+            Series.Add(new ChartSeries() { Name = "Availability", Data = new double[] { _machine.Availability } });
+            Series.Add(new ChartSeries() { Name = "Performance", Data = new double[] { _machine.Performance } });
+            Series.Add(new ChartSeries() { Name = "Quality", Data = new double[] { _machine.Quality } });
+        }
+    }
+}

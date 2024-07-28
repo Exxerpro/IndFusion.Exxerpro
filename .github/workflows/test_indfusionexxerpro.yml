@@ -27,7 +27,8 @@ jobs:
         run: dotnet build --configuration Release IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj
 
       - name: Run tests and collect coverage
-        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" IndFusion.Exxerpro/src/IndFusion.Exxerpro.Tests/IndFusion.Exxerpro.Tests.csproj
+        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" IndFusion.Exxerpro/src/IndFusion.ExxerproTests/IndFusion.ExxerproTests.csproj
+
 
       - name: Convert coverage to lcov
         run: |

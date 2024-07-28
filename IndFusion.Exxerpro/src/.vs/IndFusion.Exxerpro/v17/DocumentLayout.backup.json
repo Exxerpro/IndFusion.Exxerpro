@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,30 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\components\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\components\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\components\\error404.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\components\\error404.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\data\\machineoee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\data\\machineoee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 535,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,119 +58,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Pages\\Weather.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T02:51:13.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Pages\\Error.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Pages\\Error.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T02:51:07.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Error404.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Error404.razor",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Error404.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Error404.razor",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Error404.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T02:50:32.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.razor.cs",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Pages\\Home.razor.cs",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Pages\\Home.razor.cs",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Pages\\Home.razor.cs",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Pages\\Home.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T02:49:50.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\App.razor",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\App.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\App.razor",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Routes.razor",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Routes.razor",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T02:48:21.37Z",
+              "WhenOpened": "2024-07-28T03:00:31.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAACgAAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\App.razor",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\App.razor",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\App.razor",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\App.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T02:48:05.252Z",
+              "WhenOpened": "2024-07-28T02:59:47.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAqwFsAAAAEAAAAAAAAAA==",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T02:40:50.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MachineOEE.cs",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Data\\MachineOEE.cs",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Data\\MachineOEE.cs",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Data\\MachineOEE.cs",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Data\\MachineOEE.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T02:36:23.322Z",
+              "WhenOpened": "2024-07-28T02:59:38.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Projects.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Projects.razor",
-              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Projects.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Projects.razor",
-              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Projects.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T02:34:33.508Z",
+              "WhenOpened": "2024-07-28T02:59:26.01Z",
               "EditorCaption": ""
             }
           ]

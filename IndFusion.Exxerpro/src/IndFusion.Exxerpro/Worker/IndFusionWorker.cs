@@ -1,6 +1,6 @@
 ﻿using Google.Protobuf.WellKnownTypes;
 using IndFusion.Exxerpro.Data;
-using IndFusion.Exxerpro.Services;
+using IndFusion.Exxerpro.Models;
 using Microsoft.Extensions.Logging;
 
 namespace IndFusion.Exxerpro.Worker;

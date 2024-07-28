@@ -1,0 +1,6 @@
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\obj\Debug\net9.0\plot.csproj.AssemblyReference.cache
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\obj\Debug\net9.0\plot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\obj\Debug\net9.0\plot.AssemblyInfoInputs.cache
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\obj\Debug\net9.0\plot.AssemblyInfo.cs
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\obj\Debug\net9.0\plot.csproj.CoreCompileInputs.cache
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\obj\Debug\net9.0\plot.sourcelink.json

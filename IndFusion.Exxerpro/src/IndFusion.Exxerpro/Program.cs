@@ -12,7 +12,7 @@ using OpenTelemetry.Trace;
 using Serilog;
 using Serilog.Sinks.OpenTelemetry;
 using System.ComponentModel;
-using IndFusion.Exxerpro.Services;
+using IndFusion.Exxerpro.Models;
 
 namespace IndFusion.Exxerpro;
 

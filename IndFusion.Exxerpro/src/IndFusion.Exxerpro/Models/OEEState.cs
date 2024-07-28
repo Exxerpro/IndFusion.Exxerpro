@@ -6,6 +6,8 @@ namespace IndFusion.Exxerpro.Models
 {
     public class OeeState
     {
+        private readonly ILogger<OeeState> _logger;
+
         private readonly Random _random = new();
         private readonly IDateTimeMachine _dateTimeMachine;
         private DateTime _startTime;
@@ -22,23 +24,31 @@ namespace IndFusion.Exxerpro.Models
             new MachineOee("Press Titan",100)
         ];
 
-        public OeeState(IDateTimeMachine dateTimeMachine)
+        public OeeState(IDateTimeMachine dateTimeMachine, ILogger<OeeState> logger= null)
         {
-            _dateTimeMachine = dateTimeMachine;
+            this._logger = logger;
+
+            _dateTimeMachine = new DateTimeMachine();
             _startTime = _dateTimeMachine.Now.AddHours(-8);
         // Generate initial data points for the past 8 hours
             GenerateInitialDataPoints();
         }
 
-        private void GenerateInitialDataPoints()
+        public void GenerateInitialDataPoints()
         {
-            _startTime = _dateTimeMachine.Now.AddHours(-8);
-            var historicTime = _dateTimeMachine.Now.AddHours(-8);
+         
+            var historicTime = _startTime.AddMinutes(5);
             var now = _dateTimeMachine.Now;
 
             while (_startTime <= now)
             {
                 var dataPoint = GenerateNewDataPoint(historicTime);
+
+                if(_logger is not null)
+                {
+                    _logger.LogInformation("Generated data point at {DataPoint}", dataPoint);
+                }
+
                 HistoricalData.Add(dataPoint);
                 historicTime = historicTime.AddMinutes(5);
             }
@@ -55,6 +65,10 @@ namespace IndFusion.Exxerpro.Models
 
         private void NotifyStateChanged() => OnChange?.Invoke();
 
+        public void ExportHistoricalDataToCsv(string filePath)
+        {
+            HistoricalData.ExportToCsv(filePath);
+        }
         public OeeData GenerateNewDataPoint(DateTime now)
         {
             foreach (var machine in Machines)
@@ -64,6 +78,18 @@ namespace IndFusion.Exxerpro.Models
             _startTime = now; // Update the start time for the next interval
             var oeeData = new OeeData { Timestamp = now, Machines = Machines };
             return oeeData;
+        }
+
+        public IEnumerable<(DateTime Timestamp, double Oee, double Availability, double Performance, double Quality)> GetMachineHistoricalData(string machineName)
+        {
+            return HistoricalData
+                .Select(data => new
+                {
+                    data.Timestamp,
+                    Machine = data.Machines.FirstOrDefault(machine => machine.Name == machineName)
+                })
+                .Where(x => x.Machine != null)
+                .Select(x => (x.Timestamp, x.Machine.Oee, x.Machine.Availability, x.Machine.Performance, x.Machine.Quality));
         }
     }
 }

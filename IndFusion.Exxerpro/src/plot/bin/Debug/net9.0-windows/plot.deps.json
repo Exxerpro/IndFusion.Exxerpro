@@ -9,8 +9,8 @@
       "plot/1.0.0": {
         "dependencies": {
           "IndFusion.Exxerpro": "1.0.0",
+          "Microsoft.Extensions.TimeProvider.Testing": "8.7.0",
           "OxyPlot.Core": "2.1.2",
-          "OxyPlot.Pdf": "2.1.2",
           "OxyPlot.SkiaSharp": "2.1.2",
           "OxyPlot.WindowsForms": "2.1.2"
         },
@@ -895,6 +895,14 @@
         }
       },
       "Microsoft.Extensions.Primitives/8.0.0": {},
+      "Microsoft.Extensions.TimeProvider.Testing/8.7.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.TimeProvider.Testing.dll": {
+            "assemblyVersion": "8.7.0.0",
+            "fileVersion": "8.700.24.35305"
+          }
+        }
+      },
       "Microsoft.Identity.Client/4.56.0": {
         "dependencies": {
           "Microsoft.Identity.Client.NativeInterop": "0.13.8",
@@ -1196,18 +1204,6 @@
           }
         }
       },
-      "OxyPlot.Pdf/2.1.2": {
-        "dependencies": {
-          "OxyPlot.Core": "2.1.2",
-          "PDFsharp-MigraDoc-gdi": "1.50.5147"
-        },
-        "runtime": {
-          "lib/net452/OxyPlot.Pdf.dll": {
-            "assemblyVersion": "2.1.2.0",
-            "fileVersion": "2.1.2.0"
-          }
-        }
-      },
       "OxyPlot.SkiaSharp/2.1.2": {
         "dependencies": {
           "OxyPlot.Core": "2.1.2",
@@ -1229,47 +1225,6 @@
           "lib/netcoreapp3.1/OxyPlot.WindowsForms.dll": {
             "assemblyVersion": "2.1.2.0",
             "fileVersion": "2.1.2.0"
-          }
-        }
-      },
-      "PDFsharp-MigraDoc-gdi/1.50.5147": {
-        "runtime": {
-          "lib/net20/MigraDoc.DocumentObjectModel-gdi.dll": {
-            "assemblyVersion": "1.50.5147.0",
-            "fileVersion": "1.50.5147.0"
-          },
-          "lib/net20/MigraDoc.Rendering-gdi.dll": {
-            "assemblyVersion": "1.50.5147.0",
-            "fileVersion": "1.50.5147.0"
-          },
-          "lib/net20/MigraDoc.RtfRendering-gdi.dll": {
-            "assemblyVersion": "1.50.5147.0",
-            "fileVersion": "1.50.5147.0"
-          },
-          "lib/net20/PdfSharp-gdi.dll": {
-            "assemblyVersion": "1.50.5147.0",
-            "fileVersion": "1.50.5147.0"
-          },
-          "lib/net20/PdfSharp.Charting-gdi.dll": {
-            "assemblyVersion": "1.50.5147.0",
-            "fileVersion": "1.50.5147.0"
-          }
-        },
-        "resources": {
-          "lib/net20/de/MigraDoc.DocumentObjectModel-gdi.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net20/de/MigraDoc.Rendering-gdi.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net20/de/MigraDoc.RtfRendering-gdi.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net20/de/PdfSharp-gdi.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net20/de/PdfSharp.Charting-gdi.resources.dll": {
-            "locale": "de"
           }
         }
       },
@@ -2227,6 +2182,13 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.TimeProvider.Testing/8.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ym3f0d5e1OJLF9KsFnWTaQzIJ3P1wW+Si2+Rg7UDbZkO1GvvH5BvZEQkIj5dmAESUBU21fr1wghMRE33ROd5pg==",
+      "path": "microsoft.extensions.timeprovider.testing/8.7.0",
+      "hashPath": "microsoft.extensions.timeprovider.testing.8.7.0.nupkg.sha512"
+    },
     "Microsoft.Identity.Client/4.56.0": {
       "type": "package",
       "serviceable": true,
@@ -2416,13 +2378,6 @@
       "path": "oxyplot.core/2.1.2",
       "hashPath": "oxyplot.core.2.1.2.nupkg.sha512"
     },
-    "OxyPlot.Pdf/2.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-PtWcHpYQUgY9/gDQCJRKYamy+xPU7Z+f/0V+Ndf0nML9ISYPtFMkIG+EmmuiUcIqXOlPmpKBb50Tz8H2YtACRQ==",
-      "path": "oxyplot.pdf/2.1.2",
-      "hashPath": "oxyplot.pdf.2.1.2.nupkg.sha512"
-    },
     "OxyPlot.SkiaSharp/2.1.2": {
       "type": "package",
       "serviceable": true,
@@ -2436,13 +2391,6 @@
       "sha512": "sha512-0RXF5bDDjJO8H/ZyE3NrrIDRVD/P9MjhcZ+Z9rlkbanHr8qZQFHn0ffe/GuTJKe8pFLZEzapDzB7wRgyUeaCIQ==",
       "path": "oxyplot.windowsforms/2.1.2",
       "hashPath": "oxyplot.windowsforms.2.1.2.nupkg.sha512"
-    },
-    "PDFsharp-MigraDoc-gdi/1.50.5147": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hrPNGJ95aW03D9x2TYuadoR8bPh+pi/z6lYWspYU81QSjNAExy8F6+1dV5KBILZXu4R2dtawmX7SjKtCP8sEHg==",
-      "path": "pdfsharp-migradoc-gdi/1.50.5147",
-      "hashPath": "pdfsharp-migradoc-gdi.1.50.5147.nupkg.sha512"
     },
     "Serilog/4.0.1": {
       "type": "package",

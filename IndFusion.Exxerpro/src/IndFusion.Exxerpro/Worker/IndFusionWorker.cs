@@ -1,7 +1,4 @@
-﻿using Google.Protobuf.WellKnownTypes;
-using IndFusion.Exxerpro.Data;
-using IndFusion.Exxerpro.Models;
-using Microsoft.Extensions.Logging;
+﻿using IndFusion.Exxerpro.Models;
 
 namespace IndFusion.Exxerpro.Worker;
 
@@ -25,13 +22,15 @@ public class IndFusionWorker(ILogger<IndFusionWorker> logger, OeeState oeeState)
     }
     private void UpdateOeeData()
     {
-      var oeeData = oeeState.GenerateNewDataPoint( DateTime.Now);
-        oeeState.UpdateData(oeeData);
+
+
+
+        oeeState.GenerateNewData();
         logger.LogInformation("OEE data updated at {Time}", DateTime.Now);
         foreach (var machineOee in oeeState.Machines)
         {
             logger.LogInformation(" Machine updated at {Time} {Machine}", DateTime.Now, machineOee.ToString());
         }
-        
+
     }
 }

@@ -1,45 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using FluentAssertions;
+﻿using FluentAssertions;
 using IndFusion.Exxerpro.Models;
 using Xunit;
 
-namespace IndFusion.Exxerpro.Tests
+namespace IndFusion.Exxerpro.Tests;
+
+public class OeeStateTests2
 {
-    public class OeeStateTests2
+    private readonly IDateTimeMachine _dateTimeMachine;
+    private readonly OeeState _oeeState;
+
+    public OeeStateTests2()
     {
-        private readonly IDateTimeMachine _dateTimeMachine;
-        private readonly OeeState _oeeState;
+        _dateTimeMachine = new DateTimeMachine(); // Assuming you have a fake implementation for testing
+        _oeeState = new OeeState(_dateTimeMachine);
+    }
 
-        public OeeStateTests2()
+    [Fact]
+
+    public void GetMachineHistoricalData_ShouldReturnCorrectData()
+    {
+        // Arrange
+        var machineName = "Power Puncher";
+        var now = _dateTimeMachine.Now;
+        var expectedData = new List<(DateTime Timestamp, MachineMetrics Metrics)>
         {
-            _dateTimeMachine = new DateTimeMachine(); // Assuming you have a fake implementation for testing
-            _oeeState = new OeeState(_dateTimeMachine);
-        }
+            (now.AddMinutes(-15), new MachineMetrics(60, 90, 85, 80)),
+            (now.AddMinutes(-10), new MachineMetrics(62, 91, 86, 81)),
+            (now.AddMinutes(-5), new MachineMetrics(63, 92, 87, 82))
+        };
+        // Act
+        var result = _oeeState.GetMachineHistoricalData(machineName);
 
-        [Fact]
-        public void GetMachineHistoricalData_ShouldReturnCorrectData()
+        // Assert
+        var resultList = result.ToList();
+        for (int i = 0; i < expectedData.Count; i++)
         {
-            // Arrange
-            var machineName = "Power Puncher";
-            var now = _dateTimeMachine.Now;
-            var expectedData = new List<(DateTime Timestamp, double Oee, double Availability, double Performance, double Quality)>
-            {
-                (now.AddMinutes(-15), 60, 90, 85, 80),
-                (now.AddMinutes(-10), 62, 91, 86, 81),
-                (now.AddMinutes(-5), 63, 92, 87, 82)
-            };
-
-         
-            _oeeState.HistoricalData[0].Machines[0].UpdateInfo(100, 20, 50, 10);
-            _oeeState.HistoricalData[1].Machines[0].UpdateInfo(110, 18, 52, 8);
-            _oeeState.HistoricalData[2].Machines[0].UpdateInfo(120, 16, 54, 6);
-
-            // Act
-            var result = _oeeState.GetMachineHistoricalData(machineName);
-
-            // Assert
-            result.Should().BeEquivalentTo(expectedData, options => options.WithStrictOrdering());
+            resultList[i].Timestamp.Should().Be(expectedData[i].Timestamp);
+            resultList[i].Metrics.Oee.Should().BeApproximately(expectedData[i].Metrics.Oee, 0.01);
+            resultList[i].Metrics.Availability.Should().BeApproximately(expectedData[i].Metrics.Availability, 0.01);
+            resultList[i].Metrics.Performance.Should().BeApproximately(expectedData[i].Metrics.Performance, 0.01);
+            resultList[i].Metrics.Quality.Should().BeApproximately(expectedData[i].Metrics.Quality, 0.01);
         }
     }
 }

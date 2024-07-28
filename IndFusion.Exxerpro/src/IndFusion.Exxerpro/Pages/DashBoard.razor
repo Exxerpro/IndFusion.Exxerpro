@@ -25,28 +25,29 @@
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
     <MudGrid>
         <MudItem xs="12">
-   
+
         </MudItem>
     </MudGrid>
     <MudGrid>
-        @foreach (var machine in Machines)
+        @foreach (var machine in Machines.Values)
         {  <MudCard Class="machines-card">
 
             <MudItem xs="12" sm="6" md="4">
                 <MudPaper Class="pa-4" OnMouseEnter="() => ShowDetails(machine)" OnMouseLeave="() => HideDetails()">
-                    <MudText Variant="h6">@machine.Name</MudText>
+                    <MudText Variant="h6">@machine.</MudText>
                     <MudDivider Class="my-2" />
-                    <MudProgressCircular Value="@(machine.Oee)" Color="@GetColor(machine.Oee)" />
-                    <MudText Variant="body2">OEE: @(machine.Oee.ToString("F2")) %</MudText>
-                    <MudText Variant="body2" Color="@GetColor(machine.Availability)">Availability: @(machine.Availability.ToString("F2")) %</MudText>
-                    <MudText Variant="body2" Color="@GetColor(machine.Performance)">Performance: @(machine.Performance.ToString("F2")) %</MudText>
-                    <MudText Variant="body2" Color="@GetColor(machine.Quality)">Quality: @(machine.Quality.ToString("F2")) %</MudText>               </MudPaper>
+                        <MudProgressCircular Value="@(machine.Indicator.Oee)" Color="@GetColor(machine.Indicator.Oee)" />
+                        <MudText Variant="body2">OEE: @(machine.Indicator.Oee.ToString("F2")) %</MudText>
+                        <MudText Variant="body2" Color="@GetColor(machine.Indicator.Availability)">Availability: @(machine.Indicator.Availability.ToString("F2")) %</MudText>
+                        <MudText Variant="body2" Color="@GetColor(machine.Indicator.Performance)">Performance: @(machine.Indicator.Performance.ToString("F2")) %</MudText>
+                        <MudText Variant="body2" Color="@GetColor(machine.Indicator.Quality)">Quality: @(machine.Indicator.Quality.ToString("F2")) %</MudText>
+                    </MudPaper>
             </MudItem>
         <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(e => ToggleOverlay(machine))">Show Details</MudButton>
         </MudCard>
         }
     </MudGrid>
- 
+
 
         <MudOverlay Class="overlay" Visible="@_showOverlay" DarkBackground="true" Absolute="true">
             <MudCard Class="details-card">
@@ -54,22 +55,22 @@
                     <MudText Typo="Typo.h6">@_machine.Name</MudText>
                 </MudCardHeader>
                 <MudCardContent>
-                    <MudProgressCircular Value="@(_machine.Oee)" Color="@GetColor(_machine.Oee)" />
-                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Oee)">OEE: @(_machine.Oee.ToString("F2")) %</MudText>
-                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Availability)">Availability: @(_machine.Availability.ToString("F2")) %</MudText>
-                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Performance)">Performance: @(_machine.Performance.ToString("F2")) %</MudText>
-                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.Quality)">Quality: @(_machine.Quality.ToString("F2")) %</MudText>
+                    <MudProgressCircular Value="@(_machine.Indicator.Oee)" Color="@GetColor(_machine.Indicator.Oee)" />
+                <MudText Typo="Typo.body2" Color="@GetColor(_machine.Indicator.Oee)">OEE: @(_machine.Indicator.Oee.ToString("F2")) %</MudText>
+                <MudText Typo="Typo.body2" Color="@GetColor(_machine.Indicator.Availability)">Availability: @(_machine.Indicator.Availability.ToString("F2")) %</MudText>
+                <MudText Typo="Typo.body2" Color="@GetColor(_machine.Indicator.Performance)">Performance: @(_machine.Indicator.Performance.ToString("F2")) %</MudText>
+                <MudText Typo="Typo.body2" Color="@GetColor(_machine.Indicator.Quality)">Quality: @(_machine.Indicator.Quality.ToString("F2")) %</MudText>
                     <MudText Typo="Typo.body2" Color=Color.Success>Capacity: @(_machine.Capacity.ToString("F2")) %</MudText>
-                    <MudText Typo="Typo.body2" Color=Color.Success>Produced Pieces: @(_machine.ProducedPieces.ToString("F2"))</MudText>
-                    <MudText Typo="Typo.body2" Color=Color.Success>Defective Pieces: @(_machine.RejectedPieces.ToString("F2"))</MudText>
-                    <MudText Typo="Typo.body2" Color=Color.Success>Running Time: @(_machine.RunningTime.ToString("F2"))</MudText>
-                    <MudText Typo="Typo.body2" Color=Color.Success>Stopping Time: @(_machine.StoppingTime.ToString("F2"))</MudText>
+                    <MudText Typo="Typo.body2" Color=Color.Success>Produced Pieces: @(_machine.ProductionData.ProducedPieces.ToString("F2"))</MudText>
+                <MudText Typo="Typo.body2" Color=Color.Success>Rejected Pieces: @(_machine.ProductionData.RejectedPieces.ToString("F2"))</MudText>
+                <MudText Typo="Typo.body2" Color=Color.Success>Running Time: @(_machine.ProductionData.RunningTime.ToString("F2"))</MudText>
+                <MudText Typo="Typo.body2" Color=Color.Success>Stopping Time: @(_machine.ProductionData.StoppingTime.ToString("F2"))</MudText>
                     <MudChart ChartType="ChartType.Line" ChartSeries="@Series" @bind-SelectedIndex="_index" XAxisLabels="@XAxisLabels" Width="100%" Height="350px" ChartOptions="@Options"/>
                 </MudCardContent>
             <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(e => ToggleOverlay(_machine))">Close</MudButton>
             </MudCard>
         </MudOverlay>
-   
+
 </MudContainer>
 
 @code {
@@ -84,51 +85,51 @@
                 _ => Color.Error
             };
         }
-    
-    private List<MachineOee> Machines => OeeState.Machines ;
 
-    private MachineOee _machine=new("Dummy");
+    private Dictionary<string, PerformanceData> Machines => OeeState.Machines;
+
+    private PerformanceData _machine = new("Dummy","dummy",100);
 
     private bool _showOverlay = false;
 
     protected override void OnInitialized()
     {
-        if( Machines is not null && Machines.Count > 0)
-        _machine = Machines[0];
-        UpdateChartData();
+
     }
- 
-    private void ToggleOverlay(MachineOee machine)
+
+    private void ToggleOverlay(PerformanceData machine)
     {
         _showOverlay = !_showOverlay;
         if (_showOverlay)
         {
             this._machine = machine;
             _showOverlay = true;
-            UpdateChartData();
+            UpdateChartData(machine);
         }
     }
 
-   
+
 
     // Chart data
     private int _index = -1; //default value cannot be 0 -> first selectedindex is 0.
     public ChartOptions Options = new();
-    
+
     public List<ChartSeries> Series = new();
     public string[] XAxisLabels = {"OEE", "Availability", "Performance", "Quality"};
-    
-    private void UpdateChartData()
+
+    private void UpdateChartData(PerformanceData machine)
     {
         Series.Clear();
         if (_machine == null) return;
-        var historicalData = OeeState.GetMachineHistoricalData(_machine.Name).ToList();
 
-        if (!historicalData.Any()) return;
+        if (!machine.HistoricData.Any()) return;
 
-        Series.Add(new ChartSeries() { Name = "OEE", Data = historicalData.Select(d => d.Oee).ToArray() });
-        Series.Add(new ChartSeries() { Name = "Availability", Data = historicalData.Select(d => d.Availability).ToArray() });
-        Series.Add(new ChartSeries() { Name = "Performance", Data = historicalData.Select(d => d.Performance).ToArray() });
-        Series.Add(new ChartSeries() { Name = "Quality", Data = historicalData.Select(d => d.Quality).ToArray() });
+
+
+
+        Series.Add(new ChartSeries() { Name = "OEE", Data = machine.HistoricIndicator.Select(d => d.Oee).ToArray() });
+        Series.Add(new ChartSeries() { Name = "Availability", Data = machine.HistoricIndicator.Select(d => d.Availability).ToArray() });
+        Series.Add(new ChartSeries() { Name = "Performance", Data = machine.HistoricIndicator.Select(d => d.Performance).ToArray() });
+        Series.Add(new ChartSeries() { Name = "Quality", Data = machine.HistoricIndicator.Select(d => d.Quality).ToArray() });
     }
 }

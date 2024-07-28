@@ -189,6 +189,10 @@
       "PackagePath": "staticwebassets\\img\\image4.png"
     },
     {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machines.png",
+      "PackagePath": "staticwebassets\\img\\machines.png"
+    },
+    {
       "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\particles.js",
       "PackagePath": "staticwebassets\\particles.js"
     },

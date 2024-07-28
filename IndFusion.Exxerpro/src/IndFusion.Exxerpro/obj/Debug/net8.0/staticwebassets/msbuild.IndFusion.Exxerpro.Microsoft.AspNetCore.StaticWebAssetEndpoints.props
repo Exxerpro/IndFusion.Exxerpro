@@ -264,6 +264,12 @@
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"35945"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PtAmAzostLGTlMYLTgcZrqDuQ\u002B4dE05CGQsxHukpLXg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 28 Jul 2024 18:19:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/img/machines.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\machines.png))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"7552"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qJfzIeULhZkcx45ZHrL4ZTx71ukLdJpW6c0QbAr1ahg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 28 Jul 2024 22:16:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/img/OEE.png">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\OEE.png))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

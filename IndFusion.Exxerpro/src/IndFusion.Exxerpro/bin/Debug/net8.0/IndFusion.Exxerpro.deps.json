@@ -9,6 +9,7 @@
       "IndFusion.Exxerpro/1.0.0": {
         "dependencies": {
           "Extensions.MudBlazor.StaticInput": "2.1.1",
+          "IndFusion.Exxerpro.Domain": "1.0.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.22.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
@@ -1631,6 +1632,11 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "IndFusion.Exxerpro.Domain/1.0.0": {
+        "runtime": {
+          "IndFusion.Exxerpro.Domain.dll": {}
+        }
       }
     }
   },
@@ -2682,6 +2688,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "IndFusion.Exxerpro.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

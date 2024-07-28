@@ -1402,6 +1402,34 @@
       "EndpointProperties": []
     },
     {
+      "Route": "img/machines.png",
+      "AssetFile": "img/machines.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qJfzIeULhZkcx45ZHrL4ZTx71ukLdJpW6c0QbAr1ahg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 22:16:35 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
       "Route": "particles.js",
       "AssetFile": "particles.js",
       "Selectors": [],

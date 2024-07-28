@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using IndFusion.Exxerpro.Models;
+using IndFusion.Exxerpro.Domain.Models;
 using Microsoft.Extensions.Time.Testing;
 using Xunit;
 

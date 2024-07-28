@@ -193,3 +193,5 @@ D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\bin\Deb
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\obj\Debug\net8.0\scopedcss\projectbundle\IndFusion.Exxerpro.bundle.scp.css
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\bin\Debug\net8.0\wwwroot\img\OEELarge.png
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.pdb

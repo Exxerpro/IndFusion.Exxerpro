@@ -1,4 +1,4 @@
-﻿using IndFusion.Exxerpro.Models;
+﻿using IndFusion.Exxerpro.Domain.Models;
 
 namespace IndFusion.Exxerpro.Worker;
 

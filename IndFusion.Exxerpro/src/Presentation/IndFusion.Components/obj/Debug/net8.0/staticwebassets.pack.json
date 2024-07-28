@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\IndFusion.Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IndFusion.Components.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IndFusion.Components.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\IndFusion.Components\\wwwroot\\blazorstrap.js",
+      "PackagePath": "staticwebassets\\blazorstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\IndFusion.Components\\wwwroot\\blazorstrap.min.js",
+      "PackagePath": "staticwebassets\\blazorstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\IndFusion.Components\\wwwroot\\blazorstrapinterop.js",
+      "PackagePath": "staticwebassets\\blazorstrapinterop.js"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\IndFusion.Components\\wwwroot\\popper.min.js",
+      "PackagePath": "staticwebassets\\popper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IndFusion.Components.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IndFusion.Components.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IndFusion.Components.props",
+      "PackagePath": "build\\IndFusion.Components.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IndFusion.Components.props",
+      "PackagePath": "buildMultiTargeting\\IndFusion.Components.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IndFusion.Components.props",
+      "PackagePath": "buildTransitive\\IndFusion.Components.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

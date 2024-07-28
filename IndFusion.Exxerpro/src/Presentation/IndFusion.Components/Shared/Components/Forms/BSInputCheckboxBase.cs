@@ -1,0 +1,97 @@
+﻿using IndFusion.Components.Shared.Enums;
+using IndFusion.Components.Utilities;
+using System.Diagnostics.CodeAnalysis;
+
+namespace IndFusion.Components.Shared.Components.Forms
+{
+    public abstract class BSInputCheckboxBase<T> : BSInputBase<T>
+    {
+        /// <summary>
+        /// Sets checkbox color.
+        /// </summary>
+        [Parameter] public BSColor Color { get; set; } = BSColor.Default;
+
+        /// <summary>
+        /// Adds the <c>btn-outline</c> class.
+        /// </summary>
+        [Parameter] public bool IsOutlined { get; set; }
+
+        /// <summary>
+        /// Value of <typeparamref name="T"/> when input is checked.
+        /// </summary>
+        [Parameter] public virtual T? CheckedValue { get; set; }
+
+        /// <summary>
+        /// Value of <typeparamref name="T"/> when input is unchecked.
+        /// </summary>
+        [Parameter] public virtual T? UnCheckedValue { get; set; }
+
+        /// <summary>
+        /// CSS classes to add to div container of the input.
+        /// </summary>
+        [Parameter] public string? ContainerClass { get; set; }
+
+        protected bool IsRadio { get; set; }
+
+        protected bool _isToggle;
+        [DisallowNull] private ElementReference? Element { get; set; }
+        protected string InputType => IsRadio ? "radio" : "checkbox";
+
+
+        protected abstract string? ToggleClassBuilder { get; }
+        protected abstract string? ContainerClassBuilder { get; }
+
+        protected void RadioOnClickEvent()
+        {
+            T tempValue;
+            if (IsRadio)
+            {
+                tempValue = CheckedValue;
+            }
+            else
+            {
+                if (!object.Equals(CheckedValue, Value) && !IsRadio)
+                {
+                    tempValue = CheckedValue;
+                }
+                else
+                {
+                    tempValue = UnCheckedValue;
+                }
+            }
+            if ((ValidateOnChange || ValidateOnInput) && EditContext != null)
+            {
+                if (IsRadio)
+                {
+                    if (object.Equals(tempValue, CheckedValue))
+                    {
+                        CurrentValue = tempValue;
+                    }
+                    else
+                    {
+                        Value = tempValue;
+                        ValueChanged.InvokeAsync(Value);
+                    }
+                }
+                else
+                {
+                    CurrentValue = tempValue;
+                }
+            }
+            else
+            {
+                Value = tempValue;
+                ValueChanged.InvokeAsync(Value);
+            }
+
+        }
+        protected bool Checked()
+        {
+            return object.Equals(CheckedValue, Value);
+        }
+        protected override bool TryParseValueFromString(string? value, out T result, [NotNullWhen(false)] out string? validationErrorMessage)
+        {
+            return TryParseString<T>.ToValue(value, out result, out validationErrorMessage);
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "Endpoints": [
+    {
+      "Route": "IndFusion.Components.styles.css",
+      "AssetFile": "IndFusion.Components.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3TBAAwXWqbk0zLz/Hdiw5nIPfF4EyA2oDnz1VlTez6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 23:54:22 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "blazorstrap.js",
+      "AssetFile": "blazorstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6W5wJsmL68Uobq7TsdA69YIuqb+4+HnbyVmm44Eyf7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 23:37:18 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "blazorstrap.min.js",
+      "AssetFile": "blazorstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IkG/R+F2VBP0dAL/GVrIH20ss3MGClLEPfpVCAcE7g0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 23:37:18 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "blazorstrapinterop.js",
+      "AssetFile": "blazorstrapinterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5TRNqdT7j4Fs2HtkQNoMDXIpOOPt/4m3v/3A5Lhgw3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 23:37:18 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "popper.min.js",
+      "AssetFile": "popper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXDYki4J3qM+RBA40kfIo4JJL/SFr0lihK6t6qqmgE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 23:37:18 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    }
+  ]
+}

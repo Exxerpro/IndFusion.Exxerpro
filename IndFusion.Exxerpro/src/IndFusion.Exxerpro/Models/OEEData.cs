@@ -1,2 +1,0 @@
-﻿namespace IndFusion.Exxerpro.Models;
-

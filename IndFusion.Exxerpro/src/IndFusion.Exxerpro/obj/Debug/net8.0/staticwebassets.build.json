@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JXXBBwXhd21Go5DaFzeJJyaoQTOt3d7gKJqgzOJ5wCI=",
+  "Hash": "cLOynApqxA61W6wdu9pHIxWPhpjgJCUL6X1HJ3FHAYA=",
   "Source": "IndFusion.Exxerpro",
   "BasePath": "_content/IndFusion.Exxerpro",
   "Mode": "Default",
@@ -1044,6 +1044,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logos\\volvo.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machines.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machines.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "crt01we49k",
+      "Integrity": "qJfzIeULhZkcx45ZHrL4ZTx71ukLdJpW6c0QbAr1ahg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machines.png"
     },
     {
       "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\OEE.png",
@@ -2443,6 +2464,34 @@
         {
           "Name": "Last-Modified",
           "Value": "Sun, 28 Jul 2024 18:19:54 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machines.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machines.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qJfzIeULhZkcx45ZHrL4ZTx71ukLdJpW6c0QbAr1ahg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 22:16:35 GMT"
         }
       ],
       "EndpointProperties": []

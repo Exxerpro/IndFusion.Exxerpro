@@ -7,10 +7,12 @@ https://indfusionexxerpro.azurewebsites.net
 
 https://indfusionexxerpro.azurewebsites.net/Oee
 
-[![Build Status](https://github.com/Exxerpro/IndFusion.Exxerpro/actions/workflows/build.yml/badge.svg)](https://github.com/Exxerpro/IndFusion.Exxerpro/actions/workflows/build.yml)
+
+
+[![Build Status](https://github.com/Exxerpro/IndFusion.Exxerpro/actions/workflows/main_indfusionexxerpro.yml/badge.svg)](https://github.com/Exxerpro/IndFusion.Exxerpro/actions/workflows/main_indfusionexxerpro.yml)
+
 [![Coverage Status](https://coveralls.io/repos/github/Exxerpro/IndFusion.Exxerpro/badge.svg?branch=main)](https://coveralls.io/github/Exxerpro/IndFusion.Exxerpro?branch=main)
-[![Dependency Status](https://david-dm.org/Exxerpro/IndFusion.Exxerpro.svg)](https://david-dm.org/Exxerpro/IndFusion.Exxerpro)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 
 

@@ -55,7 +55,7 @@
                 </MudCardHeader>
                 <MudCardContent>
                     <MudProgressCircular Value="@(_machine.Oee)" Color="@GetColor(_machine.Oee)" />
-                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.DefectivePieces)">Defective Pieces: @(_machine.DefectivePieces)</MudText>
+                    <MudText Typo="Typo.body2" Color="@GetColor(_machine.RejectedPieces)">Defective Pieces: @(_machine.RejectedPieces)</MudText>
                     <MudText Typo="Typo.body2" Color="@GetColor(_machine.ProducedPieces)">Produced Pieces: @(_machine.ProducedPieces)</MudText>
                     <MudText Typo="Typo.body2" Color="@GetColor(_machine.Oee)">OEE: @(_machine.Oee.ToString("F2")) %</MudText>
                     <MudText Typo="Typo.body2" Color="@GetColor(_machine.Availability)">Availability: @(_machine.Availability.ToString("F2")) %</MudText>
@@ -84,7 +84,7 @@
     
     private List<MachineOee> Machines => OeeState.Machines ;
 
-    private MachineOee _machine=new MachineOee("Dummy");
+    private MachineOee _machine=new("Dummy");
 
     private bool _showOverlay = false;
 
@@ -110,9 +110,9 @@
 
     // Chart data
     private int _index = -1; //default value cannot be 0 -> first selectedindex is 0.
-    public ChartOptions Options = new ChartOptions();
+    public ChartOptions Options = new();
     
-    public List<ChartSeries> Series = new List<ChartSeries>();
+    public List<ChartSeries> Series = new();
     public string[] XAxisLabels = {"OEE", "Availability", "Performance", "Quality"};
     
     private void UpdateChartData()

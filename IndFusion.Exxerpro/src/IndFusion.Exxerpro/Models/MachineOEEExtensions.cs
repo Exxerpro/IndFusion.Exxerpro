@@ -81,11 +81,19 @@
 
         public static void MutateData(this MachineOee machine, Random random, DateTime startTime, DateTime endTime)
         {
-            double newRunningFactor = SampleWithTendencyToTheRight(random); // Generate negative skewed random between 0 and 1
-            double newDefectiveRate = SampleWithTendencyToTheLeft(random); // Generate positive skewed random between 0 and 1
-            int newProducedPieces = Math.Max(0, machine.ProducedPieces + random.Next(0, 20));
+            double runningFactor = SampleWithTendencyToTheRight(random); // Generate negative skewed random between 0 and 1
+            double defectiveRate = SampleWithTendencyToTheLeft(random); // Generate positive skewed random between 0 and 1
+            double productiveFactor = SampleWithTendencyToTheRight(random); // Generate negative skewed random between 0 and 1
 
-            machine.UpdateInfo(newProducedPieces, newRunningFactor, newDefectiveRate, startTime, endTime);
+            var producedPieces = (int)(machine.Capacity * runningFactor * (endTime - startTime).TotalMinutes);
+            var defectivePieces = (int)(producedPieces * defectiveRate);
+
+            var runningTime = (endTime - startTime).TotalMinutes * runningFactor;
+            var stoppingTime = (endTime - startTime).TotalMinutes * (1 - runningFactor);
+
+            machine.UpdateInfo(producedPieces, defectivePieces, runningTime, stoppingTime);
+
+
         }
     }
 }

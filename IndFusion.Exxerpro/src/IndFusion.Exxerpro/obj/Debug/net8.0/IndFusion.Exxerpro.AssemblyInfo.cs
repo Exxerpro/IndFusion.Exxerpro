@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndFusion.Exxerpro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9edba27f9db8c2c23fd96a1a75a1ff5073511281")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21defb800ea87e22293d0442cf14e0d767ba52ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndFusion.Exxerpro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndFusion.Exxerpro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

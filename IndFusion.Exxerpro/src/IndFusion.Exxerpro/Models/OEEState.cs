@@ -1,36 +1,55 @@
-﻿namespace IndFusion.Exxerpro.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace IndFusion.Exxerpro.Models
 {
     public class OeeState
     {
         private readonly Random _random = new();
+        private readonly IDateTimeMachine _dateTimeMachine;
+        private DateTime _startTime;
 
         public event Action OnChange;
         public List<OeeData> HistoricalData { get; private set; } = [];
 
         public List<MachineOee> Machines =
         [
-            new("Power Puncher"),
-            new MachineOee("Press Power"),
-            new MachineOee("Cross Cutter"),
-            new MachineOee("Crosswise Cutter"),
-            new MachineOee("Press Titan")
+            new("Power Puncher", 30),
+            new MachineOee("Press Power",200),
+            new MachineOee("Cross Cutter",100),
+            new MachineOee("Crosswise Cutter",300),
+            new MachineOee("Press Titan",100)
         ];
 
-        public OeeState()
+        public OeeState(IDateTimeMachine dateTimeMachine)
         {
-            Machines[0].SetInitialCondition(85, 90, 80, 95, 0.02, 500, 450, 30, 60);
-            Machines[1].SetInitialCondition(78, 85, 75, 90, 0.04, 480, 420, 30, 60);
-            Machines[2].SetInitialCondition(82, 88, 78, 94, 0.03, 490, 430, 30, 60);
-            Machines[3].SetInitialCondition(80, 87, 76, 93, 0.05, 495, 440, 30, 60);
-            Machines[4].SetInitialCondition(84, 89, 79, 92, 0.01, 500, 450, 30, 60);
+            _dateTimeMachine = dateTimeMachine;
+            _startTime = _dateTimeMachine.Now.AddHours(-8);
+        // Generate initial data points for the past 8 hours
+            GenerateInitialDataPoints();
         }
 
-        private DateTime _startTime = DateTime.Now;
+        private void GenerateInitialDataPoints()
+        {
+            _startTime = _dateTimeMachine.Now.AddHours(-8);
+            var historicTime = _dateTimeMachine.Now.AddHours(-8);
+            var now = _dateTimeMachine.Now;
+
+            while (_startTime <= now)
+            {
+                var dataPoint = GenerateNewDataPoint(historicTime);
+                HistoricalData.Add(dataPoint);
+                historicTime = historicTime.AddMinutes(5);
+            }
+
+            NotifyStateChanged();
+        }
 
         public void UpdateData(OeeData newData)
         {
             HistoricalData.Add(newData);
-            HistoricalData = HistoricalData.Where(data => data.Timestamp >= DateTime.Now.AddHours(-8)).ToList();
+            HistoricalData = HistoricalData.Where(data => data.Timestamp >= _dateTimeMachine.Now.AddHours(-8)).ToList();
             NotifyStateChanged();
         }
 

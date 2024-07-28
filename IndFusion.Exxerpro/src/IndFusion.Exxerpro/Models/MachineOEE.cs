@@ -1,46 +1,42 @@
 ﻿namespace IndFusion.Exxerpro.Models
 {
-    public class MachineOee(string name)
+    public class MachineOee
     {
-        public string Name { get; set; } = name;
-        public double Oee { get; private set; }
-        public double Availability { get; private set; }
-        public double Performance { get; private set; }
-        public double Quality { get; private set; }
+        public MachineOee(string name, double capacity)
+        {
+            Name = name;
+            Capacity = capacity;
+        }
+
+        public MachineOee(string name) : this(name, 0)
+        {
+        }
+
+        public string Name { get; private set; }
+        public double Capacity { get; private set; } // in pieces per minute
+
         private double _defectiveRate;
         private int _producedPieces;
         private double _runningTime; // in minutes
         private double _stoppingTime; // in minutes
-        public double Capacity  { get; private set; }// in pieces per minute
+        private int _rejectedPieces;
 
         public double DefectiveRate
         {
-            get => _defectiveRate;
+            get => ProducedPieces > 0 ? (double)RejectedPieces / ProducedPieces : 0;
             private set => _defectiveRate = Math.Max(0, Math.Min(value, 1)); // between 0 and 1
         }
 
-        public int DefectivePieces
-        {
-            get
-            {
-                // Defensive programming and boundary checking
-                if (ProducedPieces < 0)
-                {
-                    throw new InvalidOperationException("Produced pieces cannot be negative.");
-                }
-
-                if (DefectiveRate < 0 || DefectiveRate > 1)
-                {
-                    throw new InvalidOperationException("Defective rate must be between 0 and 1.");
-                }
-
-                return (int)(ProducedPieces * DefectiveRate / (1 - DefectiveRate));
-            }
-        }
         public int ProducedPieces
         {
             get => _producedPieces;
             private set => _producedPieces = Math.Max(0, value);
+        }
+
+        public int RejectedPieces
+        {
+            get => _rejectedPieces;
+            private set => _rejectedPieces = Math.Max(0, value);
         }
 
         public double RunningTime
@@ -55,55 +51,41 @@
             private set => _stoppingTime = Math.Max(0, value); // non-negative
         }
 
-        public void SetInitialCondition(double oee, double availability, double performance, double quality, double defectiveRate, int producedPieces, double runningTime, double stoppingTime, double capacity)
+        public double Availability => RunningTime + StoppingTime > 0
+            ? EnsurePercentageRange((RunningTime / (RunningTime + StoppingTime)) * 100)
+            : 0;
+
+        public double Performance => Capacity > 0
+            ? EnsurePercentageRange((ProducedPieces / (RunningTime * Capacity)) * 100)
+            : 0;
+
+        public double Quality => ProducedPieces > 0
+            ? EnsurePercentageRange(((ProducedPieces - RejectedPieces) / (double)ProducedPieces) * 100)
+            : 0;
+
+        public double Oee => EnsurePercentageRange((Availability * Performance * Quality) / 10_000);
+
+        public void SetInitialCondition(int producedPieces, int rejectedPieces, double runningTime, double stoppingTime)
         {
-            Oee = oee;
-            Availability = availability;
-            Performance = performance;
-            Quality = quality;
-            DefectiveRate = defectiveRate;
             ProducedPieces = producedPieces;
+            RejectedPieces = rejectedPieces;
             RunningTime = runningTime;
             StoppingTime = stoppingTime;
-            Capacity = capacity;
         }
 
-        public void UpdateInfo(int producedPieces, double runningFactor, double defectiveRate, DateTime startTime, DateTime endTime)
+        public void UpdateInfo(int producedPieces, int rejectedPieces, double runningTime, double stoppingTime)
         {
-            ProducedPieces = producedPieces;
-            DefectiveRate = defectiveRate;
-            CalculateTime(startTime, endTime, runningFactor);
-            CalculateMetrics();
+            ProducedPieces += producedPieces;
+            RejectedPieces += rejectedPieces;
+            RunningTime += runningTime;
+            StoppingTime += stoppingTime;
         }
 
-        private void CalculateTime(DateTime startTime, DateTime endTime, double runningFactor)
-        {
-            var totalMinutes = (endTime - startTime).TotalMinutes;
-            RunningTime = totalMinutes * runningFactor;
-            StoppingTime = totalMinutes - RunningTime;
-        }
-
-        private void CalculateMetrics()
-        {
-            if (RunningTime + StoppingTime > 0)
-            {
-                Availability = EnsurePercentageRange((RunningTime / (RunningTime + StoppingTime)) * 100);
-            }
-            else
-            {
-                Availability = 0;
-            }
-
-            Performance = Capacity > 0 ? EnsurePercentageRange((ProducedPieces / (RunningTime * Capacity)) * 100) : 0;
-            Quality = ProducedPieces > 0 ? EnsurePercentageRange(((ProducedPieces * (1 - DefectiveRate)) / ProducedPieces) * 100) : 0;
-
-            Oee = (Availability * Performance * Quality) / 10_000;
-            Oee = EnsurePercentageRange(Oee);
-        }
         private double EnsurePercentageRange(double value)
         {
             return Math.Max(0, Math.Min(value, 100));
         }
+
         public override string ToString()
         {
             return $"MachineOee: {Name}\n" +
@@ -113,6 +95,7 @@
                    $"Quality: {Quality:F2}%\n" +
                    $"Defective Rate: {DefectiveRate:F2}\n" +
                    $"Produced Pieces: {ProducedPieces}\n" +
+                   $"Rejected Pieces: {RejectedPieces}\n" +
                    $"Running Time: {RunningTime:F2} minutes\n" +
                    $"Stopping Time: {StoppingTime:F2} minutes";
         }

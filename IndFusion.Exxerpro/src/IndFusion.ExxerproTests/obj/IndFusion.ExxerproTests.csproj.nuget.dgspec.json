@@ -67,9 +67,17 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+            "Microsoft.Extensions.TimeProvider.Testing": {
+              "target": "Package",
+              "version": "[8.7.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "coverlet.collector": {
               "target": "Package",

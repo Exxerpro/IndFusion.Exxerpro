@@ -289,3 +289,6 @@ D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.ExxerproTests\ob
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.ExxerproTests\obj\Debug\net8.0\IndFusion.ExxerproTests.pdb
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.ExxerproTests\obj\Debug\net8.0\IndFusion.ExxerproTests.genruntimeconfig.cache
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.ExxerproTests\obj\Debug\net8.0\ref\IndFusion.ExxerproTests.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.ExxerproTests\bin\Debug\net8.0\Castle.Core.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.ExxerproTests\bin\Debug\net8.0\Microsoft.Extensions.TimeProvider.Testing.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.ExxerproTests\bin\Debug\net8.0\NSubstitute.dll

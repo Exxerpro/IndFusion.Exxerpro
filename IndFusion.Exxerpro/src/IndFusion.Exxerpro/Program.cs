@@ -41,7 +41,9 @@ public static class Program
 
             // Add MudBlazor services
             builder.Services.AddMudServices();
-            
+
+            builder.Services.AddSingleton<IDateTimeMachine, DateTimeMachine>();
+
             builder.Services.AddOpenTelemetry()
                 .WithTracing(tracerProviderBuilder =>
                 {

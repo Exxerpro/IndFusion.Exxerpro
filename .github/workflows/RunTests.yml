@@ -1,7 +1,4 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy ASP.Net Core app to Azure Web App - IndFusionExxerpro
+name: Build and test - IndFusionExxerpro
 
 on:
   push:
@@ -10,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,46 +18,24 @@ jobs:
         with:
           dotnet-version: '8.x'
 
+      - name: Restore dependencies
+        run: dotnet restore IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj
+
       - name: Build with dotnet
         run: dotnet build --configuration Release IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj
 
-      - name: dotnet publish
-        run: dotnet publish IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj -c Release -o ${{ github.workspace }}/output
+      - name: Run tests and collect coverage
+        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" IndFusion.Exxerpro/src/IndFusion.ExxerproTests/IndFusion.ExxerproTests.csproj
 
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
-        with:
-          name: .net-app
-          path: ${{ github.workspace }}/output
+      - name: Install ReportGenerator
+        run: dotnet tool install --global dotnet-reportgenerator-globaltool
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    permissions:
-      id-token: write # This is required for requesting the JWT
+      - name: Convert coverage to lcov
+        run: reportgenerator -reports:IndFusion.Exxerpro/src/IndFusion.ExxerproTests/TestResults/**/coverage.cobertura.xml -targetdir:coverage -reporttypes:lcov
 
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v4
+      - name: Upload coverage to Coveralls
+        uses: coverallsapp/github-action@v2
         with:
-          name: .net-app
-          path: ${{ github.workspace }}/output # Define the path to download the artifact
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: coverage/lcov.info
 
-      
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_64E29B0FAFF044E4A37C21952F237034 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_2554734E5C664CBAB2761C572459381B }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5B8AEE58CA564806935FECE7CF8E49FC }}
-          
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'IndFusionExxerpro'
-          slot-name: 'Production'
-          package: ${{ github.workspace }}/output

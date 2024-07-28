@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerprotests\\models\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|solutionrelative:indfusion.exxerprotests\\models\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\models\\oeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\models\\oeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\worker\\indfusionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\worker\\indfusionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerprotests\\models\\oeestatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|solutionrelative:indfusion.exxerprotests\\models\\oeestatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 535,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\FileName.cs",
+              "RelativeDocumentMoniker": "IndFusion.ExxerproTests\\Models\\FileName.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\FileName.cs",
+              "RelativeToolTip": "IndFusion.ExxerproTests\\Models\\FileName.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:54:21.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OeeStateTests.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "RelativeDocumentMoniker": "IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "RelativeToolTip": "IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAywGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:52:56.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IndFusionWorker.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Worker\\IndFusionWorker.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Worker\\IndFusionWorker.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Worker\\IndFusionWorker.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Worker\\IndFusionWorker.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA0wBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:33:43.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OEEState.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\OEEState.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Models\\OEEState.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\OEEState.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Models\\OEEState.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAxwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:33:01.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashBoard.razor",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Pages\\DashBoard.razor",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Pages\\DashBoard.razor",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Pages\\DashBoard.razor",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Pages\\DashBoard.razor",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAqwHwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T17:23:55.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 using System.Security.Claims;
 using System.Text.Json;
+using IndFusion.Exxerpro.Components.Account.Pages;
+using IndFusion.Exxerpro.Components.Account.Pages.Manage;
+using IndFusion.Exxerpro.Data;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
-using IndFusion.Exxerpro.Components.Account.Pages;
-using IndFusion.Exxerpro.Components.Account.Pages.Manage;
-using IndFusion.Exxerpro.Data;
 
-namespace Microsoft.AspNetCore.Routing;
+namespace IndFusion.Exxerpro.Components.Account;
 
 internal static class IdentityComponentsEndpointRouteBuilderExtensions
 {

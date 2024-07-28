@@ -1,0 +1,41 @@
+﻿@page "/services"
+@using MudBlazor
+@using Microsoft.AspNetCore.Components
+@inject NavigationManager Navigation
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
+    <MudText Typo="Typo.h4" GutterBottom="true">Our Services</MudText>
+    <MudGrid>
+        <MudItem xs="12" md="6">
+            <MudNavLink Href="/optimization" Icon="@Icons.Material.Filled.ProductionQuantityLimits">
+                Optimization of Industrial Processes
+            </MudNavLink>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudNavLink Href="/automation" Icon="@Icons.Material.Filled.Rocket">
+                Automation and Control Systems
+            </MudNavLink>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudNavLink Href="/sustainable-energy" Icon="@Icons.Material.Filled.Engineering">
+                Sustainable Energy Solutions
+            </MudNavLink>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudNavLink Href="/artificial-vision" Icon="@Icons.Material.Filled.VideoCall">
+                Artificial Vision Systems
+            </MudNavLink>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudNavLink Href="/data-storage" Icon="@Icons.Material.Filled.Storage">
+                Data Storage and Reporting Systems
+            </MudNavLink>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+
+<style>
+    .mt-8 {
+        margin-top: 2rem;
+    }
+</style>

@@ -1,0 +1,34 @@
+﻿@page "/404"
+@using MudBlazor
+
+<MudContainer MaxWidth="MaxWidth.Medium" Class="mt-8 text-center">
+    <MudPaper Elevation="4" Class="p-4">
+        <MudText Typo="Typo.h3" GutterBottom="true">Page Not Found</MudText>
+        <MudText Typo="Typo.body1" Class="mb-4">
+            Oops! The page you are looking for doesn't exist. It might have been moved or deleted.
+        </MudText>
+        <MudIcon Icon="@Icons.Material.Filled.ErrorOutline" Size="Size.Large" Class="mb-4" Color="Color.Error"/>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="GoHome">Go to Homepage</MudButton>
+    </MudPaper>
+</MudContainer>
+
+<style>
+    .mt-8 {
+        margin-top: 2rem;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .mb-4 {
+        margin-bottom: 1rem;
+    }
+</style>
+
+@code {
+    [Inject] NavigationManager Navigation { get; set ;}
+
+    private void GoHome()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

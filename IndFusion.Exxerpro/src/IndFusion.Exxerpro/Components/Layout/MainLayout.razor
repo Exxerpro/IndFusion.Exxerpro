@@ -6,33 +6,60 @@
 <MudSnackbarProvider />
 <MudLayout>
     <MudAppBar Elevation="1">
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="DrawerToggle" />
         <a href="https://www.exxerpro.com" target="_blank">
             <img src="img/exxerpro.png" alt="Exxerpro Logo" class="ml-3 app-logo" />
         </a>
         <MudSpacer />
-        <MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
-        @if(_isDarkMode)
-        {
-            <MudIconButton Icon="@Icons.Material.Filled.LightMode" Color="Color.Inherit" Edge="Edge.End" OnClick="@((e) => DarkToggle())" />
-        }
-        else
-        {
-            <MudIconButton Icon="@Icons.Material.Filled.DarkMode" Color="Color.Inherit" Edge="Edge.End" OnClick="@((e) => DarkToggle())"  />
-        }
-        
-      
-        
-        @if(_menuOpen)
-        {
-            <MudIconButton Icon="@Icons.Material.Filled.Close" Color="Color.Inherit" OnClick="@((e) => MenuToggle())" Edge="Edge.End" />
-        }
-        else
-        {
-            <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" OnClick="@((e) => MenuToggle())" Edge="Edge.End" />
-        }
-       
+        <MudIconButton Icon="@Icons.Material.Filled.DataExploration" Color="Color.Inherit" Edge="Edge.Start" />
+        <a href="/Oee" target="_blank">
+            <img src="img/OEE.png" alt="Data" class="ml-3 data-logo" />
+        </a>
+        <MudSpacer />
+        <MudThemeProvider @bind-IsDarkMode="_isDarkMode" Theme="_theme" />
+        @if (_menuOpen)
 
+        {
+            <MudBreadcrumbs Items="_items" Separator=">" />
+        }
+        <MudSpacer />
+        <MudThemeProvider @bind-IsDarkMode="_isDarkMode" Theme="_theme" />
+        @if (_isDarkMode)
+
+        {
+            <MudIconButton Icon="@Icons.Material.Filled.LightMode" Color="Color.Inherit" Edge="Edge.End" OnClick="DarkToggle" />
+        }
+
+        else
+
+        {
+            <MudIconButton Icon="@Icons.Material.Filled.DarkMode" Color="Color.Inherit" Edge="Edge.End" OnClick="DarkToggle" />
+        }
+        @if (_menuOpen)
+
+        {
+            <MudIconButton Icon="@Icons.Material.Filled.Close" Color="Color.Inherit" OnClick="MenuToggle" Edge="Edge.End" />
+        }
+
+        else
+
+        {
+            <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" OnClick="MenuToggle" Edge="Edge.End" />
+        }
+
+        <MudIconButton Icon="@Icons.Material.Filled.Language" Color="Color.Inherit" OnClick="MenuLanguage" Edge="Edge.End" />
+
+        @if (_login)
+
+        {
+            <MudIconButton Icon="@Icons.Material.Filled.Login" Color="Color.Inherit" OnClick="MenuLogIn" Edge="Edge.End" />
+        }
+
+        else
+
+        {
+            <MudIconButton Icon="@Icons.Material.Filled.Logout" Color="Color.Inherit" OnClick="MenuLogIn" Edge="Edge.End" />
+        }
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu />
@@ -42,15 +69,33 @@
     </MudMainContent>
 </MudLayout>
 
-
 <div id="blazor-error-ui">
     An unhandled error has occurred.
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
 </div>
 
+<style>
+    .data-logo {
+        width: 120px;
+        height: auto;
+    }
+</style>
 
 @code {
+    private List<BreadcrumbItem> _items = new()
+    {
+        new BreadcrumbItem("Home", href: "/"),
+        new BreadcrumbItem("Services", href: "/services"),
+        new BreadcrumbItem("Optimization", href: "/optimization"),
+        new BreadcrumbItem("Automation", href: "/automation"),
+        new BreadcrumbItem("Sustainability", href: "/sustainable-energy"),
+        new BreadcrumbItem("Vision", href: "/artificial-vision"),
+        new BreadcrumbItem("Data", href: "/data-storage")
+    };
+
+
+
     private MudTheme _theme = new();
 
     private bool _isDarkMode = true;
@@ -59,24 +104,57 @@
 
     private bool _menuOpen = true;
 
+    private bool _login = false;
+
+    private bool _menuLanguage = false;
+
+
+
     private void DrawerToggle()
+
     {
+
         _drawerOpen = !_drawerOpen;
+
     }
 
+
+
+    private void MenuLanguage()
+
+    {
+
+        _menuLanguage = !_menuLanguage;
+
+    }
+
+
+
     private void MenuToggle()
+
     {
 
         _menuOpen = !_menuOpen;
 
     }
+
+
+
     private void DarkToggle()
 
     {
+
         _isDarkMode = !_isDarkMode;
-        
+
     }
 
+
+
+    private void MenuLogIn()
+
+    {
+
+        _login = !_login;
+
+    }
 }
-
-

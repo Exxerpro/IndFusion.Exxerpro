@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerprotests\\models\\oeestatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|solutionrelative:indfusion.exxerprotests\\models\\oeestatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerprotests\\models\\skewedrandomgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|solutionrelative:indfusion.exxerprotests\\models\\skewedrandomgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\models\\oeedataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\models\\oeedataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerprotests\\models\\performanceregistertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3569BAA9-CB1C-4E18-850E-EBBACC4D3E51}|IndFusion.ExxerproTests\\IndFusion.ExxerproTests.csproj|solutionrelative:indfusion.exxerprotests\\models\\performanceregistertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\models\\oeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\models\\oeestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9155574E-D179-4AE2-9426-05A7814DB99E}|plot\\plot.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\plot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9155574E-D179-4AE2-9426-05A7814DB99E}|plot\\plot.csproj|solutionrelative:plot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\models\\machineoeeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\models\\machineoeeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 535,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OeeStateTests.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "RelativeDocumentMoniker": "IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "RelativeToolTip": "IndFusion.ExxerproTests\\Models\\OeeStateTests.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwDQAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:37:59.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SkewedRandomGeneratorTests.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\SkewedRandomGeneratorTests.cs",
+              "RelativeDocumentMoniker": "IndFusion.ExxerproTests\\Models\\SkewedRandomGeneratorTests.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\SkewedRandomGeneratorTests.cs",
+              "RelativeToolTip": "IndFusion.ExxerproTests\\Models\\SkewedRandomGeneratorTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:37:58.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PerformanceRegisterTests.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\PerformanceRegisterTests.cs",
+              "RelativeDocumentMoniker": "IndFusion.ExxerproTests\\Models\\PerformanceRegisterTests.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.ExxerproTests\\Models\\PerformanceRegisterTests.cs",
+              "RelativeToolTip": "IndFusion.ExxerproTests\\Models\\PerformanceRegisterTests.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAMBBwIYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:37:32.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OeeDataExtensions.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\OeeDataExtensions.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Models\\OeeDataExtensions.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\OeeDataExtensions.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Models\\OeeDataExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:34:29.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MachineOEEExtensions.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\MachineOEEExtensions.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Models\\MachineOEEExtensions.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\MachineOEEExtensions.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Models\\MachineOEEExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:34:24.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OeeState.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\OeeState.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Models\\OeeState.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Models\\OeeState.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Models\\OeeState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:33:45.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\Program.cs",
+              "RelativeDocumentMoniker": "plot\\Program.cs",
+              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\Program.cs",
+              "RelativeToolTip": "plot\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAIA2wCwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:33:27.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

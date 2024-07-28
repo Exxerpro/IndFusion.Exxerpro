@@ -1,0 +1,91 @@
+2024-07-28 09:39:40.042 -06:00 [INF] Starting up the application
+2024-07-28 09:39:44.205 -06:00 [INF] Starting up the application
+2024-07-28 09:58:53.170 -06:00 [INF] Starting up the application
+2024-07-28 09:58:53.752 -06:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: IndFusion.Exxerpro.Models.OeeState Lifetime: Singleton ImplementationType: IndFusion.Exxerpro.Models.OeeState': Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.) (Error while validating the service descriptor 'ServiceType: IndFusion.Exxerpro.Worker.IndFusionWorker Lifetime: Singleton ImplementationType: IndFusion.Exxerpro.Worker.IndFusionWorker': Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.) (Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: IndFusion.Exxerpro.Worker.IndFusionWorker': Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: IndFusion.Exxerpro.Models.OeeState Lifetime: Singleton ImplementationType: IndFusion.Exxerpro.Models.OeeState': Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at IndFusion.Exxerpro.Program.Main(String[] args) in D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\Program.cs:line 90
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: IndFusion.Exxerpro.Worker.IndFusionWorker Lifetime: Singleton ImplementationType: IndFusion.Exxerpro.Worker.IndFusionWorker': Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Microsoft.Extensions.Hosting.IHostedService Lifetime: Singleton ImplementationType: IndFusion.Exxerpro.Worker.IndFusionWorker': Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'IndFusion.Exxerpro.Models.IDateTimeMachine' while attempting to activate 'IndFusion.Exxerpro.Models.OeeState'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2024-07-28 10:00:36.258 -06:00 [INF] Starting up the application
+2024-07-28 10:00:37.327 -06:00 [INF] Starting up the application
+2024-07-28 10:03:37.695 -06:00 [INF] Starting up the application
+2024-07-28 10:03:38.811 -06:00 [INF] Starting up the application
+2024-07-28 10:03:58.778 -06:00 [INF] Starting up the application
+2024-07-28 10:03:59.979 -06:00 [INF] Starting up the application
+2024-07-28 10:06:47.636 -06:00 [INF] Starting up the application
+2024-07-28 10:06:49.238 -06:00 [INF] Starting up the application
+2024-07-28 10:13:33.978 -06:00 [INF] Starting up the application
+2024-07-28 10:13:35.013 -06:00 [INF] Starting up the application
+2024-07-28 10:14:26.175 -06:00 [INF] Starting up the application
+2024-07-28 10:14:27.355 -06:00 [INF] Starting up the application
+2024-07-28 10:14:38.324 -06:00 [INF] Starting up the application
+2024-07-28 10:14:39.462 -06:00 [INF] Starting up the application
+2024-07-28 10:39:13.296 -06:00 [INF] Starting up the application
+2024-07-28 10:39:14.417 -06:00 [INF] Starting up the application
+2024-07-28 11:20:43.989 -06:00 [INF] Starting up the application
+2024-07-28 11:20:45.044 -06:00 [INF] Starting up the application
+2024-07-28 11:26:38.312 -06:00 [INF] Starting up the application
+2024-07-28 11:26:39.346 -06:00 [INF] Starting up the application
+2024-07-28 11:29:53.800 -06:00 [INF] Starting up the application
+2024-07-28 11:29:55.448 -06:00 [INF] Starting up the application
+2024-07-28 11:31:32.048 -06:00 [INF] Starting up the application
+2024-07-28 11:31:33.093 -06:00 [INF] Starting up the application
+2024-07-28 11:38:33.062 -06:00 [INF] Starting up the application
+2024-07-28 11:38:34.212 -06:00 [INF] Starting up the application
+2024-07-28 11:41:09.974 -06:00 [INF] Starting up the application
+2024-07-28 11:41:11.757 -06:00 [INF] Starting up the application
+2024-07-28 11:43:50.695 -06:00 [INF] Starting up the application
+2024-07-28 11:43:51.819 -06:00 [INF] Starting up the application
+2024-07-28 11:48:12.934 -06:00 [INF] Starting up the application
+2024-07-28 11:48:14.016 -06:00 [INF] Starting up the application
+2024-07-28 11:51:32.659 -06:00 [INF] Starting up the application
+2024-07-28 11:51:33.693 -06:00 [INF] Starting up the application
+2024-07-28 11:58:05.236 -06:00 [INF] Starting up the application
+2024-07-28 11:58:06.338 -06:00 [INF] Starting up the application
+2024-07-28 14:27:32.197 -06:00 [INF] Starting up the application
+2024-07-28 14:27:33.498 -06:00 [INF] Starting up the application

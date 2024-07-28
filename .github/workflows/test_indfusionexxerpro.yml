@@ -1,0 +1,41 @@
+name: Run Tests and Report Coverage
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+
+      - name: Restore dependencies
+        run: dotnet restore IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj
+
+      - name: Build with dotnet
+        run: dotnet build --configuration Release IndFusion.Exxerpro/src/IndFusion.Exxerpro/IndFusion.Exxerpro.csproj
+
+      - name: Run tests and collect coverage
+        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage" IndFusion.Exxerpro/src/IndFusion.Exxerpro.Tests/IndFusion.Exxerpro.Tests.csproj
+
+      - name: Convert coverage to lcov
+        run: |
+          reportgenerator -reports:./**/coverage.cobertura.xml -targetdir:./coverage -reporttypes:lcov
+
+      - name: Upload coverage to Coveralls
+        uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: ./coverage/lcov.info
+          parallel: true

@@ -5,21 +5,10 @@ D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-wind
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\plot.pdb
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\HarfBuzzSharp.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\OxyPlot.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\OxyPlot.Pdf.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\OxyPlot.SkiaSharp.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\OxyPlot.WindowsForms.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\MigraDoc.DocumentObjectModel-gdi.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\MigraDoc.Rendering-gdi.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\MigraDoc.RtfRendering-gdi.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\PdfSharp-gdi.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\PdfSharp.Charting-gdi.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\SkiaSharp.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\SkiaSharp.HarfBuzz.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\de\MigraDoc.DocumentObjectModel-gdi.resources.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\de\MigraDoc.Rendering-gdi.resources.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\de\MigraDoc.RtfRendering-gdi.resources.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\de\PdfSharp-gdi.resources.dll
-D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\de\PdfSharp.Charting-gdi.resources.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\runtimes\tizen-armel\native\libHarfBuzzSharp.so
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\runtimes\tizen-x86\native\libHarfBuzzSharp.so
@@ -191,3 +180,4 @@ D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-wind
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\IndFusion.Exxerpro.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\IndFusion.Exxerpro.pdb
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\plot\bin\Debug\net9.0-windows\Microsoft.Extensions.TimeProvider.Testing.dll

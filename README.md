@@ -2,6 +2,8 @@
 
 ![Exxerpro Logo](exxerpro.png)
 
+https://indfusionexxerpro.azurewebsites.net
+https://indfusionexxerpro.azurewebsites.net/Oee
 
 [![Build Status](https://github.com/user/repo/actions/workflows/build.yml/badge.svg)](https://github.com/user/repo/actions/workflows/build.yml)
 [![Coverage Status](https://coveralls.io/repos/github/user/repo/badge.svg?branch=main)](https://coveralls.io/github/user/repo?branch=main)

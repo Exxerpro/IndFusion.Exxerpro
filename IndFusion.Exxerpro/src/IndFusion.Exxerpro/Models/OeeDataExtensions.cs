@@ -1,37 +1,44 @@
-﻿namespace IndFusion.Exxerpro.Models;
+﻿using System.Globalization;
+using System.Text;
+
+namespace IndFusion.Exxerpro.Models;
 
 public static class OeeDataExtensions
 {
-    //public static void ExportToCsv(this List<PerformanceData> data, string filePath)
-    //{
-    //    var csv = new StringBuilder();
+    public static void ExportHistoricalDataToCsv(this OeeState oeeState, string filePath)
+    {
+        var csv = new StringBuilder();
 
-    //    // Add header row
-    //    csv.AppendLine("Timestamp,MachineName,Availability,Capacity,DefectiveRate,OEE,Performance,ProducedPieces,Quality,RejectedPieces,RunningTime,StoppingTime");
+        // Add header row
+        csv.AppendLine("StartTime,EndTime,MachineName,Availability,Capacity,DefectiveRate,OEE,Performance,ProducedPieces,Quality,RejectedPieces,RunningTime,StoppingTime");
 
-    //    foreach (var oeeData in data)
-    //    {
-    //        foreach (var machine in oeeData.Machines)
-    //        {
-    //            var line = string.Format(CultureInfo.InvariantCulture,
-    //                "{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11}",
-    //                oeeData.Timestamp,
-    //                machine.Name,
-    //                machine.Availability,
-    //                machine.Capacity,
-    //                machine.DefectiveRate,
-    //                machine.Oee,
-    //                machine.Performance,
-    //                machine.ProducedPieces,
-    //                machine.Quality,
-    //                machine.RejectedPieces,
-    //                machine.RunningTime,
-    //                machine.StoppingTime);
 
-    //            csv.AppendLine(line);
-    //        }
-    //    }
+        foreach (var (machine, data) in oeeState.Machines)
+        {
+            foreach (var productionData in data.HistoricData)
+            {
+                var line = string.Format(CultureInfo.InvariantCulture,
+                    "{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12}",
+                    productionData.StartTime,
+                    productionData.EndTime,
+                    machine,
+                    data.Indicator.Availability,
+                    data.Capacity,
+                    productionData.RejectedPieces / (productionData.ProducedPieces > 0 ? productionData.ProducedPieces : 1), // DefectiveRate
+                    data.Indicator.Oee,
+                    data.Indicator.Performance,
+                    productionData.ProducedPieces,
+                    data.Indicator.Quality,
+                    productionData.RejectedPieces,
+                    productionData.RunningTime,
+                    productionData.StoppingTime);
 
-    //    File.WriteAllText(filePath, csv.ToString());
-    //}
+                csv.AppendLine(line);
+            }
+        }
+
+
+
+        File.WriteAllText(filePath, csv.ToString());
+    }
 }

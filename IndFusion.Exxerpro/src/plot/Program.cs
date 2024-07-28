@@ -2,10 +2,8 @@
 using OxyPlot;
 using OxyPlot.Axes;
 using OxyPlot.Series;
-using PdfExporter = OxyPlot.SkiaSharp.PdfExporter; // Alias for PdfExporter
-
 using static System.IO.FileMode;
-using Microsoft.Extensions.Time.Testing;
+using PdfExporter = OxyPlot.SkiaSharp.PdfExporter; // Alias for PdfExporter
 
 namespace plot;
 
@@ -47,7 +45,7 @@ public class Program
         var oeeState = new OeeState(dateTimeMachine);
 
         // Generate some data (if not already generated)
-        oeeState.GenerateInitialDataPoints();
+        oeeState.GeneratePastData();
 
         // Export to CSV
         oeeState.ExportHistoricalDataToCsv("historical_data.csv");
@@ -76,7 +74,7 @@ public class Program
 
         var maxY = Math.Max(1, samples.Max());
 
-        var yAxis = new CategoryAxis 
+        var yAxis = new CategoryAxis
         {
             Position = AxisPosition.Left,
             Minimum = 0,
@@ -119,7 +117,7 @@ public class Program
         // Configure the y-axis to be fixed between 0 and 1
         // Calculate the maximum value of the sample for y-axis
 
-        var maxY =Math.Max(1,  samples.Max());
+        var maxY = Math.Max(1, samples.Max());
 
         var yAxis = new LinearAxis
         {

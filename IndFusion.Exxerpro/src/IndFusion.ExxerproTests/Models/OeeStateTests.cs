@@ -31,66 +31,13 @@ public class OeeStateTests
         var oeeState = new OeeState(_dateTimeMachine);
 
         // Assert
-        oeeState.HistoricalData.Should().NotBeEmpty();
-        oeeState.HistoricalData.First().Timestamp.Should().BeCloseTo(initialTime.AddHours(-8).DateTime, TimeSpan.FromMinutes(1));
+        oeeState.Machines.Should().NotBeEmpty();
+        oeeState.Machines.Values.First().HistoricData.First().StartTime.Should().BeCloseTo(initialTime.AddHours(-8).DateTime, TimeSpan.FromMinutes(1));
     }
 
-    [Fact]
-    public void OeeState_ShouldAddNewData()
-    {
-        // Arrange
-        var initialTime = DateTimeOffset.Now;
-        _fakeTimeProvider.SetUtcNow(initialTime);
-        var newData = new OeeData
-        {
-            Timestamp = initialTime.DateTime,
-            Machines = new List<PerformanceRegister>()
-        };
 
-        // Act
-        _oeeState.UpdateData(newData);
 
-        // Assert
-        _oeeState.HistoricalData.Should().ContainSingle(data => data.Timestamp == initialTime.DateTime);
-    }
 
-    [Fact]
-    public void OeeState_ShouldGenerateNewDataPoint()
-    {
-        // Arrange
-        var initialTime = DateTimeOffset.Now;
-        _fakeTimeProvider.SetUtcNow(initialTime);
-
-        // Act
-        var newDataPoint = _oeeState.GenerateNewDataPoint(initialTime.DateTime);
-
-        // Assert
-        newDataPoint.Should().NotBeNull();
-        newDataPoint.Timestamp.Should().Be(initialTime.DateTime);
-        newDataPoint.Machines.Should().NotBeEmpty();
-    }
-
-    [Fact]
-    public void OeeState_ShouldNotifyOnDataChange()
-    {
-        // Arrange
-        bool wasNotified = false;
-        _oeeState.OnChange += () => wasNotified = true;
-
-        var initialTime = DateTimeOffset.Now;
-        _fakeTimeProvider.SetUtcNow(initialTime);
-        var newData = new OeeData
-        {
-            Timestamp = initialTime.DateTime,
-            Machines = new List<PerformanceRegister>()
-        };
-
-        // Act
-        _oeeState.UpdateData(newData);
-
-        // Assert
-        wasNotified.Should().BeTrue();
-    }
 
     [Fact]
     public void OeeState_ShouldGenerateInitialDataPoints()
@@ -103,7 +50,7 @@ public class OeeStateTests
         var oeeState = new OeeState(_dateTimeMachine);
 
         // Assert
-        oeeState.HistoricalData.Should().HaveCountGreaterThan(0);
-        oeeState.HistoricalData.First().Timestamp.Should().BeCloseTo(initialTime.AddHours(-8).DateTime, TimeSpan.FromMinutes(5));
+        oeeState.Machines["Power Puncher"].HistoricData.Should().HaveCountGreaterThan(0);
+        oeeState.Machines["Power Puncher"].HistoricData.First().StartTime.Should().BeCloseTo(initialTime.AddHours(-8).DateTime, TimeSpan.FromMinutes(5));
     }
 }

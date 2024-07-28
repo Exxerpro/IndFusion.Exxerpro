@@ -2,13 +2,17 @@
 
 ![Exxerpro Logo](exxerpro.png)
 
+
 https://indfusionexxerpro.azurewebsites.net
+
 https://indfusionexxerpro.azurewebsites.net/Oee
 
-[![Build Status](https://github.com/user/repo/actions/workflows/build.yml/badge.svg)](https://github.com/user/repo/actions/workflows/build.yml)
-[![Coverage Status](https://coveralls.io/repos/github/user/repo/badge.svg?branch=main)](https://coveralls.io/github/user/repo?branch=main)
-[![Dependency Status](https://david-dm.org/user/repo.svg)](https://david-dm.org/user/repo)
+[![Build Status](https://github.com/Exxerpro/IndFusion.Exxerpro/actions/workflows/build.yml/badge.svg)](https://github.com/Exxerpro/IndFusion.Exxerpro/actions/workflows/build.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Exxerpro/IndFusion.Exxerpro/badge.svg?branch=main)](https://coveralls.io/github/Exxerpro/IndFusion.Exxerpro?branch=main)
+[![Dependency Status](https://david-dm.org/Exxerpro/IndFusion.Exxerpro.svg)](https://david-dm.org/Exxerpro/IndFusion.Exxerpro)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 
 
 

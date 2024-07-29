@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrap.js",
+      "PackagePath": "staticwebassets\\blazorstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrap.min.js",
+      "PackagePath": "staticwebassets\\blazorstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrapinterop.js",
+      "PackagePath": "staticwebassets\\blazorstrapinterop.js"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\popper.min.js",
+      "PackagePath": "staticwebassets\\popper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IndFusion.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IndFusion.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IndFusion.UI.props",
+      "PackagePath": "build\\IndFusion.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IndFusion.UI.props",
+      "PackagePath": "buildMultiTargeting\\IndFusion.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IndFusion.UI.props",
+      "PackagePath": "buildTransitive\\IndFusion.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

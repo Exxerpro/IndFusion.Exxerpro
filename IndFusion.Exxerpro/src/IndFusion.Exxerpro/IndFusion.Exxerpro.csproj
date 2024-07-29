@@ -37,6 +37,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IndFusion.Exxerpro.Domain\IndFusion.Exxerpro.Domain.csproj" />
+    <ProjectReference Include="..\Presentation\Exxerpro.Components\IndFusion.UI.csproj" />
   </ItemGroup>
 
 

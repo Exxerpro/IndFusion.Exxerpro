@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndFusion.Exxerpro.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dc2aac567b5e4b2400cdb271f32366cc96708f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b69b58d0099a326b86244c3066749fa1664ad7cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndFusion.Exxerpro.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndFusion.Exxerpro.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

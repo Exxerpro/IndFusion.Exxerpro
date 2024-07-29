@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IndFusion.Exxerpro.bundle.scp.css",
-      "PackagePath": "staticwebassets\\IndFusion.Exxerpro.bundle.scp.css"
-    },
-    {
       "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

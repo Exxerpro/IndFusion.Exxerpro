@@ -1,20 +1,15 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E009C17F-B9BF-4FF5-A111-2B137B2947B1}|Presentation\\IndFusion.Components\\IndFusion.Components.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\presentation\\indfusion.components\\shared\\components\\common\\bscardbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E009C17F-B9BF-4FF5-A111-2B137B2947B1}|Presentation\\IndFusion.Components\\IndFusion.Components.csproj|solutionrelative:presentation\\indfusion.components\\shared\\components\\common\\bscardbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 535,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 557,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,19 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BSCardBase.cs",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\IndFusion.Components\\Shared\\Components\\Common\\BSCardBase.cs",
-              "RelativeDocumentMoniker": "Presentation\\IndFusion.Components\\Shared\\Components\\Common\\BSCardBase.cs",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\IndFusion.Components\\Shared\\Components\\Common\\BSCardBase.cs*",
-              "RelativeToolTip": "Presentation\\IndFusion.Components\\Shared\\Components\\Common\\BSCardBase.cs*",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAwDEAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T23:54:11.832Z",
-              "EditorCaption": ""
             }
           ]
         }

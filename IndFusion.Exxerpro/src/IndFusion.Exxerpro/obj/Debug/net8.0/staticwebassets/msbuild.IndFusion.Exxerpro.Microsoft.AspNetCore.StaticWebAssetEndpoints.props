@@ -282,12 +282,6 @@
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1715967"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022k6WUFDwDlQJWRQ3mNr9P9KwH23OB/DU8f\u002BHziXbdYEc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 28 Jul 2024 18:42:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/IndFusion.Exxerpro.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\IndFusion.Exxerpro.bundle.scp.css))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1175"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Rl892LSSYfbP2iZBlHIotdzAhvjWnreyknCtFsaS7/0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 28 Jul 2024 18:42:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/particles.js">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\particles.js))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

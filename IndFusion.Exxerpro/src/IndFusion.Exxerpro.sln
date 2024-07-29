@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndFusion.Components", "Presentation\IndFusion.Components\IndFusion.Components.csproj", "{E009C17F-B9BF-4FF5-A111-2B137B2947B1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndFusion.UI", "Presentation\Exxerpro.Components\IndFusion.UI.csproj", "{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,12 +43,17 @@ Global
 		{E009C17F-B9BF-4FF5-A111-2B137B2947B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E009C17F-B9BF-4FF5-A111-2B137B2947B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E009C17F-B9BF-4FF5-A111-2B137B2947B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E009C17F-B9BF-4FF5-A111-2B137B2947B1} = {3503FC2E-7F95-4CBF-AE82-C7B9F6811145}
+		{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070} = {3503FC2E-7F95-4CBF-AE82-C7B9F6811145}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C721957-9E7E-4463-B42C-DC4B96C4CCA8}

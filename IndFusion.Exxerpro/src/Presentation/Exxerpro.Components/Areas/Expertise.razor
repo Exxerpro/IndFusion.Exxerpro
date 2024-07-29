@@ -1,0 +1,58 @@
+﻿@page "/expertise"
+@using MudBlazor
+
+<MudContainer MaxWidth="MaxWidth.Medium">
+    <!-- Section Header -->
+    <MudText Typo="Typo.h3" Align="Align.Center">Our Expertise</MudText>
+    <MudText Typo="Typo.subtitle1" Align="Align.Center" GutterBottom>
+        At Exxerpro Solutions, we leverage advanced technologies and methodologies to optimize industrial processes. Explore our key areas of expertise below.
+    </MudText>
+
+    <!-- Expertise Cards -->
+    <MudGrid Container Spacing="3" Justify="Justify.Center">
+        <MudItem xs="12" sm="6">
+            <MudCard Style="background-image: url('/images/process_automation.jpg'); background-size: cover;">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5">Process Automation</MudText>
+                    <MudText Typo="Typo.body2">Streamline and automate your industrial processes to enhance efficiency and reduce manual intervention.</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6">
+            <MudCard Style="background-image: url('/images/data_analytics.jpg'); background-size: cover;">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5">Data Analytics</MudText>
+                    <MudText Typo="Typo.body2">Leverage data-driven insights to make informed decisions and optimize operational performance.</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6">
+            <MudCard Style="background-image: url('/images/predictive_maintenance.jpg'); background-size: cover;">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5">Predictive Maintenance</MudText>
+                    <MudText Typo="Typo.body2">Utilize predictive analytics to anticipate and address equipment issues before they occur.</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6">
+            <MudCard Style="background-image: url('/images/quality_control.jpg'); background-size: cover;">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5">Quality Control</MudText>
+                    <MudText Typo="Typo.body2">Implement rigorous quality control processes to ensure product consistency and customer satisfaction.</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6">
+            <MudCard Style="background-image: url('/images/energy_management.jpg'); background-size: cover;">
+                <MudCardContent>
+                    <MudText Typo="Typo.h5">Energy Management</MudText>
+                    <MudText Typo="Typo.body2">Optimize energy consumption to reduce costs and enhance sustainability.</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+</MudContainer>

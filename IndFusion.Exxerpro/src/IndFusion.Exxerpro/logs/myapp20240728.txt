@@ -103,3 +103,7 @@ System.AggregateException: Some services are not able to be constructed (Error w
 2024-07-28 16:18:29.198 -06:00 [INF] Starting up the application
 2024-07-28 17:23:46.676 -06:00 [INF] Starting up the application
 2024-07-28 17:23:48.150 -06:00 [INF] Starting up the application
+2024-07-28 18:20:06.204 -06:00 [INF] Starting up the application
+2024-07-28 18:20:07.775 -06:00 [INF] Starting up the application
+2024-07-28 18:20:41.872 -06:00 [INF] Starting up the application
+2024-07-28 18:20:43.132 -06:00 [INF] Starting up the application

@@ -2,7 +2,7 @@
 @page "/oee"
 @using System.ComponentModel
 @using IndFusion.Exxerpro.Data
-@using IndFusion.Exxerpro.Models
+@using IndFusion.Exxerpro.Domain.Models;
 @using IndFusion.Exxerpro.Worker
 @using MudBlazor
 @using Microsoft.AspNetCore.Components.Web
@@ -64,8 +64,11 @@
                     <MudText Typo="Typo.body2" Color=Color.Success>Produced Pieces: @(_machine.ProductionData.ProducedPieces.ToString("F2"))</MudText>
                 <MudText Typo="Typo.body2" Color=Color.Success>Rejected Pieces: @(_machine.ProductionData.RejectedPieces.ToString("F2"))</MudText>
                 <MudText Typo="Typo.body2" Color=Color.Success>Running Time: @(_machine.ProductionData.RunningTime.ToString("F2"))</MudText>
-                <MudText Typo="Typo.body2" Color=Color.Success>Stopping Time: @(_machine.ProductionData.StoppingTime.ToString("F2"))</MudText>
-                    <MudChart ChartType="ChartType.Line" ChartSeries="@Series" @bind-SelectedIndex="_index" XAxisLabels="@XAxisLabels" Width="100%" Height="350px" ChartOptions="@Options"/>
+                    <MudText Typo="Typo.body2" Color=Color.Success>Stopping Time: @(_machine.ProductionData.StoppingTime.ToString("F2"))</MudText>
+
+                <MudChart ChartType="ChartType.Line" ChartSeries="@Series" @bind-SelectedIndex="_index" XAxisLabels="@XAxisLabels" Width="100%" Height="350px" ChartOptions="@Options" CanHideSeries />
+                    
+
                 </MudCardContent>
             <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(e => ToggleOverlay(_machine))">Close</MudButton>
             </MudCard>
@@ -119,6 +122,10 @@
 
     private void UpdateChartData(PerformanceData machine)
     {
+        Options.YAxisRequireZeroPoint = true;
+        Options.YAxisTicks = 20;
+
+
         Series.Clear();
         if (_machine == null) return;
 

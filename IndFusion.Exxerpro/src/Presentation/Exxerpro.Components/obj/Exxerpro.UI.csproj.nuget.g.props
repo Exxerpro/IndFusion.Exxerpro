@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\hebel\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\hebel\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nextended.blazor\7.0.38\buildMultiTargeting\Nextended.Blazor.props" Condition="Exists('$(NuGetPackageRoot)nextended.blazor\7.0.38\buildMultiTargeting\Nextended.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\7.4.0\buildMultiTargeting\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\7.4.0\buildMultiTargeting\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor.thememanager\2.0.0\buildMultiTargeting\MudBlazor.ThemeManager.props" Condition="Exists('$(NuGetPackageRoot)mudblazor.thememanager\2.0.0\buildMultiTargeting\MudBlazor.ThemeManager.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor.markdown\1.0.2\buildMultiTargeting\MudBlazor.Markdown.props" Condition="Exists('$(NuGetPackageRoot)mudblazor.markdown\1.0.2\buildMultiTargeting\MudBlazor.Markdown.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorjs\2.1.6\buildMultiTargeting\BlazorJS.props" Condition="Exists('$(NuGetPackageRoot)blazorjs\2.1.6\buildMultiTargeting\BlazorJS.props')" />
+    <Import Project="$(NuGetPackageRoot)auralizeblazor\1.0.2\buildMultiTargeting\AuralizeBlazor.props" Condition="Exists('$(NuGetPackageRoot)auralizeblazor\1.0.2\buildMultiTargeting\AuralizeBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor.extensions\2.0.2\buildMultiTargeting\MudBlazor.Extensions.props" Condition="Exists('$(NuGetPackageRoot)mudblazor.extensions\2.0.2\buildMultiTargeting\MudBlazor.Extensions.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net8.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nextended.blazor\7.0.38\buildTransitive\Nextended.Blazor.props" Condition="Exists('$(NuGetPackageRoot)nextended.blazor\7.0.38\buildTransitive\Nextended.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\7.4.0\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\7.4.0\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor.thememanager\2.0.0\buildTransitive\MudBlazor.ThemeManager.props" Condition="Exists('$(NuGetPackageRoot)mudblazor.thememanager\2.0.0\buildTransitive\MudBlazor.ThemeManager.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor.markdown\1.0.2\buildTransitive\MudBlazor.Markdown.props" Condition="Exists('$(NuGetPackageRoot)mudblazor.markdown\1.0.2\buildTransitive\MudBlazor.Markdown.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorjs\2.1.6\buildTransitive\BlazorJS.props" Condition="Exists('$(NuGetPackageRoot)blazorjs\2.1.6\buildTransitive\BlazorJS.props')" />
+    <Import Project="$(NuGetPackageRoot)auralizeblazor\1.0.2\buildTransitive\AuralizeBlazor.props" Condition="Exists('$(NuGetPackageRoot)auralizeblazor\1.0.2\buildTransitive\AuralizeBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor.extensions\2.0.2\buildTransitive\MudBlazor.Extensions.props" Condition="Exists('$(NuGetPackageRoot)mudblazor.extensions\2.0.2\buildTransitive\MudBlazor.Extensions.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net8.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBuildBundlerMinifier Condition=" '$(PkgBuildBundlerMinifier)' == '' ">C:\Users\hebel\.nuget\packages\buildbundlerminifier\3.2.449</PkgBuildBundlerMinifier>
+  </PropertyGroup>
+</Project>

@@ -1,10 +1,101 @@
-﻿@page "/Home"
-
-@using IndFusion.Exxerpro.Components
+﻿@page "/Exxerpro"
+@page "/"
+@using Microsoft.JSInterop
 @using MudBlazor
+@using IndFusion.UI.Areas
+
+
+@inject IJSRuntime JsRuntime
+@inject ILogger<Home> Logger
 @inject ISnackbar Snackbar
 
+
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Logger.LogInformation("Starting Home page and particles");
+            try
+            {
+                await JsRuntime.InvokeVoidAsync("particlesJS.load", "particles-js", "/particles.json");
+                Logger.LogInformation("particlesJS.load Invoked");
+
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, "Error loading particles.js");
+            }
+        }
+    }
+}
+
+<style>
+    .background-image {
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        position: relative;
+        color: black;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .overlay-text {
+        font-weight: bold;
+    }
+
+    .full-width {
+        width: 100%;
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    .bg-transparent {
+        background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background */
+        padding: 20px;
+        border-radius: 10px;
+        /* Ensure the particles container fills the page and is behind other content */
+        #particles-js
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        background-color: #282c34;
+    }
+</style>
+<style>
+    .text-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
+
+        .text-link:hover {
+            text-decoration: underline;
+        }
+
+        .text-link MudIcon {
+            margin-right: 8px;
+        }
+</style>
+
+@* <div id="particles-js" style="background-color: rgb(0, 0, 0); background-image: url(&quot;&quot;); background-size: cover; background-repeat: no-repeat; ba">
+    <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+</div> *@
+
+
 <div id="particles-js"></div>
+
+<Expertise></Expertise>
 
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
     <MudPaper Class="full-width" Elevation="4" Style="background-image: url('/img/header1.png'); background-size: cover; background-position: center;">
@@ -17,16 +108,51 @@
 
     <MudGrid>
         <MudItem xs="12" md="6">
-            <AboutUS />
+            <MudPaper Class="background-image" Elevation="4" Style="background-image: url('/img/image1.png');">
+                <div class="bg-transparent">
+                    <MudText Typo="Typo.h5" Class="overlay-text">About Us</MudText>
+                    <MudText Typo="Typo.body2" Class="overlay-text">
+                        Exxerpro Solutions, founded in 2010 in Santiago de Querétaro, Mexico, specializes in mechanical and industrial engineering. We focus on optimizing industrial processes through advanced techniques such as automation, analysis, modeling, control, simulation, measurement, digitization, sustainability, and artificial intelligence.
+                    </MudText>
+                </div>
+            </MudPaper>
         </MudItem>
         <MudItem xs="12" md="6">
-            <OurMission />
+            <MudPaper Class="background-image" Elevation="4" Style="background-image: url('/img/image2.png');">
+                <div class="bg-transparent">
+                    <MudText Typo="Typo.h5" Class="overlay-text">Our Mission</MudText>
+                    <MudText Typo="Typo.body2" Class="overlay-text">
+                        Our mission is to enhance operational excellence and efficiency, driving towards Industry 5.0. We are committed to sustainability and innovation, minimizing waste, and optimizing the use of energy and resources.
+                    </MudText>
+                </div>
+            </MudPaper>
         </MudItem>
         <MudItem xs="12" md="6">
-            <OurExpertise />
+            <MudPaper Class="background-image" Elevation="4" Style="background-image: url('/img/image3.png');">
+                <div class="bg-transparent">
+                    <MudText Typo="Typo.h5" Class="overlay-text">Our Expertise</MudText>
+                    <MudText Typo="Typo.body2" Class="overlay-text">
+                        We provide customized solutions, including PLC programming, artificial vision systems, and data storage and reporting systems. Our strong emphasis on quality management ensures continuous improvement and the development of new solutions to meet and exceed client expectations.
+                    </MudText>
+                </div>
+            </MudPaper>
         </MudItem>
         <MudItem xs="12" md="6">
-            <Projects />
+            <MudPaper Class="background-image" Elevation="4" Style="background-image: url('/img/image4.png');">
+                <div class="bg-transparent">
+                    <MudText Typo="Typo.h5" Class="overlay-text">Projects</MudText>
+
+                        <MudNavMenu Dense>
+                        <MudNavLink Href="/optimization" Icon="@Icons.Material.Filled.ProductionQuantityLimits" OnClick="@(() => GoTo("optimization"))">Optimization of Industrial Processes</MudNavLink>
+                        <MudNavLink Href="/automation" Icon="@Icons.Material.Filled.Rocket" OnClick="@(() => GoTo("automation"))">Automation and Control Systems</MudNavLink>
+                        <MudNavLink Href="/sustainable-energy" Icon="@Icons.Material.Filled.Engineering" OnClick="@(() => GoTo("sustainable-energy"))">Sustainable Energy Solutions</MudNavLink>
+                        <MudNavLink Href="/artificial-vision" Icon="@Icons.Material.Filled.VideoCall" OnClick="@(() => GoTo("artificial-vision"))">Artificial Vision Systems</MudNavLink>
+                        <MudNavLink Href="/data-storage" Icon="@Icons.Material.Filled.Storage" OnClick="@(() => GoTo("data-storage"))">Data Storage and Reporting Systems</MudNavLink>
+
+                        </MudNavMenu>
+
+                </div>
+            </MudPaper>
         </MudItem>
     </MudGrid>
 
@@ -44,4 +170,7 @@
     </MudPaper>
 </MudContainer>
 
+@code {
+    private void GoTo(string page) => Snackbar.Add($"Clicked {page}");
+}
 

@@ -1,7 +1,7 @@
 using IndFusion.Exxerpro.Components;
 using IndFusion.Exxerpro.Components.Account;
 using IndFusion.Exxerpro.Data;
-using IndFusion.Exxerpro.Pages;
+using IndFusion.Exxerpro.Domain.Models;
 using IndFusion.Exxerpro.Worker;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -11,8 +11,6 @@ using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 using Serilog;
 using Serilog.Sinks.OpenTelemetry;
-using System.ComponentModel;
-using IndFusion.Exxerpro.Models;
 
 namespace IndFusion.Exxerpro;
 
@@ -54,10 +52,10 @@ public static class Program
 
 
                 });
-            
+
             builder.Services.AddSingleton<OeeState>();
             builder.Services.AddSingleton<IndFusionWorker>();
-            
+
             builder.Services.AddHostedService<IndFusionWorker>();
 
             // Add services to the container.

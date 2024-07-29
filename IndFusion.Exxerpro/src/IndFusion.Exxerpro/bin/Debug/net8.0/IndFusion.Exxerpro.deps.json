@@ -1900,8 +1900,14 @@
         }
       },
       "IndFusion.Exxerpro.Domain/1.0.0": {
+        "dependencies": {
+          "MudBlazor": "7.4.0"
+        },
         "runtime": {
-          "IndFusion.Exxerpro.Domain.dll": {}
+          "IndFusion.Exxerpro.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "IndFusion.UI/1.0.0": {
@@ -1913,7 +1919,10 @@
           "MudBlazor.ThemeManager": "2.0.0"
         },
         "runtime": {
-          "IndFusion.UI.dll": {}
+          "IndFusion.UI.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

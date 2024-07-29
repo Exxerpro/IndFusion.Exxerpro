@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\",
+  "WorkspaceRootPath": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}|Presentation\\Exxerpro.Components\\IndFusion.UI.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\presentation\\exxerpro.components\\areas\\aboutus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}|Presentation\\Exxerpro.Components\\IndFusion.UI.csproj|solutionrelative:presentation\\exxerpro.components\\areas\\aboutus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|c:\\users\\exxerpro_precision55\\documents\\github\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro\\pages\\workflows.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEDB948A-4850-4A56-8778-0EC7189FD7FB}|IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj|solutionrelative:indfusion.exxerpro\\pages\\workflows.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}|Presentation\\Exxerpro.Components\\IndFusion.UI.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\presentation\\exxerpro.components\\areas\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}|Presentation\\Exxerpro.Components\\IndFusion.UI.csproj|solutionrelative:presentation\\exxerpro.components\\areas\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{963B4F55-4898-4C91-BD9A-D9143F6D6D10}|IndFusion.Exxerpro.Domain\\IndFusion.Exxerpro.Domain.csproj|c:\\users\\exxerpro_precision55\\documents\\github\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro.domain\\models\\reflectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{963B4F55-4898-4C91-BD9A-D9143F6D6D10}|IndFusion.Exxerpro.Domain\\IndFusion.Exxerpro.Domain.csproj|solutionrelative:indfusion.exxerpro.domain\\models\\reflectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}|Presentation\\Exxerpro.Components\\IndFusion.UI.csproj|d:\\projects\\indfusion.exxerpro\\indfusion.exxerpro\\src\\presentation\\exxerpro.components\\areas\\ourmission.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1463A548-5FFA-42EC-9EE5-7D9E0AC9A070}|Presentation\\Exxerpro.Components\\IndFusion.UI.csproj|solutionrelative:presentation\\exxerpro.components\\areas\\ourmission.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{963B4F55-4898-4C91-BD9A-D9143F6D6D10}|IndFusion.Exxerpro.Domain\\IndFusion.Exxerpro.Domain.csproj|c:\\users\\exxerpro_precision55\\documents\\github\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro.domain\\models\\productmachineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{963B4F55-4898-4C91-BD9A-D9143F6D6D10}|IndFusion.Exxerpro.Domain\\IndFusion.Exxerpro.Domain.csproj|solutionrelative:indfusion.exxerpro.domain\\models\\productmachineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{963B4F55-4898-4C91-BD9A-D9143F6D6D10}|IndFusion.Exxerpro.Domain\\IndFusion.Exxerpro.Domain.csproj|c:\\users\\exxerpro_precision55\\documents\\github\\indfusion.exxerpro\\indfusion.exxerpro\\src\\indfusion.exxerpro.domain\\models\\productdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{963B4F55-4898-4C91-BD9A-D9143F6D6D10}|IndFusion.Exxerpro.Domain\\IndFusion.Exxerpro.Domain.csproj|solutionrelative:indfusion.exxerpro.domain\\models\\productdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,62 +25,99 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 557,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AboutUS.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\Areas\\AboutUS.razor",
-              "RelativeDocumentMoniker": "Presentation\\Exxerpro.Components\\Areas\\AboutUS.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\Areas\\AboutUS.razor",
-              "RelativeToolTip": "Presentation\\Exxerpro.Components\\Areas\\AboutUS.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T00:24:51.181Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5726b0e3-1012-5233-81f9-d1fad48e7a56}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Projects.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\Areas\\Projects.razor",
-              "RelativeDocumentMoniker": "Presentation\\Exxerpro.Components\\Areas\\Projects.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\Areas\\Projects.razor",
-              "RelativeToolTip": "Presentation\\Exxerpro.Components\\Areas\\Projects.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T00:24:47.065Z",
+              "Title": "ReflectionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro.Domain\\Models\\ReflectionHelper.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro.Domain\\Models\\ReflectionHelper.cs",
+              "ToolTip": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro.Domain\\Models\\ReflectionHelper.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro.Domain\\Models\\ReflectionHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:23:12.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro.Domain\\Models\\ProductDefinition.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro.Domain\\Models\\ProductDefinition.cs",
+              "ToolTip": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro.Domain\\Models\\ProductDefinition.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro.Domain\\Models\\ProductDefinition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:21:32.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OurMission.razor",
-              "DocumentMoniker": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\Areas\\OurMission.razor",
-              "RelativeDocumentMoniker": "Presentation\\Exxerpro.Components\\Areas\\OurMission.razor",
-              "ToolTip": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\Areas\\OurMission.razor",
-              "RelativeToolTip": "Presentation\\Exxerpro.Components\\Areas\\OurMission.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "Title": "ProductMachineItem.cs",
+              "DocumentMoniker": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro.Domain\\Models\\ProductMachineItem.cs",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro.Domain\\Models\\ProductMachineItem.cs",
+              "ToolTip": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro.Domain\\Models\\ProductMachineItem.cs",
+              "RelativeToolTip": "IndFusion.Exxerpro.Domain\\Models\\ProductMachineItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:18:03.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkFlows.razor",
+              "DocumentMoniker": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Pages\\WorkFlows.razor",
+              "RelativeDocumentMoniker": "IndFusion.Exxerpro\\Pages\\WorkFlows.razor",
+              "ToolTip": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\Pages\\WorkFlows.razor",
+              "RelativeToolTip": "IndFusion.Exxerpro\\Pages\\WorkFlows.razor",
+              "ViewState": "AQIAAHMAAAAAAAAAAADwv4EAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T00:24:30.752Z",
+              "WhenOpened": "2024-07-29T17:16:43.818Z",
               "EditorCaption": ""
             }
           ]

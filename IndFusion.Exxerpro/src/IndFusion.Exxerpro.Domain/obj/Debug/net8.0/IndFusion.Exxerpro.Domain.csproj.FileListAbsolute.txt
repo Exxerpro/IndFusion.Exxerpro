@@ -10,3 +10,16 @@ D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\refint\IndFusion.Exxerpro.Domain.dll
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.pdb
 D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\ref\IndFusion.Exxerpro.Domain.dll
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.AssemblyInfoInputs.cache
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.AssemblyInfo.cs
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.sourcelink.json
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.dll
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\refint\IndFusion.Exxerpro.Domain.dll
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.pdb
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.deps.json
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.dll
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.pdb
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.csproj.AssemblyReference.cache
+C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\ref\IndFusion.Exxerpro.Domain.dll

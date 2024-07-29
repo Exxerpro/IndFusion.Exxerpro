@@ -1,0 +1,271 @@
+﻿@page "/workflows"
+
+@using IndFusion.Exxerpro.Domain.Models
+@using MudBlazor
+
+@using Microsoft.AspNetCore.Components.Forms
+@inject ILogger<WorkFlows> logger
+
+<MudDropContainer T="ProductMachineItem" @ref="_dropContainer" Items="@_machineItems" ItemsSelector="@((item, column) => item.Status == column)" ItemDropped="ProductUpdated" Class="d-flex flex-row">
+    <ChildContent>
+        @foreach (var item in _productsView)
+        {
+            <MudPaper Elevation="0" Width="224px" MinHeight="400px" Class="pa-4 ma-4 d-flex flex-column mud-background-gray rounded-lg">
+                <MudToolBar Gutters="false">
+                    <MudText Typo="Typo.subtitle1"><b>@item.Name</b></MudText>
+                    <MudSpacer />
+                    <MudMenu Icon="@Icons.Material.Rounded.MoreHoriz" AnchorOrigin="Origin.BottomRight" TransformOrigin="Origin.TopRight" ListClass="pa-2 d-flex flex-column" PopoverClass="mud-elevation-25">
+                        <MudButton Size="Size.Small" Color="Color.Error" StartIcon="@Icons.Material.Outlined.Delete" OnClick="@( () => DeleteSection(item))">Delete Product</MudButton>
+                        <MudButton Size="Size.Small" Color="Color.Default" StartIcon="@Icons.Material.Rounded.Edit">Rename Product</MudButton>
+                    </MudMenu>
+                </MudToolBar>
+                
+
+                <MudDropZone T="ProductMachineItem" Identifier="@item.Name" AllowReorder="true" CanDrop="CanDrop" Class="mud-height-full" />
+                @if (item is { NewMachine: true, Name: "Catalog" })
+                {
+                    <MudPaper Elevation="25" Class="pa-2 rounded-lg">
+                        <MudTextField @bind-Value="item.NewMachineName" Placeholder="New Machine" Underline="false" Margin="Margin.Dense" Class="mx-2 mt-n2"></MudTextField>
+                        <MudButton OnClick="@(() => AddMachine(item))" Size="Size.Small" Color="Color.Primary" FullWidth="true">Add Machine</MudButton>
+                    </MudPaper>
+                }
+                else
+                {
+                    @if (item.Name == "Catalog")
+                    {
+                        <MudButton OnClick="@(() => item.NewMachine = !item.NewMachine)" StartIcon="@Icons.Material.Filled.Add" FullWidth="true" Class="rounded-lg py-2">Add Machine</MudButton>
+                    }
+                }
+            </MudPaper>
+        }
+        <MudPaper Class="pa-4" Elevation="0" Width="224px">
+            @if (_addSectionOpen)
+            {
+                <MudPaper Elevation="0" Width="224px" Class="pa-4 d-flex flex-column mud-background-gray rounded-lg">
+                    <EditForm Model="@_newProductSectionModel" OnValidSubmit="OnValidSectionSubmit">
+                        <DataAnnotationsValidator />
+                        <MudTextField @bind-Value="_newProductSectionModel.Name" For="@(() => _newProductSectionModel.Name)" Placeholder="New Section" Underline="false"></MudTextField>
+                        <MudButton ButtonType="ButtonType.Submit" Size="Size.Small" Color="Color.Primary" FullWidth="true">Add Section</MudButton>
+                    </EditForm>
+                </MudPaper>
+            }
+            else
+            {
+                <MudButton OnClick="OpenAddNewProduct" Variant="Variant.Outlined" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Class="rounded-lg py-2" FullWidth="true">Add Product</MudButton>
+            }
+        </MudPaper>
+    </ChildContent>
+    <ItemRenderer>
+        <MudPaper Elevation="25" Class="pa-4 rounded-lg my-3">@context.Name</MudPaper>
+    </ItemRenderer>
+</MudDropContainer>
+
+@code {
+    private MudDropContainer<ProductMachineItem> _dropContainer;
+
+    private bool _addSectionOpen;
+    
+
+    /* handling board events */
+    private void ProductUpdated(MudItemDropInfo<ProductMachineItem> info)
+    {
+        info.Item.SourceZoneIdentifier = info.DropzoneIdentifier;
+        // Handle item dropped events
+        switch (info.DropzoneIdentifier)
+        {
+            case "Catalog":
+                OnItemDroppedIntoCatalog(info);
+                break;
+            case "Discard":
+                OnItemDroppedIntoDiscard(info);
+                break;
+            default:
+                OnItemDroppedIntoProduct(info);
+                break;
+        }
+    }
+    
+
+    private void OnItemDroppedIntoProduct(MudItemDropInfo<ProductMachineItem> info)
+    {
+        // Check if the item was dropped into a product from the catalog
+        if (info.Item.Status == "Catalog")
+        {
+            // Check if the item is already on the product
+            var existingItem = _machineItems.FirstOrDefault(item => item.Name == info.Item.Name && item.Status == info.DropzoneIdentifier);
+
+            if (existingItem != null)
+            {
+                // If the item is already on the product, ignore the drop event
+
+                _machineItems.Remove(existingItem);
+                var CatalogItem = new ProductMachineItem(info.Item.Name, "Catalog", existingItem.IndexInZone, info.Item.MachineId,"");
+                var ProductItem = new ProductMachineItem(info.Item.Name, info.DropzoneIdentifier, existingItem.IndexInZone, info.Item.MachineId, "");
+
+                _machineItems.AddIfNotExist(CatalogItem);
+                _machineItems.AddIfNotExist(ProductItem);
+            }
+            else if(info.Item.Status != info.DropzoneIdentifier)
+            {
+                // If the item is not on the product,
+                info.Item.Status=info.DropzoneIdentifier;
+                
+                // add it to the catalog again
+                var newItem = new ProductMachineItem(info.Item.Name, "Catalog", info.IndexInZone, info.Item.MachineId, "");
+                _machineItems.InsertIfNotExist(info.IndexInZone, newItem);
+                
+                
+            }
+        }
+
+
+        foreach (var item in _dropContainer.Items)
+        {
+            logger.LogInformation($"Item: {item.Name} Status: {item.Status} MachineId: {item.MachineId}");
+        }
+
+        logger.LogInformation(_dropContainer.Items.Count().ToString());
+
+        // Call the helper method to get the private dictionary
+        var mudDropZones = _dropContainer.GetDropZones<ProductMachineItem>();
+        
+        // Print the keys and their associated items
+        foreach (var (zone, dropZone) in mudDropZones)
+        {
+            var indices = dropZone.GetIndices();
+            foreach (var (item, index) in indices)
+            {
+                logger.LogInformation("  Item: {Name}, Status: {Status}, Zone: {Zone}, MachineId: {MachineId}, Index: {Index}", item.Name, item.Status, zone, item.MachineId, index);
+
+            }
+        }
+
+        _machineItems.RemoveDuplicates();
+        // Refresh the UI
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void OnItemDroppedIntoDiscard(MudItemDropInfo<ProductMachineItem> info)
+    {
+        // Remove the item from the _machineItems list
+
+        if (info.Item.Status!="Catalog")
+        {
+            var itemToRemove = _machineItems.FirstOrDefault(x => x.Name == info.Item.Name && x.Status == info.Item.Status);
+            if (itemToRemove != null)
+            {
+                _machineItems.Remove(itemToRemove);
+            }
+        }
+        else
+        {
+            var itemToRemove = _machineItems.FirstOrDefault(x => x.Name == info.Item.Name && x.Status == info.Item.Status);
+            if (itemToRemove != null)
+            {
+                _machineItems.Remove(itemToRemove);
+            }
+            var newItem = new ProductMachineItem(info.Item.Name, "Catalog", info.IndexInZone, info.Item.MachineId,"");
+            _machineItems.InsertIfNotExist(info.IndexInZone, newItem);
+
+        }
+
+        // Refresh the UI
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void OnItemDroppedIntoCatalog(MudItemDropInfo<ProductMachineItem> info)
+    {
+        // No specific action required for the catalog drop
+    }
+
+ 
+    /* Setup for board  */
+    private List<ProductDefinition> _productsView = new()
+    {
+        new ProductDefinition("Catalog", false, string.Empty),
+        new ProductDefinition("L236841", false, string.Empty),
+        new ProductDefinition("L236842", false, string.Empty),
+        new ProductDefinition("L236843", false, string.Empty),
+        new ProductDefinition("Discard", false, string.Empty),
+    };
+
+    public class ProductDefinition(string name, bool newMachine, string newMachineName)
+    {
+        public string Name { get; init; } = name;
+        public bool NewMachine { get; set; } = newMachine;
+        public string NewMachineName { get; set; } = newMachineName;
+    }
+
+    private List<ProductMachineItem> _machineItems = new()
+    {
+        new ProductMachineItem("Machine 100", "Catalog", 0, 100,""),
+        new ProductMachineItem("Machine 200", "Catalog", 1, 200,""),
+        new ProductMachineItem("Machine 300", "Catalog", 2, 300,""),
+        new ProductMachineItem("Machine 400", "Catalog", 3, 400,""),
+        new ProductMachineItem("Machine 500", "Catalog", 4, 500,""),
+        new ProductMachineItem("Machine 600", "Catalog", 5, 600,""),
+        new ProductMachineItem("Machine 800", "Catalog", 6, 800,""),
+        new ProductMachineItem("Machine 900", "Catalog", 7, 900,""),
+        new ProductMachineItem("Machine 900", "L236841", 0, 900,""),
+        new ProductMachineItem("Machine 100", "L236841", 1, 100,""),
+        new ProductMachineItem("Machine 200", "L236842", 0, 200,""),
+        new ProductMachineItem("Machine 300", "L236841", 2, 300,"")
+    };
+
+    readonly NewProductForm _newProductSectionModel = new("new section");
+
+   
+
+    private void OnValidSectionSubmit(EditContext context)
+    {
+        _productsView.Add(new ProductDefinition(_newProductSectionModel.Name, false, string.Empty));
+        _newProductSectionModel.Name = string.Empty;
+        _addSectionOpen = false;
+    }
+
+    private void OpenAddNewProduct()
+    {
+        _addSectionOpen = true;
+    }
+
+    private void AddMachine(ProductDefinition section)
+    {
+        _machineItems.Add(new ProductMachineItem(section.NewMachineName, section.Name, _machineItems.Count, 0,""));
+        section.NewMachineName = string.Empty;
+        section.NewMachine = false;
+        _dropContainer.Refresh();
+    }
+
+    private void DeleteSection(ProductDefinition section)
+    {
+        if (_productsView.Count == 1)
+        {
+            _machineItems.Clear();
+            _productsView.Clear();
+        }
+        else
+        {
+            var newIndex = _productsView.IndexOf(section) - 1;
+            if (newIndex < 0)
+            {
+                newIndex = 0;
+            }
+
+            _productsView.Remove(section);
+
+            var machines = _machineItems.Where(x => x.Status == section.Name);
+            foreach (var machineItem in machines)
+            {
+                machineItem.Status = _productsView[newIndex].Name;
+            }
+        }
+    }
+
+  
+    private bool CanDrop(ProductMachineItem item)
+    {
+        // Prevent items from "Catalog" being dropped into "Discard"
+        //return !(item.Status == "Catalog" && item.SourceZoneIdentifier == "");
+        return true;
+    }
+}

@@ -1,0 +1,2 @@
+2024-07-29 11:26:16.365 -06:00 [INF] Starting up the application
+2024-07-29 11:26:20.058 -06:00 [INF] Starting up the application

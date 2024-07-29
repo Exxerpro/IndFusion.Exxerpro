@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrap.js",
+      "Id": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrap.js",
       "PackagePath": "staticwebassets\\blazorstrap.js"
     },
     {
-      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrap.min.js",
+      "Id": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrap.min.js",
       "PackagePath": "staticwebassets\\blazorstrap.min.js"
     },
     {
-      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrapinterop.js",
+      "Id": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\blazorstrapinterop.js",
       "PackagePath": "staticwebassets\\blazorstrapinterop.js"
     },
     {
-      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\popper.min.js",
+      "Id": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\popper.min.js",
       "PackagePath": "staticwebassets\\popper.min.js"
     },
     {

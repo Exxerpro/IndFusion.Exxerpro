@@ -51,9 +51,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CSharpFunctionalExtensions": {
+              "target": "Package",
+              "version": "[2.42.5, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[5.0.0-beta-04, )"
+            },
             "MudBlazor": {
               "target": "Package",
               "version": "[7.4.0, )"
+            },
+            "Optional.net": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "Result.Net": {
+              "target": "Package",
+              "version": "[1.5.0, )"
             }
           },
           "imports": [

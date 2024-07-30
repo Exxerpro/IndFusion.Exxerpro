@@ -1,13 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	<TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MudBlazor" Version="7.4.0" />
+	<PackageReference Include="MudBlazor" Version="7.4.0" />
+	<PackageReference Include="LanguageExt.Core" Version="5.0.0-beta-04"/>
+	<PackageReference Include="CSharpFunctionalExtensions" Version="2.42.5"/>
+	<PackageReference Include="Optional.net" Version="3.5.1"/>
+	<PackageReference Include="Result.Net" Version="1.5.0"/>
   </ItemGroup>
 
 </Project>

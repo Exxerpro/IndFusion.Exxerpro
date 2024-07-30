@@ -143,6 +143,19 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "CSharpFunctionalExtensions/2.42.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "ExcelDataReader/3.6.0": {
         "type": "package",
         "compile": {
@@ -221,6 +234,63 @@
           }
         }
       },
+      "FSharp.Core/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.6/FSharp.Core.dll": {
+            "related": ".optdata;.sigdata;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.6/FSharp.Core.dll": {
+            "related": ".optdata;.sigdata;.xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard1.6/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard1.6/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.6/en/FSharp.Core.resources.dll": {
+            "locale": "en"
+          },
+          "lib/netstandard1.6/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.6/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.6/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.6/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.6/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.6/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard1.6/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard1.6/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.6/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard1.6/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.6/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Google.Protobuf/3.26.1": {
         "type": "package",
         "compile": {
@@ -289,6 +359,19 @@
         },
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LanguageExt.Core/5.0.0-beta-04": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/LanguageExt.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/LanguageExt.Core.dll": {
             "related": ".xml"
           }
         }
@@ -2693,6 +2776,35 @@
           }
         }
       },
+      "Optional.net/3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.5.0"
+        },
+        "compile": {
+          "lib/net8.0/Aornis.Optional.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aornis.Optional.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Result.Net/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Result.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Result.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Serilog/4.0.1": {
         "type": "package",
         "compile": {
@@ -3809,7 +3921,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "MudBlazor": "7.4.0"
+          "CSharpFunctionalExtensions": "2.42.5",
+          "LanguageExt.Core": "5.0.0-beta-04",
+          "MudBlazor": "7.4.0",
+          "Optional.net": "3.5.1",
+          "Result.Net": "1.5.0"
         },
         "compile": {
           "bin/placeholder/IndFusion.Exxerpro.Domain.dll": {}
@@ -4073,6 +4189,35 @@
         "coverlet.collector.nuspec"
       ]
     },
+    "CSharpFunctionalExtensions/2.42.5": {
+      "sha512": "Do9Q7Nyfx2G4HRt96aB6yoP5Z9ic3jqBHLrf35tULzsWlFoBlkQZT62aXCiv7UmVmF56OUR+a3JoSSs140hfHQ==",
+      "type": "package",
+      "path": "csharpfunctionalextensions/2.42.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csharpfunctionalextensions.2.42.5.nupkg.sha512",
+        "csharpfunctionalextensions.nuspec",
+        "lib/net40/CSharpFunctionalExtensions.dll",
+        "lib/net40/CSharpFunctionalExtensions.pdb",
+        "lib/net40/CSharpFunctionalExtensions.xml",
+        "lib/net45/CSharpFunctionalExtensions.dll",
+        "lib/net45/CSharpFunctionalExtensions.pdb",
+        "lib/net45/CSharpFunctionalExtensions.xml",
+        "lib/net461/CSharpFunctionalExtensions.dll",
+        "lib/net461/CSharpFunctionalExtensions.pdb",
+        "lib/net461/CSharpFunctionalExtensions.xml",
+        "lib/net5.0/CSharpFunctionalExtensions.dll",
+        "lib/net5.0/CSharpFunctionalExtensions.pdb",
+        "lib/net5.0/CSharpFunctionalExtensions.xml",
+        "lib/net6.0/CSharpFunctionalExtensions.dll",
+        "lib/net6.0/CSharpFunctionalExtensions.pdb",
+        "lib/net6.0/CSharpFunctionalExtensions.xml",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.dll",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.pdb",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.xml"
+      ]
+    },
     "ExcelDataReader/3.6.0": {
       "sha512": "eXyxTwG7EEWpgQX3juZ2KcndqTqm/ydx9GXS2lUiMJU54U4h5eXdygRtVgINv0t60ezPWEb+lL7uM7Q+wm5BBA==",
       "type": "package",
@@ -4188,6 +4333,54 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FSharp.Core/4.5.0": {
+      "sha512": "J62OCxvDQ4SJMUHULtho/3rTAhhMzP294cyPDkqSWzWiBrGcuQI9A2TlRIik3PBAPeJx4KPjfzP5o+7Bs6xsZA==",
+      "type": "package",
+      "path": "fsharp.core/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.core.4.5.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.resources.dll",
+        "lib/net45/FSharp.Core.sigdata",
+        "lib/net45/FSharp.Core.xml",
+        "lib/net45/cs/FSharp.Core.resources.dll",
+        "lib/net45/de/FSharp.Core.resources.dll",
+        "lib/net45/en/FSharp.Core.resources.dll",
+        "lib/net45/es/FSharp.Core.resources.dll",
+        "lib/net45/fr/FSharp.Core.resources.dll",
+        "lib/net45/it/FSharp.Core.resources.dll",
+        "lib/net45/ja/FSharp.Core.resources.dll",
+        "lib/net45/ko/FSharp.Core.resources.dll",
+        "lib/net45/pl/FSharp.Core.resources.dll",
+        "lib/net45/pt-BR/FSharp.Core.resources.dll",
+        "lib/net45/ru/FSharp.Core.resources.dll",
+        "lib/net45/tr/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hans/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/FSharp.Core.dll",
+        "lib/netstandard1.6/FSharp.Core.optdata",
+        "lib/netstandard1.6/FSharp.Core.sigdata",
+        "lib/netstandard1.6/FSharp.Core.xml",
+        "lib/netstandard1.6/cs/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/de/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/en/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/es/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/fr/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/it/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/ja/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/ko/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/pl/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/ru/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/tr/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard1.6/zh-Hant/FSharp.Core.resources.dll"
       ]
     },
     "Google.Protobuf/3.26.1": {
@@ -4309,6 +4502,20 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "LanguageExt.Core/5.0.0-beta-04": {
+      "sha512": "+1ROX7ESKnaO3Jz09RkCv273XaSmAl7MfG6V1r2E0dEibmYHCqQyFfRTQfLXnKH/GMA7dJhzDrKiG9XUMh8cJQ==",
+      "type": "package",
+      "path": "languageext.core/5.0.0-beta-04",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lang-ext-small.png",
+        "languageext.core.5.0.0-beta-04.nupkg.sha512",
+        "languageext.core.nuspec",
+        "lib/net8.0/LanguageExt.Core.dll",
+        "lib/net8.0/LanguageExt.Core.xml"
       ]
     },
     "Markdig/0.37.0": {
@@ -7821,6 +8028,63 @@
         "opentelemetry-icon-color.png",
         "opentelemetry.instrumentation.http.1.9.0.nupkg.sha512",
         "opentelemetry.instrumentation.http.nuspec"
+      ]
+    },
+    "Optional.net/3.5.1": {
+      "sha512": "vroWDi/TziNZYQ90UVrt6W4xTnlV1ipx2bRj25inCIyXhqBb5wjTksediCMU9dJujdaaBWMAnpltgJ+LqAkmsw==",
+      "type": "package",
+      "path": "optional.net/3.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/Aornis.Optional.dll",
+        "lib/net461/Aornis.Optional.pdb",
+        "lib/net461/Aornis.Optional.xml",
+        "lib/net462/Aornis.Optional.dll",
+        "lib/net462/Aornis.Optional.pdb",
+        "lib/net462/Aornis.Optional.xml",
+        "lib/net472/Aornis.Optional.dll",
+        "lib/net472/Aornis.Optional.pdb",
+        "lib/net472/Aornis.Optional.xml",
+        "lib/net5.0/Aornis.Optional.dll",
+        "lib/net5.0/Aornis.Optional.pdb",
+        "lib/net5.0/Aornis.Optional.xml",
+        "lib/net6.0/Aornis.Optional.dll",
+        "lib/net6.0/Aornis.Optional.pdb",
+        "lib/net6.0/Aornis.Optional.xml",
+        "lib/net7.0/Aornis.Optional.dll",
+        "lib/net7.0/Aornis.Optional.pdb",
+        "lib/net7.0/Aornis.Optional.xml",
+        "lib/net8.0/Aornis.Optional.dll",
+        "lib/net8.0/Aornis.Optional.pdb",
+        "lib/net8.0/Aornis.Optional.xml",
+        "lib/netcoreapp3.1/Aornis.Optional.dll",
+        "lib/netcoreapp3.1/Aornis.Optional.pdb",
+        "lib/netcoreapp3.1/Aornis.Optional.xml",
+        "lib/netstandard2.0/Aornis.Optional.dll",
+        "lib/netstandard2.0/Aornis.Optional.pdb",
+        "lib/netstandard2.0/Aornis.Optional.xml",
+        "lib/netstandard2.1/Aornis.Optional.dll",
+        "lib/netstandard2.1/Aornis.Optional.pdb",
+        "lib/netstandard2.1/Aornis.Optional.xml",
+        "optional.net.3.5.1.nupkg.sha512",
+        "optional.net.nuspec"
+      ]
+    },
+    "Result.Net/1.5.0": {
+      "sha512": "eiTEfTZgI7LJk/HLT6TCMQSWfr7c6wHDHturtJG49FxHDp+RSegUFByzd9zzEI/aRduIdr3oLFMQ8rWpC3OitA==",
+      "type": "package",
+      "path": "result.net/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/Result.Net.dll",
+        "lib/netstandard2.0/Result.Net.xml",
+        "logo.png",
+        "result.net.1.5.0.nupkg.sha512",
+        "result.net.nuspec"
       ]
     },
     "Serilog/4.0.1": {

@@ -19,7 +19,7 @@
                         <MudButton Size="Size.Small" Color="Color.Default" StartIcon="@Icons.Material.Rounded.Edit">Rename Product</MudButton>
                     </MudMenu>
                 </MudToolBar>
-                
+
 
                 <MudDropZone T="ProductMachineItem" Identifier="@item.Name" AllowReorder="true" CanDrop="CanDrop" Class="mud-height-full" />
                 @if (item is { NewMachine: true, Name: "Catalog" })
@@ -64,7 +64,7 @@
     private MudDropContainer<ProductMachineItem> _dropContainer;
 
     private bool _addSectionOpen;
-    
+
 
     /* handling board events */
     private void ProductUpdated(MudItemDropInfo<ProductMachineItem> info)
@@ -84,7 +84,7 @@
                 break;
         }
     }
-    
+
 
     private void OnItemDroppedIntoProduct(MudItemDropInfo<ProductMachineItem> info)
     {
@@ -109,12 +109,12 @@
             {
                 // If the item is not on the product,
                 info.Item.Status=info.DropzoneIdentifier;
-                
+
                 // add it to the catalog again
                 var newItem = new ProductMachineItem(info.Item.Name, "Catalog", info.IndexInZone, info.Item.MachineId, "");
                 _machineItems.InsertIfNotExist(info.IndexInZone, newItem);
-                
-                
+
+
             }
         }
 
@@ -128,7 +128,7 @@
 
         // Call the helper method to get the private dictionary
         var mudDropZones = _dropContainer.GetDropZones<ProductMachineItem>();
-        
+
         // Print the keys and their associated items
         foreach (var (zone, dropZone) in mudDropZones)
         {
@@ -178,7 +178,7 @@
         // No specific action required for the catalog drop
     }
 
- 
+
     /* Setup for board  */
     private List<ProductDefinition> _productsView = new()
     {
@@ -198,23 +198,23 @@
 
     private List<ProductMachineItem> _machineItems = new()
     {
-        new ProductMachineItem("Machine 100", "Catalog", 0, 100,""),
-        new ProductMachineItem("Machine 200", "Catalog", 1, 200,""),
-        new ProductMachineItem("Machine 300", "Catalog", 2, 300,""),
-        new ProductMachineItem("Machine 400", "Catalog", 3, 400,""),
-        new ProductMachineItem("Machine 500", "Catalog", 4, 500,""),
-        new ProductMachineItem("Machine 600", "Catalog", 5, 600,""),
-        new ProductMachineItem("Machine 800", "Catalog", 6, 800,""),
-        new ProductMachineItem("Machine 900", "Catalog", 7, 900,""),
-        new ProductMachineItem("Machine 900", "L236841", 0, 900,""),
-        new ProductMachineItem("Machine 100", "L236841", 1, 100,""),
-        new ProductMachineItem("Machine 200", "L236842", 0, 200,""),
-        new ProductMachineItem("Machine 300", "L236841", 2, 300,"")
+        new ProductMachineItem("Power Puncher", "Catalog", 0, 100, ""),
+        new ProductMachineItem("Press Power", "Catalog", 1, 200, ""),
+        new ProductMachineItem("Cross Cutter", "Catalog", 2, 300, ""),
+        new ProductMachineItem("Crosswise Cutter", "Catalog", 3, 400, ""),
+        new ProductMachineItem("Press Titan", "Catalog", 4, 500, ""),
+        new ProductMachineItem("Laser Cutter", "Catalog", 5, 600, ""),
+        new ProductMachineItem("Hydraulic Press", "Catalog", 6, 800, ""),
+        new ProductMachineItem("Automatic Feeder", "Catalog", 7, 900, ""),
+        new ProductMachineItem("Conveyor Belt", "L236841", 0, 900, ""),
+        new ProductMachineItem("Packaging Robot", "L236841", 1, 100, ""),
+        new ProductMachineItem("Power Puncher", "L236842", 0, 200, ""),
+        new ProductMachineItem("Press Power", "L236841", 2, 300, "")
     };
 
     readonly NewProductForm _newProductSectionModel = new("new section");
 
-   
+
 
     private void OnValidSectionSubmit(EditContext context)
     {
@@ -261,7 +261,7 @@
         }
     }
 
-  
+
     private bool CanDrop(ProductMachineItem item)
     {
         // Prevent items from "Catalog" being dropped into "Discard"

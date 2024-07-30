@@ -22,12 +22,25 @@
             var machines = new List<Machine>();
             var random = new Random();
             var statuses = new List<string> { "Running", "Stopped", "Maintenance", "Idle" };
+            var machineNames = new List<string>
+            {
+                "Power Puncher",
+                "Press Power",
+                "Cross Cutter",
+                "Crosswise Cutter",
+                "Press Titan",
+                "Laser Cutter",
+                "Hydraulic Press",
+                "Automatic Feeder",
+                "Conveyor Belt",
+                "Packaging Robot"
+            };
 
-            for (int i = 1; i <= numberOfMachines; i++)
+            for (int i = 0; i < machineNames.Count; i++)
             {
                 var machine = new Machine(
-                    machineId: i,
-                    machineName: $"Machine_{i}",
+                    machineId: i + 1,
+                    machineName: machineNames[i],
                     status: statuses[random.Next(statuses.Count)],
                     lastMaintenanceDate: DateTime.Now.AddDays(-random.Next(30))
                 );
@@ -36,7 +49,6 @@
 
             return machines;
         }
-
         // Override ToString method for easy display
         public override string ToString()
         {

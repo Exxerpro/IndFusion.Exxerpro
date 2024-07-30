@@ -26,11 +26,17 @@
         private void InitializeMachines()
         {
             // Add initial machines to HistoricalData with empty lists
-            Machines["Power Puncher"] = new PerformanceData("Power Puncher", "Description", 30);
-            Machines["Press Power"] = new PerformanceData("Press Power", "Description", 200);
-            Machines["Cross Cutter"] = new PerformanceData("Cross Cutter", "Description", 100);
-            Machines["Crosswise Cutter"] = new PerformanceData("Crosswise Cutter", "Description", 300);
-            Machines["Press Titan"] = new PerformanceData("Press Titan", "Description", 100);
+            // Add initial machines to HistoricalData with empty lists
+            Machines["Power Puncher"] = new PerformanceData("Power Puncher", "High impact punching machine", 30);
+            Machines["Press Power"] = new PerformanceData("Press Power", "High power pressing machine", 200);
+            Machines["Cross Cutter"] = new PerformanceData("Cross Cutter", "Precision cutting machine", 100);
+            Machines["Crosswise Cutter"] = new PerformanceData("Crosswise Cutter", "Crosswise cutting machine", 300);
+            Machines["Press Titan"] = new PerformanceData("Press Titan", "Titanium press machine", 100);
+            Machines["Laser Cutter"] = new PerformanceData("Laser Cutter", "Laser precision cutter", 150);
+            Machines["Hydraulic Press"] = new PerformanceData("Hydraulic Press", "Hydraulic pressing machine", 250);
+            Machines["Automatic Feeder"] = new PerformanceData("Automatic Feeder", "Automated feeding machine", 120);
+            Machines["Conveyor Belt"] = new PerformanceData("Conveyor Belt", "Automated conveyor belt", 90);
+            Machines["Packaging Robot"] = new PerformanceData("Packaging Robot", "Automated packaging robot", 180);
 
             GeneratePastData();
         }

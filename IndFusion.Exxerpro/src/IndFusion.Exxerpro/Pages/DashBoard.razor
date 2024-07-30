@@ -1,4 +1,5 @@
 ﻿@page "/oee-dashboard"
+@page "/dashboard"
 @page "/oee"
 @using System.ComponentModel
 @using IndFusion.Exxerpro.Data
@@ -67,7 +68,7 @@
                     <MudText Typo="Typo.body2" Color=Color.Success>Stopping Time: @(_machine.ProductionData.StoppingTime.ToString("F2"))</MudText>
 
                 <MudChart ChartType="ChartType.Line" ChartSeries="@Series" @bind-SelectedIndex="_index" XAxisLabels="@XAxisLabels" Width="100%" Height="350px" ChartOptions="@Options" CanHideSeries />
-                    
+
 
                 </MudCardContent>
             <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(e => ToggleOverlay(_machine))">Close</MudButton>

@@ -3414,6 +3414,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "IndFusion.Exxerpro.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Components": "8.0.7",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
           "MudBlazor": "7.4.0",
           "MudBlazor.Extensions": "2.0.2",
@@ -8830,23 +8832,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Exxerpro_Precision55\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hebel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\plot.csproj",
+      "projectUniqueName": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\plot.csproj",
       "projectName": "plot",
-      "projectPath": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\plot.csproj",
-      "packagesPath": "C:\\Users\\Exxerpro_Precision55\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\obj\\",
+      "projectPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\plot.csproj",
+      "packagesPath": "C:\\Users\\hebel\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\plot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Exxerpro_Precision55\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hebel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8862,8 +8866,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj": {
-              "projectPath": "C:\\Users\\Exxerpro_Precision55\\Documents\\GitHub\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj"
+            "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj": {
+              "projectPath": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\IndFusion.Exxerpro.csproj"
             }
           }
         }
@@ -8912,7 +8916,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.4.24267.66/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

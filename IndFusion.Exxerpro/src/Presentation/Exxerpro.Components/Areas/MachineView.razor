@@ -1,0 +1,58 @@
+﻿@using IndFusion.Exxerpro.Domain.Models
+@using MudBlazor
+
+@inject IDialogService DialogService
+
+
+<MudContainer>
+    <MudPaper>
+            <MudText Typo="Typo.h4">Machines List</MudText>
+            <MudTable Items="machines">
+                <HeaderContent>
+                    <MudTh>ID</MudTh>
+                    <MudTh>Name</MudTh>
+                    <MudTh>Status</MudTh>
+                    <MudTh>Last Maintenance</MudTh>
+                    <MudTh>Actions</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd DataLabel="ID">@context.MachineId</MudTd>
+                    <MudTd DataLabel="Name">@context.MachineName</MudTd>
+                    <MudTd DataLabel="Status">@context.Status</MudTd>
+                    <MudTd DataLabel="Last Maintenance">@context.LastMaintenanceDate.ToShortDateString()</MudTd>
+                    <MudTd DataLabel="Actions">
+                        <MudButton @onclick="() => OpenDialogAsync(context)" Variant="Variant.Filled" Color="Color.Info">
+                            View Details
+                        </MudButton>
+
+                    </MudTd>
+                </RowTemplate>
+            </MudTable>
+    </MudPaper>
+</MudContainer>
+
+@code {
+    private List<Machine> machines;
+
+    protected override void OnInitialized()
+    {
+        machines = Machine.GenerateBogusData(5);
+    }
+
+
+
+    private Task OpenDialogAsync(Machine machine)
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true ,MaxWidth = MaxWidth.Large};
+
+        var parameters = new DialogParameters<MachineDetails>
+        {
+            {x => x.Machine,machine}
+        };
+
+
+
+        return DialogService.ShowAsync<MachineDetails>("Machine Details",parameters, options);
+    }
+
+}

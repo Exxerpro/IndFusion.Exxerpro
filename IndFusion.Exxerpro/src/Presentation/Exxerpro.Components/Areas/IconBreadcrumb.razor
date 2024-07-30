@@ -1,0 +1,20 @@
+﻿@using IndFusion.UI.Models
+@using MudBlazor
+@using MudBlazor.Utilities
+@inject NavigationManager Navigation
+
+<MudBreadcrumbs>
+    @foreach (var item in Items)
+    {
+        <MudBreadcrumbItem Href="@item.Href">
+            <MudIcon Icon="@item.Icon" />
+        </MudBreadcrumbItem>
+    }
+</MudBreadcrumbs>
+
+@code {
+    [Parameter]
+    public List<BreadcrumbItemWithIcon> Items { get; set; }
+
+
+}

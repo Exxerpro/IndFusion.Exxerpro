@@ -50,3 +50,6 @@ C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxe
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\Presentation\Exxerpro.Components\obj\Debug\net8.0\refint\IndFusion.UI.dll
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\Presentation\Exxerpro.Components\obj\Debug\net8.0\IndFusion.UI.pdb
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\Presentation\Exxerpro.Components\obj\Debug\net8.0\ref\IndFusion.UI.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\Presentation\Exxerpro.Components\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\Presentation\Exxerpro.Components\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.pdb
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\Presentation\Exxerpro.Components\obj\Debug\net8.0\IndFusio.98672803.Up2Date

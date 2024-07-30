@@ -3,11 +3,15 @@
 		<TargetFrameworks>net8.0</TargetFrameworks>
 	</PropertyGroup>
 	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.7" />
 	  <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.7" />
 	  <PackageReference Include="MudBlazor" Version="7.4.0" />
 	  <PackageReference Include="MudBlazor.Extensions" Version="2.0.2" />
 	  <PackageReference Include="MudBlazor.Markdown" Version="1.0.2" />
 	  <PackageReference Include="MudBlazor.ThemeManager" Version="2.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\IndFusion.Exxerpro.Domain\IndFusion.Exxerpro.Domain.csproj" />
 	</ItemGroup>
 
 

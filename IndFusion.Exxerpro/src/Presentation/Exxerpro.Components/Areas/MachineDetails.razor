@@ -1,0 +1,80 @@
+﻿@using IndFusion.Exxerpro.Domain.Models
+
+
+<MudDialog>
+    <TitleContent>
+
+    </TitleContent>
+    <DialogContent>
+        <MudCard Class="machine-detail-card" Style="background-image: url('/images/machine.png');">
+                <MudCardHeader>
+                <MudText Typo="Typo.h4" Align="Align.Center">@Machine.MachineName</MudText>
+                </MudCardHeader>
+                    <MudCardContent Style="background-image: url('/images/machine.png');">
+
+                            <MudText Typo="Typo.h6"><b>ID:</b> @Machine.MachineId</MudText>
+                            <MudText Typo="Typo.h6"><b>Status:</b> @Machine.Status</MudText>
+                            <MudText Typo="Typo.h6"><b>Last Maintenance:</b> @Machine.LastMaintenanceDate.ToShortDateString()</MudText>
+
+                </MudCardContent>
+                <MudCardActions Class="justify-center">
+                        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Edit">Edit</MudButton>
+                </MudCardActions>
+            </MudCard>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="Submit">Ok</MudButton>
+    </DialogActions>
+
+</MudDialog>
+
+
+
+
+
+
+@code {
+
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+
+
+    [Parameter]
+    public Machine Machine { get; set; }
+
+    private void Submit() => MudDialog.Close(DialogResult.Ok(true));
+
+    private void Cancel() => MudDialog.Cancel();
+
+    private void Edit()
+    {
+        Machine.LastMaintenanceDate= DateTime.Now;
+    }
+
+
+
+}
+
+
+<style>
+    .bg-transparent {
+        background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background */
+        padding: 20px;
+        border-radius: 10px;
+        }
+    .machine-detail-card {
+        background-image: url('/images/machine.png');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+        .machine-detail-card .mud-card-content {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+            padding: 1rem;
+        }
+</style>

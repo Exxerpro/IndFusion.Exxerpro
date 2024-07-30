@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "IndFusion.UI/1.0.0": {
         "dependencies": {
+          "IndFusion.Exxerpro.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Components": "8.0.7",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
           "MudBlazor": "7.4.0",
           "MudBlazor.Extensions": "2.0.2",
@@ -577,6 +579,14 @@
             "fileVersion": "0.8.0.0"
           }
         }
+      },
+      "IndFusion.Exxerpro.Domain/1.0.0": {
+        "dependencies": {
+          "MudBlazor": "7.4.0"
+        },
+        "runtime": {
+          "IndFusion.Exxerpro.Domain.dll": {}
+        }
       }
     }
   },
@@ -977,6 +987,11 @@
       "sha512": "sha512-Z62eNBIu8E8YtbqlMy57tK3dV1+m2b9NhPeaYovB5exmLKvrGCqOhJTzrEUH5VyUWU6vwX3c1XHJGhW5HVs8dA==",
       "path": "zstdsharp.port/0.8.0",
       "hashPath": "zstdsharp.port.0.8.0.nupkg.sha512"
+    },
+    "IndFusion.Exxerpro.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

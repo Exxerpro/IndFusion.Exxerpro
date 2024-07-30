@@ -23,3 +23,4 @@ C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxe
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\bin\Debug\net8.0\IndFusion.Exxerpro.Domain.pdb
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.csproj.AssemblyReference.cache
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\ref\IndFusion.Exxerpro.Domain.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro.Domain\obj\Debug\net8.0\IndFusion.Exxerpro.Domain.csproj.AssemblyReference.cache

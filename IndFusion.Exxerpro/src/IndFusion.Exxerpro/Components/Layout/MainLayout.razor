@@ -1,4 +1,7 @@
-﻿@inherits LayoutComponentBase
+﻿@using IndFusion.UI.Areas
+@using IndFusion.UI.Models
+@using MudBlazor
+@inherits Microsoft.AspNetCore.Components.LayoutComponentBase
 
 <MudThemeProvider />
 <MudPopoverProvider />
@@ -20,7 +23,9 @@
         @if (_menuOpen)
 
         {
-            <MudBreadcrumbs Items="_items" Separator=">" />
+            <IconBreadcrumb Items="_iconBreadcrumbItems" />
+
+
         }
         <MudSpacer />
         <MudThemeProvider @bind-IsDarkMode="_isDarkMode" Theme="_theme" />
@@ -83,17 +88,20 @@
 </style>
 
 @code {
-    private List<BreadcrumbItem> _items = new()
-    {
-        new BreadcrumbItem("Home", href: "/"),
-        new BreadcrumbItem("Services", href: "/services"),
-        new BreadcrumbItem("Optimization", href: "/optimization"),
-        new BreadcrumbItem("Automation", href: "/automation"),
-        new BreadcrumbItem("Sustainability", href: "/sustainable-energy"),
-        new BreadcrumbItem("Vision", href: "/artificial-vision"),
-        new BreadcrumbItem("Data", href: "/data-storage")
-    };
 
+    private List<BreadcrumbItemWithIcon> _iconBreadcrumbItems = new()
+    {
+        new BreadcrumbItemWithIcon("/", Icons.Material.Filled.Home),
+        new BreadcrumbItemWithIcon("/machines", Icons.Material.Filled.Build),
+        new BreadcrumbItemWithIcon("/oee", Icons.Material.Filled.Dashboard),
+        new BreadcrumbItemWithIcon("/workflows", Icons.Material.Filled.Assessment),
+        new BreadcrumbItemWithIcon("/services", Icons.Material.Filled.Build),
+        new BreadcrumbItemWithIcon("/optimization", Icons.Material.Filled.Tune),
+        new BreadcrumbItemWithIcon("/automation", Icons.Material.Filled.Factory),
+        new BreadcrumbItemWithIcon("/sustainable-energy", Icons.Material.Filled.Savings),
+        new BreadcrumbItemWithIcon("/artificial-vision", Icons.Material.Filled.Visibility),
+        new BreadcrumbItemWithIcon("/data-storage", Icons.Material.Filled.Storage)
+    };
 
 
     private MudTheme _theme = new();

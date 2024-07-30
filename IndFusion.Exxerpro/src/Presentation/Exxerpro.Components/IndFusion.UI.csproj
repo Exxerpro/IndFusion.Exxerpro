@@ -24,4 +24,11 @@
 	  <Folder Include="Models\" />
 	</ItemGroup>
 
+
+	<ItemGroup>
+	  <Content Update="wwwroot\image\machine.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
 </Project>

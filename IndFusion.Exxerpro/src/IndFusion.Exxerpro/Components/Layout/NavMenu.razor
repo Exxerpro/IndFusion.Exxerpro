@@ -9,6 +9,10 @@
             </MudDrawerHeader>
 
             <MudNavMenu>
+
+
+
+                <MudNavLink Href="/" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
                 <MudNavLink Href="machines" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Build">Machines</MudNavLink>
                 <MudNavLink Href="oee" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Dashboard">DashBoard</MudNavLink>
                 <MudNavLink Href="workflows" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Assessment">Workflows</MudNavLink>
@@ -24,8 +28,8 @@
                     <Authorized>
                         <MudNavLink Href="Account/Manage" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Person">@context.User.Identity?.Name</MudNavLink>
                         <form action="Account/Logout" method="post">
-                            <AntiforgeryToken />
-                            <input type="hidden" name="ReturnUrl" value="@_currentUrl" />
+                            <AntiforgeryToken/>
+                            <input type="hidden" name="ReturnUrl" value="@_currentUrl"/>
                             <button type="submit" class="mud-nav-link mud-ripple">
                                 <MudIcon Icon="@Icons.Material.Filled.Logout" Color="Color.Info" Class="mr-3"></MudIcon> Logout
                             </button>

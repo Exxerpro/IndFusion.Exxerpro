@@ -42,6 +42,9 @@
 
 
   <ItemGroup>
+    <Content Update="wwwroot\img\machine.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\img\OEELarge.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

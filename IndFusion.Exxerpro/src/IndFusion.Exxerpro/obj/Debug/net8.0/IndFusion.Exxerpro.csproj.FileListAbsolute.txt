@@ -442,3 +442,4 @@ C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxe
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\obj\Debug\net8.0\IndFusio.CDA795C5.Up2Date
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\obj\Debug\net8.0\IndFusion.Exxerpro.genruntimeconfig.cache
 C:\Users\Exxerpro_Precision55\Documents\GitHub\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\obj\Debug\net8.0\ref\IndFusion.Exxerpro.dll
+D:\Projects\IndFusion.Exxerpro\IndFusion.Exxerpro\src\IndFusion.Exxerpro\bin\Debug\net8.0\wwwroot\img\machine.png

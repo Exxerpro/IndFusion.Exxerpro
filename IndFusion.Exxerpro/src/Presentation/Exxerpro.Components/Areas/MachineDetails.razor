@@ -6,11 +6,13 @@
 
     </TitleContent>
     <DialogContent>
-        <MudCard Class="machine-detail-card" Style="background-image: url('/images/machine.png');">
-                <MudCardHeader>
+        <MudCard Class="machine-detail-card" >
+            <MudCardHeader>
                 <MudText Typo="Typo.h4" Align="Align.Center">@Machine.MachineName</MudText>
-                </MudCardHeader>
-                    <MudCardContent Style="background-image: url('/images/machine.png');">
+            </MudCardHeader>
+            <MudCardMedia Image=@Machine.ImageName Height="200" />
+
+                    <MudCardContent >
 
                             <MudText Typo="Typo.h6"><b>ID:</b> @Machine.MachineId</MudText>
                             <MudText Typo="Typo.h6"><b>Status:</b> @Machine.Status</MudText>

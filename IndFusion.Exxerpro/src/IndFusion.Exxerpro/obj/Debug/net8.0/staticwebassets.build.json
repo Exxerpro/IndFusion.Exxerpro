@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rCz/+Xr0iTVP2ztUT1T/ccwSIkvQtWsyMATEvGQJxHM=",
+  "Hash": "TmBngNd6gNlEk+bMvEcfv86tx+GDmp3/5Vci2IAmjsg=",
   "Source": "IndFusion.Exxerpro",
   "BasePath": "_content/IndFusion.Exxerpro",
   "Mode": "Default",
@@ -8331,6 +8331,594 @@
       "OriginalItemSpec": "wwwroot\\img\\header1.png"
     },
     {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3t2u09kavb",
+      "Integrity": "SRLUoea1ucXHiwuyEP0bZoBqgVx7pXQN2dt3evc/RBY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2vuy7l9qe9",
+      "Integrity": "vrtH8/Za8sptAiXyvnXnDx/bh4ePgy3p0K3L3hlQG68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8d3eiatxs3",
+      "Integrity": "dC17nwyX82OzfAnL32slMkoXfPNg2JQsYLZaR9D6qmc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_2745dc66-c135-4060-b19c-d23dd426149a.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_2745dc66-c135-4060-b19c-d23dd426149a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yiy7v7xn3n",
+      "Integrity": "dor9jYCkYVbPaAOpq/UwGEVC3uJzI3Q7fpbXqRbXsKI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_2745dc66-c135-4060-b19c-d23dd426149a.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_88bf4784-85e8-4bb4-909c-980742757590.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_88bf4784-85e8-4bb4-909c-980742757590.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyq2ps9wt4",
+      "Integrity": "CtLmr3MypwPmnQQN+GfpmOa0vmfjz9ulJGUdMWEpnOY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_88bf4784-85e8-4bb4-909c-980742757590.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Conveyor_Belt_Modern_Beatiful_Machine_on_a_clean_lean_f_c183c1eb-95f8-4da8-8da5-c386a25b5459.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Conveyor_Belt_Modern_Beatiful_Machine_on_a_clean_lean_f_c183c1eb-95f8-4da8-8da5-c386a25b5459.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pnqocgbbv6",
+      "Integrity": "9dhYsq1g7DoKiZ8721A0GRDlBzSe8QBcdoxPbsPvGHA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Conveyor_Belt_Modern_Beatiful_Machine_on_a_clean_lean_f_c183c1eb-95f8-4da8-8da5-c386a25b5459.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_1ed6774c-4e36-4172-8027-19e570a402ec.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_1ed6774c-4e36-4172-8027-19e570a402ec.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "11a70f72hw",
+      "Integrity": "hbqrYSdGP7kFZqwUhp7GbUN548DqHqKMkF61rgi2PcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_1ed6774c-4e36-4172-8027-19e570a402ec.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_c59e2e28-9e0a-4725-bf8a-8857038374cb.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_c59e2e28-9e0a-4725-bf8a-8857038374cb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rf1qp4420n",
+      "Integrity": "OW2NTbjooG/0mcgPoVVLG14nzj41Z9cRMq9Bh1+BDZw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_c59e2e28-9e0a-4725-bf8a-8857038374cb.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Hydraulic_Press_Modern_Beatiful_Machine_on_a_clean_lean_1a8159b9-341c-4583-84f2-6462fe5306bf.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Hydraulic_Press_Modern_Beatiful_Machine_on_a_clean_lean_1a8159b9-341c-4583-84f2-6462fe5306bf.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o3xb9uonop",
+      "Integrity": "rGKkRz+YvcvUFW96dpNfrIq8PUwtnnPJhZx6K2lVuao=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Hydraulic_Press_Modern_Beatiful_Machine_on_a_clean_lean_1a8159b9-341c-4583-84f2-6462fe5306bf.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_3e012a54-da6b-43a1-8abc-0e9bc8a43103.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_3e012a54-da6b-43a1-8abc-0e9bc8a43103.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5sjvn3ocgw",
+      "Integrity": "G6e3a5r/WST6mKqA91bLljyL8mQKE7aDDdY6EUXfoXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_3e012a54-da6b-43a1-8abc-0e9bc8a43103.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffb611a4-adc3-434b-af94-ee8621cf841f.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffb611a4-adc3-434b-af94-ee8621cf841f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xoe1gmejo",
+      "Integrity": "qDa0wtyqNQ5eo2Ll7tRnqZ3+tbn+ocHPrKu5t9Tb7mE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffb611a4-adc3-434b-af94-ee8621cf841f.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffd94701-b28f-48c7-a7b2-5c5778db1fff.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffd94701-b28f-48c7-a7b2-5c5778db1fff.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n0eipwbilk",
+      "Integrity": "iX+iik1LTAz7YH44FGEx66BH7t82A3oosLTvxzUeaOU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffd94701-b28f-48c7-a7b2-5c5778db1fff.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8w5bnyv7o0",
+      "Integrity": "mOFdWo4w4EY+h7qQFKeCWloiJ9sY/+VIGgFfKjwulhc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xjtzccaq60",
+      "Integrity": "XdzrggWFF68nfDXxc49Eq8aeUR1WINFnfxZPk2RqcO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6g1jwcqiw4",
+      "Integrity": "Fn65sSiGPlNWJQtlq65oJnZXMWVuUt4Mxv6SUzgwtOQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q5p8m91gop",
+      "Integrity": "Xtuo061ZIdkBWrTa807T1NzkHfiu/9P25ir3ndmetlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_modern_beatiful_manufacturing_machine_230dd26a-aae8-4625-9e6b-f17baa0a7934.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_modern_beatiful_manufacturing_machine_230dd26a-aae8-4625-9e6b-f17baa0a7934.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "65l68ku95x",
+      "Integrity": "dldchnKOZSq8pNWwZBvn20VeCI4+eakkHmgjC0+q4MY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_modern_beatiful_manufacturing_machine_230dd26a-aae8-4625-9e6b-f17baa0a7934.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_modern_beatiful_manufacturing_machine_7db39556-0612-47b4-8d3e-82bbefa82455.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_modern_beatiful_manufacturing_machine_7db39556-0612-47b4-8d3e-82bbefa82455.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qcx39o8xun",
+      "Integrity": "mpTRObfNVYwh++p3A+D+3NgHBIGUzgWAfmhZiw/VMmc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_modern_beatiful_manufacturing_machine_7db39556-0612-47b4-8d3e-82bbefa82455.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4cutco3an",
+      "Integrity": "HTrZdIZTWruCQkUoVlaeOB3GKd5Q5qnBCQEu31sLl6Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fp7kl2ok3x",
+      "Integrity": "A2H77R0rO+FA+abn4zYKpUcH5gpudEdqQmQnMz3yu8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5orfrl0x3l",
+      "Integrity": "1eibjUQQz2NEN0aEJbuyyrXp0XJ0jenX2mFE+CZomxU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Packaging_Robot_Modern_Beatiful_Machine_on_a_clean_lean_82aacda5-7327-4b18-a81d-d510b3a0539a.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Packaging_Robot_Modern_Beatiful_Machine_on_a_clean_lean_82aacda5-7327-4b18-a81d-d510b3a0539a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l45qoud84v",
+      "Integrity": "i0PR/qC7PseVWcwDgemJLl72dI6d2+ZcO91znUZZFqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Packaging_Robot_Modern_Beatiful_Machine_on_a_clean_lean_82aacda5-7327-4b18-a81d-d510b3a0539a.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e06d39a4-b453-49de-b542-80dc53897bf4.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e06d39a4-b453-49de-b542-80dc53897bf4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k06evwwe5x",
+      "Integrity": "9JTbhi3s5q8svnf8z+BsrSdwN4zled07GCEIvfwOlyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e06d39a4-b453-49de-b542-80dc53897bf4.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e53044b4-9bd7-43bf-833f-5be3fb675adf.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e53044b4-9bd7-43bf-833f-5be3fb675adf.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tzabs9fov8",
+      "Integrity": "aVz8Z8VaVnBdjdAD4/biWwneQS94tBDAln6/eutbXLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e53044b4-9bd7-43bf-833f-5be3fb675adf.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hr0l81ztvm",
+      "Integrity": "4+wlhzdpZoewRwa7v/Y5tFHu8zOpcJ8Wr7q21nfSS4c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xb9gbjdfwa",
+      "Integrity": "PTpxUCs52/tj/sbq+zr2jtTSF3BsoJZs1Yi1dC1ZcHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0w3td73ojw",
+      "Integrity": "8JHS2uXvYJ5/0EAprvOLU+rACzbbCzzas/xK5qrkPng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hel2otaw0b",
+      "Integrity": "J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png"
+    },
+    {
       "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image1.png",
       "SourceId": "IndFusion.Exxerpro",
       "SourceType": "Discovered",
@@ -9150,6 +9738,237 @@
       "OriginalItemSpec": "wwwroot\\img\\Logos\\volvo.png"
     },
     {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bre2wm0hdh",
+      "Integrity": "ydCsdK5FDGXFnXJ1j4tIWkWrejU5pOwY05/xk6ll1q0=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine1.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "92b7yh3e5s",
+      "Integrity": "P9YEF5p9Jc6iriNY36dcRdXf9GXfVPSk3CFz9submrU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine1.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine10.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine10.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h8riux2zmg",
+      "Integrity": "n8OrAFIUsOPfv63n2/5jTA4NlA7R6A2RhBKUwOUhISw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine10.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine2.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ip1m1vn6c5",
+      "Integrity": "2uBsfBzdicGqki7smj0UB5D0zs/oS2vl4S8FLK2Q4Ok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine2.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine3.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "njmedfidmz",
+      "Integrity": "o5JR1pjO+5Z8ZzmGeZ6EIrDei0b34QqcdkbIEWiJuxE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine3.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine4.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2g726lanol",
+      "Integrity": "Miwl4DHl3btfcobTIN8vjKv1U4gHs2DYOvLJSBY/2ec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine4.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine5.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "keolnput96",
+      "Integrity": "NPYmaYABeJaVqnsaKoegnxg9+UHaYioLibQ7u6QLYQ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine5.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine6.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5rhlcpv0nk",
+      "Integrity": "Ic2m5MN14nkTBBTxP+BV1G4N9u64+V2flTwJ2+kF5u0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine6.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine7.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iru500doyb",
+      "Integrity": "/vrLx1jad2V6toIlasbpXLDRdxHj5xou4dg+jM4Yy1U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine7.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine8.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "00qpl02qt1",
+      "Integrity": "4CROvwFEEV4IfiZZuIswvdw5wbMrn28DOb7aakxo4Yo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine8.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine9.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine9.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "boy31gjve9",
+      "Integrity": "tVwve9OggRH1VYnF2dySGEl38w5xAtlCSKwUMrXn0yY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine9.png"
+    },
+    {
       "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machines.png",
       "SourceId": "IndFusion.Exxerpro",
       "SourceType": "Discovered",
@@ -9316,321 +10135,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\blazorstrapinterop.js"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3t2u09kavb",
-      "Integrity": "SRLUoea1ucXHiwuyEP0bZoBqgVx7pXQN2dt3evc/RBY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2vuy7l9qe9",
-      "Integrity": "vrtH8/Za8sptAiXyvnXnDx/bh4ePgy3p0K3L3hlQG68=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8d3eiatxs3",
-      "Integrity": "dC17nwyX82OzfAnL32slMkoXfPNg2JQsYLZaR9D6qmc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8w5bnyv7o0",
-      "Integrity": "mOFdWo4w4EY+h7qQFKeCWloiJ9sY/+VIGgFfKjwulhc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xjtzccaq60",
-      "Integrity": "XdzrggWFF68nfDXxc49Eq8aeUR1WINFnfxZPk2RqcO4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6g1jwcqiw4",
-      "Integrity": "Fn65sSiGPlNWJQtlq65oJnZXMWVuUt4Mxv6SUzgwtOQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "q5p8m91gop",
-      "Integrity": "Xtuo061ZIdkBWrTa807T1NzkHfiu/9P25ir3ndmetlI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "j4cutco3an",
-      "Integrity": "HTrZdIZTWruCQkUoVlaeOB3GKd5Q5qnBCQEu31sLl6Y=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fp7kl2ok3x",
-      "Integrity": "A2H77R0rO+FA+abn4zYKpUcH5gpudEdqQmQnMz3yu8M=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5orfrl0x3l",
-      "Integrity": "1eibjUQQz2NEN0aEJbuyyrXp0XJ0jenX2mFE+CZomxU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hr0l81ztvm",
-      "Integrity": "4+wlhzdpZoewRwa7v/Y5tFHu8zOpcJ8Wr7q21nfSS4c=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xb9gbjdfwa",
-      "Integrity": "PTpxUCs52/tj/sbq+zr2jtTSF3BsoJZs1Yi1dC1ZcHU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0w3td73ojw",
-      "Integrity": "8JHS2uXvYJ5/0EAprvOLU+rACzbbCzzas/xK5qrkPng=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hel2otaw0b",
-      "Integrity": "J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png"
-    },
-    {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\machine.png",
-      "SourceId": "IndFusion.UI",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\",
-      "BasePath": "_content/IndFusion.UI",
-      "RelativePath": "images/machine.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "Server",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bre2wm0hdh",
-      "Integrity": "ydCsdK5FDGXFnXJ1j4tIWkWrejU5pOwY05/xk6ll1q0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\machine.png"
     },
     {
       "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\popper.min.js",
@@ -10127,426 +10631,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 30 Jul 2024 01:08:00 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1910510"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SRLUoea1ucXHiwuyEP0bZoBqgVx7pXQN2dt3evc/RBY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:51 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1506184"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vrtH8/Za8sptAiXyvnXnDx/bh4ePgy3p0K3L3hlQG68=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:56 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2000964"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dC17nwyX82OzfAnL32slMkoXfPNg2JQsYLZaR9D6qmc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:49 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1552478"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mOFdWo4w4EY+h7qQFKeCWloiJ9sY/+VIGgFfKjwulhc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:27 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1655990"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XdzrggWFF68nfDXxc49Eq8aeUR1WINFnfxZPk2RqcO4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:21 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1484452"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Fn65sSiGPlNWJQtlq65oJnZXMWVuUt4Mxv6SUzgwtOQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:24 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1788274"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xtuo061ZIdkBWrTa807T1NzkHfiu/9P25ir3ndmetlI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:29 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1595525"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HTrZdIZTWruCQkUoVlaeOB3GKd5Q5qnBCQEu31sLl6Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:36 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1440625"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"A2H77R0rO+FA+abn4zYKpUcH5gpudEdqQmQnMz3yu8M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:31 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1513394"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1eibjUQQz2NEN0aEJbuyyrXp0XJ0jenX2mFE+CZomxU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:33 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1487486"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4+wlhzdpZoewRwa7v/Y5tFHu8zOpcJ8Wr7q21nfSS4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:46 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1586789"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PTpxUCs52/tj/sbq+zr2jtTSF3BsoJZs1Yi1dC1ZcHU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:40 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1602562"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8JHS2uXvYJ5/0EAprvOLU+rACzbbCzzas/xK5qrkPng=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:43 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1690096"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:38 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
-      "Route": "_content/IndFusion.UI/images/machine.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\Presentation\\Exxerpro.Components\\wwwroot\\images\\machine.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1641265"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ydCsdK5FDGXFnXJ1j4tIWkWrejU5pOwY05/xk6ll1q0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:53 GMT"
         }
       ],
       "EndpointProperties": []
@@ -21192,6 +21276,790 @@
       "EndpointProperties": []
     },
     {
+      "Route": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1910510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SRLUoea1ucXHiwuyEP0bZoBqgVx7pXQN2dt3evc/RBY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:51 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_cedc5c19-27e9-483f-ae20-3db007aaf4d8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1506184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrtH8/Za8sptAiXyvnXnDx/bh4ePgy3p0K3L3hlQG68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:56 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_f4ef1abc-4fff-463a-b170-5a36fa078bc1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2000964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dC17nwyX82OzfAnL32slMkoXfPNg2JQsYLZaR9D6qmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:49 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_2745dc66-c135-4060-b19c-d23dd426149a.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_2745dc66-c135-4060-b19c-d23dd426149a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1583653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dor9jYCkYVbPaAOpq/UwGEVC3uJzI3Q7fpbXqRbXsKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:26 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_88bf4784-85e8-4bb4-909c-980742757590.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Automatic_Feeder_Modern_Beatiful_Machine_on_a_clean_lea_88bf4784-85e8-4bb4-909c-980742757590.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1589686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CtLmr3MypwPmnQQN+GfpmOa0vmfjz9ulJGUdMWEpnOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:31 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Conveyor_Belt_Modern_Beatiful_Machine_on_a_clean_lean_f_c183c1eb-95f8-4da8-8da5-c386a25b5459.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Conveyor_Belt_Modern_Beatiful_Machine_on_a_clean_lean_f_c183c1eb-95f8-4da8-8da5-c386a25b5459.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1541810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9dhYsq1g7DoKiZ8721A0GRDlBzSe8QBcdoxPbsPvGHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:20 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_1ed6774c-4e36-4172-8027-19e570a402ec.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_1ed6774c-4e36-4172-8027-19e570a402ec.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1615271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hbqrYSdGP7kFZqwUhp7GbUN548DqHqKMkF61rgi2PcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:13 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_c59e2e28-9e0a-4725-bf8a-8857038374cb.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Croswire_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_c59e2e28-9e0a-4725-bf8a-8857038374cb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1551051"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OW2NTbjooG/0mcgPoVVLG14nzj41Z9cRMq9Bh1+BDZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:03 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Hydraulic_Press_Modern_Beatiful_Machine_on_a_clean_lean_1a8159b9-341c-4583-84f2-6462fe5306bf.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Hydraulic_Press_Modern_Beatiful_Machine_on_a_clean_lean_1a8159b9-341c-4583-84f2-6462fe5306bf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rGKkRz+YvcvUFW96dpNfrIq8PUwtnnPJhZx6K2lVuao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:38 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_3e012a54-da6b-43a1-8abc-0e9bc8a43103.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_3e012a54-da6b-43a1-8abc-0e9bc8a43103.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1623266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G6e3a5r/WST6mKqA91bLljyL8mQKE7aDDdY6EUXfoXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:50 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffb611a4-adc3-434b-af94-ee8621cf841f.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffb611a4-adc3-434b-af94-ee8621cf841f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1600301"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qDa0wtyqNQ5eo2Ll7tRnqZ3+tbn+ocHPrKu5t9Tb7mE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:53 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffd94701-b28f-48c7-a7b2-5c5778db1fff.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Laser_Cutter_Modern_Beatiful_Machine_on_a_clean_lean_fa_ffd94701-b28f-48c7-a7b2-5c5778db1fff.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1547928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iX+iik1LTAz7YH44FGEx66BH7t82A3oosLTvxzUeaOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:47 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_3882d930-19cb-4557-a0ba-903deb7c9166.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1552478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mOFdWo4w4EY+h7qQFKeCWloiJ9sY/+VIGgFfKjwulhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:27 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_6ff1aa13-eabb-46ac-b81c-1fef5277c492.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1655990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XdzrggWFF68nfDXxc49Eq8aeUR1WINFnfxZPk2RqcO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:21 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_73e1f298-51c2-44db-95b1-1ef4f83c114c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1484452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fn65sSiGPlNWJQtlq65oJnZXMWVuUt4Mxv6SUzgwtOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:24 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_mechanical_and_industrial_engineering._We_focus_on_opti_d177e626-483a-4511-83cc-5f82b3884297.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1788274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xtuo061ZIdkBWrTa807T1NzkHfiu/9P25ir3ndmetlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:29 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_modern_beatiful_manufacturing_machine_230dd26a-aae8-4625-9e6b-f17baa0a7934.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_modern_beatiful_manufacturing_machine_230dd26a-aae8-4625-9e6b-f17baa0a7934.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1693089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dldchnKOZSq8pNWwZBvn20VeCI4+eakkHmgjC0+q4MY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:24 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_modern_beatiful_manufacturing_machine_7db39556-0612-47b4-8d3e-82bbefa82455.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_modern_beatiful_manufacturing_machine_7db39556-0612-47b4-8d3e-82bbefa82455.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1624439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mpTRObfNVYwh++p3A+D+3NgHBIGUzgWAfmhZiw/VMmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:30 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Optimize_energy_consumption_to_reduce_costs_and_enhance_8e7747c2-677a-49ab-a754-f8fc86b591e2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1595525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HTrZdIZTWruCQkUoVlaeOB3GKd5Q5qnBCQEu31sLl6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:36 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_0d262e9c-ceb7-4224-88f3-f519ee4295c5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1440625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2H77R0rO+FA+abn4zYKpUcH5gpudEdqQmQnMz3yu8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:31 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Our_mission_is_to_enhance_operational_excellence_and_ef_2a1d6d0c-f4c9-4641-a812-fbdabc6f5645.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1513394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eibjUQQz2NEN0aEJbuyyrXp0XJ0jenX2mFE+CZomxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:33 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Packaging_Robot_Modern_Beatiful_Machine_on_a_clean_lean_82aacda5-7327-4b18-a81d-d510b3a0539a.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Packaging_Robot_Modern_Beatiful_Machine_on_a_clean_lean_82aacda5-7327-4b18-a81d-d510b3a0539a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1480168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i0PR/qC7PseVWcwDgemJLl72dI6d2+ZcO91znUZZFqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:17 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e06d39a4-b453-49de-b542-80dc53897bf4.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e06d39a4-b453-49de-b542-80dc53897bf4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1577062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9JTbhi3s5q8svnf8z+BsrSdwN4zled07GCEIvfwOlyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:00 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e53044b4-9bd7-43bf-833f-5be3fb675adf.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Press_Titan_Modern_Beatiful_Machine_on_a_clean_lean_fac_e53044b4-9bd7-43bf-833f-5be3fb675adf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1623807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aVz8Z8VaVnBdjdAD4/biWwneQS94tBDAln6/eutbXLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:56 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_663d71f9-617b-437f-b9ba-18a880f69e5f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1487486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+wlhzdpZoewRwa7v/Y5tFHu8zOpcJ8Wr7q21nfSS4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:46 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_8784b373-b041-41b4-80e1-5f6dfee9dc61.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1586789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PTpxUCs52/tj/sbq+zr2jtTSF3BsoJZs1Yi1dC1ZcHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:40 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1602562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8JHS2uXvYJ5/0EAprvOLU+rACzbbCzzas/xK5qrkPng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1690096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:38 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
       "Route": "img/image1.png",
       "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image1.png",
       "Selectors": [],
@@ -22279,6 +23147,314 @@
         {
           "Name": "Last-Modified",
           "Value": "Sun, 28 Jul 2024 18:19:54 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1641265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ydCsdK5FDGXFnXJ1j4tIWkWrejU5pOwY05/xk6ll1q0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:53 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine1.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1653585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9YEF5p9Jc6iriNY36dcRdXf9GXfVPSk3CFz9submrU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:33 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine10.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine10.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1793720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n8OrAFIUsOPfv63n2/5jTA4NlA7R6A2RhBKUwOUhISw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:07 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine2.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1876009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2uBsfBzdicGqki7smj0UB5D0zs/oS2vl4S8FLK2Q4Ok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:09 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine3.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1602457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o5JR1pjO+5Z8ZzmGeZ6EIrDei0b34QqcdkbIEWiJuxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:21 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine4.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1494705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Miwl4DHl3btfcobTIN8vjKv1U4gHs2DYOvLJSBY/2ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:27 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine5.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1846922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NPYmaYABeJaVqnsaKoegnxg9+UHaYioLibQ7u6QLYQ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:33:17 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine6.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1619674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ic2m5MN14nkTBBTxP+BV1G4N9u64+V2flTwJ2+kF5u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine7.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1516022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/vrLx1jad2V6toIlasbpXLDRdxHj5xou4dg+jM4Yy1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:41 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine8.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1455757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4CROvwFEEV4IfiZZuIswvdw5wbMrn28DOb7aakxo4Yo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:23 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine9.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1521201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tVwve9OggRH1VYnF2dySGEl38w5xAtlCSKwUMrXn0yY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 03:32:34 GMT"
         }
       ],
       "EndpointProperties": []

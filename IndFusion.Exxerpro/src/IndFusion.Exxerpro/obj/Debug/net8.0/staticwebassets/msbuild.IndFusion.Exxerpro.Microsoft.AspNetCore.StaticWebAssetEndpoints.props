@@ -192,12 +192,6 @@
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1602562"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228JHS2uXvYJ5/0EAprvOLU\u002BrACzbbCzzas/xK5qrkPng=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Jul 2024 01:45:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1690096"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Jul 2024 01:45:38 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/img/image1.png">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\image1.png))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -437,6 +431,12 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1641265"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ydCsdK5FDGXFnXJ1j4tIWkWrejU5pOwY05/xk6ll1q0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Jul 2024 01:45:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/img/machine0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\machine0.png))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1690096"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Jul 2024 01:45:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IndFusion.Exxerpro/img/machine1.png">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\machine1.png))</AssetFile>

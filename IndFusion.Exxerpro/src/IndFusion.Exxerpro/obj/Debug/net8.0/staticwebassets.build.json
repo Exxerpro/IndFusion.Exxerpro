@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TmBngNd6gNlEk+bMvEcfv86tx+GDmp3/5Vci2IAmjsg=",
+  "Hash": "wwbc7VJRJFkl46z1H1YDVHdFVtcCcA1KD2DS8BkCzu4=",
   "Source": "IndFusion.Exxerpro",
   "BasePath": "_content/IndFusion.Exxerpro",
   "Mode": "Default",
@@ -8898,27 +8898,6 @@
       "OriginalItemSpec": "wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png"
     },
     {
-      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "SourceId": "IndFusion.Exxerpro",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
-      "BasePath": "_content/IndFusion.Exxerpro",
-      "RelativePath": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hel2otaw0b",
-      "Integrity": "J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png"
-    },
-    {
       "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image1.png",
       "SourceId": "IndFusion.Exxerpro",
       "SourceType": "Discovered",
@@ -9757,6 +9736,27 @@
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\machine.png"
+    },
+    {
+      "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine0.png",
+      "SourceId": "IndFusion.Exxerpro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\",
+      "BasePath": "_content/IndFusion.Exxerpro",
+      "RelativePath": "img/machine0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hel2otaw0b",
+      "Integrity": "J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\machine0.png"
     },
     {
       "Identity": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine1.png",
@@ -22032,34 +22032,6 @@
       "EndpointProperties": []
     },
     {
-      "Route": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1690096"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:38 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
       "Route": "img/image1.png",
       "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\image1.png",
       "Selectors": [],
@@ -23175,6 +23147,34 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 30 Jul 2024 01:45:53 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine0.png",
+      "AssetFile": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1690096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:38 GMT"
         }
       ],
       "EndpointProperties": []

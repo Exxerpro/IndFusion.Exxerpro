@@ -241,10 +241,6 @@
       "PackagePath": "staticwebassets\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_b8b1a713-a98e-4319-983e-56a0a98f27eb.png"
     },
     {
-      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "PackagePath": "staticwebassets\\img\\hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png"
-    },
-    {
       "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
       "PackagePath": "staticwebassets\\img\\hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png"
     },
@@ -299,6 +295,10 @@
     {
       "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine.png",
       "PackagePath": "staticwebassets\\img\\machine.png"
+    },
+    {
+      "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine0.png",
+      "PackagePath": "staticwebassets\\img\\machine0.png"
     },
     {
       "Id": "D:\\Projects\\IndFusion.Exxerpro\\IndFusion.Exxerpro\\src\\IndFusion.Exxerpro\\wwwroot\\img\\machine1.png",

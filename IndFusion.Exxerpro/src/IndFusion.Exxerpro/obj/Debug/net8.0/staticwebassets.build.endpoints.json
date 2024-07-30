@@ -12714,34 +12714,6 @@
       "EndpointProperties": []
     },
     {
-      "Route": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "AssetFile": "img/hebelmx_Streamline_and_automate_your_industrial_processes_to_en_cb6178c4-6746-4f6f-8ffc-b582e1e089b3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1690096"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Jul 2024 01:45:38 GMT"
-        }
-      ],
-      "EndpointProperties": []
-    },
-    {
       "Route": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
       "AssetFile": "img/hebelmx_advanced_technologies_and_methodologies_to_optimize_ind_aafe2a0e-0883-43a9-bdad-c4c361565eb4.png",
       "Selectors": [],
@@ -13129,6 +13101,34 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 30 Jul 2024 01:45:53 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "img/machine0.png",
+      "AssetFile": "img/machine0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1690096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J9sHkhZrIInN8oMPUxzBhcp9S0pnIwH8UVZ/WYjtPA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 01:45:38 GMT"
         }
       ],
       "EndpointProperties": []

@@ -1,4 +1,4 @@
-﻿using IndFusion.Exxerpro.Models;
+﻿using IndFusion.Exxerpro.Domain.Models;
 using OxyPlot;
 using OxyPlot.Axes;
 using OxyPlot.Series;
@@ -22,8 +22,8 @@ public class Program
 
         for (var i = 0; i < sampleSize; i++)
         {
-            sampleWithTendencyToTheRight.Add(MachineOeeExtensions.SampleWithTendencyToTheRight(random));
-            sampleWithTendencyToTheLeft.Add(MachineOeeExtensions.SampleWithTendencyToTheLeft(random));
+            sampleWithTendencyToTheRight.Add(random.SampleWithTendencyToTheRight());
+            sampleWithTendencyToTheLeft.Add(random.SampleWithTendencyToTheLeft());
         }
         // Generate the histogram
         var histogramWithTendencyToTheRight = GenerateHistogram(sampleWithTendencyToTheRight, 20);
